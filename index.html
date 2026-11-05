@@ -72,11 +72,10 @@
     }
     .avatar {
       width: 48px; height: 48px; border-radius: 50%; flex-shrink: 0;
-      display: grid; place-items: center;
-      background: linear-gradient(145deg, #e8c4bc, #d9a89a);
-      color: #fff; font-weight: 800; font-size: 0.95rem; letter-spacing: 0.04em;
+      object-fit: cover; display: block;
+      border: 2px solid #e8b4ae;
       box-shadow: 0 0 0 3px #fff8f4;
-      align-self: center;
+      align-self: center; background: #f3ddd8;
     }
     .hello-text {
       min-width: 0; flex: 1;
@@ -304,7 +303,7 @@
 
   <main>
     <div class="hello" id="helloCard">
-      <div class="avatar" aria-hidden="true">DV</div>
+      <img class="avatar" src="avatar.jpg" width="48" height="48" alt="Duda Vitti" />
       <div class="hello-text">
         <p class="hello-hi">Oi, Duda ✨</p>
         <p class="hello-sub">Bora fechar parcerias lindas hoje?</p>
