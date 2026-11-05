@@ -6,6 +6,9 @@
   <meta name="robots" content="noindex, nofollow" />
   <meta name="theme-color" content="#f6efe8" />
   <title>Parcerias da semana — TESTE · Duda Vitti</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet" />
   <style>
     :root {
       --bg: #f6efe8;
@@ -58,34 +61,59 @@
     .topbar-main { flex: 1; min-width: 0; }
     .topbar-title { font-weight: 800; font-size: 1rem; letter-spacing: -0.02em; margin: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
     .topbar-sub { margin: 1px 0 0; font-size: 0.78rem; color: var(--muted); font-weight: 600; }
-    .badge-test {
-      font-size: 10px; font-weight: 800; letter-spacing: 0.04em; text-transform: uppercase;
-      color: var(--warn); background: var(--warn-soft); border-radius: 999px; padding: 4px 8px; flex-shrink: 0;
-    }
     main { max-width: 480px; margin: 0 auto; padding: 14px 14px 28px; }
 
     .hello {
-      display: flex; flex-direction: row; align-items: center; gap: 12px;
-      background: linear-gradient(145deg, #fffaf6 0%, #f8ebe4 100%);
-      border: 1px solid var(--line); border-radius: 18px;
-      padding: 14px 14px; margin-bottom: 14px; box-shadow: var(--shadow);
+      position: relative;
+      display: flex; flex-direction: column; align-items: center; text-align: center;
+      padding: 18px 12px 20px; margin: 2px 0 16px;
+      border: none; background: transparent; box-shadow: none;
+      overflow: visible;
+    }
+    .hello::before {
+      content: "";
+      position: absolute; left: 50%; top: 8px; transform: translateX(-50%);
+      width: min(280px, 78vw); height: 200px;
+      background: radial-gradient(ellipse at center,
+        rgba(232, 180, 174, 0.42) 0%,
+        rgba(243, 221, 216, 0.28) 38%,
+        rgba(246, 239, 232, 0) 72%);
+      pointer-events: none; z-index: 0;
+    }
+    .avatar-wrap {
+      position: relative; z-index: 1;
+      width: 108px; height: 108px; border-radius: 50%;
+      padding: 3px;
+      background: linear-gradient(145deg, #f0d0b0 0%, #e8b4ae 45%, #c97b7b 100%);
+      box-shadow:
+        0 10px 28px rgba(201, 123, 123, 0.22),
+        0 0 0 6px rgba(255, 248, 244, 0.65);
     }
     .avatar {
-      width: 48px; height: 48px; border-radius: 50%; flex-shrink: 0;
-      object-fit: cover; display: block;
-      border: 2px solid #e8b4ae;
-      box-shadow: 0 0 0 3px #fff8f4;
-      align-self: center; background: #f3ddd8;
+      width: 100%; height: 100%; border-radius: 50%;
+      object-fit: cover; object-position: center 28%;
+      display: block; background: #f3ddd8;
+      border: 2px solid #fffaf6;
     }
     .hello-text {
-      min-width: 0; flex: 1;
-      display: flex; flex-direction: column; justify-content: center;
+      position: relative; z-index: 1;
+      margin-top: 14px; min-width: 0; width: 100%;
+      display: flex; flex-direction: column; align-items: center;
     }
     .hello-hi {
-      margin: 0; font-weight: 800; font-size: 1.12rem; letter-spacing: -0.02em;
-      line-height: 1.2;
+      margin: 0;
+      font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+      font-weight: 600; font-size: 1.7rem; letter-spacing: -0.01em;
+      line-height: 1.15; color: var(--ink);
     }
-    .hello-sub { margin: 4px 0 0; font-size: 0.86rem; color: var(--muted); font-weight: 500; }
+    .hello-sub {
+      margin: 8px 0 0; font-size: 0.92rem; color: var(--muted); font-weight: 500;
+      max-width: 20rem; line-height: 1.35;
+    }
+    .hello-date {
+      margin: 8px 0 0; font-size: 0.72rem; font-weight: 700;
+      letter-spacing: 0.12em; text-transform: uppercase; color: #b89a90;
+    }
     .special-card {
       width: 100%; text-align: left; cursor: pointer; color: inherit;
       border-radius: 18px; box-shadow: var(--shadow); margin-bottom: 10px; overflow: hidden;
@@ -298,15 +326,17 @@
       <p class="topbar-title" id="barTitle">Parcerias da semana — TESTE</p>
       <p class="topbar-sub" id="barSub">0/0 enviadas</p>
     </div>
-    <span class="badge-test">TESTE</span>
   </header>
 
   <main>
     <div class="hello" id="helloCard">
-      <img class="avatar" src="avatar.jpg" width="48" height="48" alt="Duda Vitti" />
+      <div class="avatar-wrap">
+        <img class="avatar" src="avatar.jpg" width="108" height="108" alt="Duda Vitti" />
+      </div>
       <div class="hello-text">
         <p class="hello-hi">Oi, Duda ✨</p>
-        <p class="hello-sub">Bora fechar parcerias lindas hoje?</p>
+        <p class="hello-sub" id="helloSub">Bora fechar parcerias lindas hoje?</p>
+        <p class="hello-date" id="helloDate"></p>
       </div>
     </div>
 
@@ -465,6 +495,34 @@
       if (same) return "Hoje · " + w + " " + dd + "/" + mm;
       return w.charAt(0).toUpperCase() + w.slice(1) + " " + dd + "/" + mm;
     }
+    var SWEET_PHRASES = [
+      "Bora fechar parcerias lindas hoje?",
+      "Hoje é dia de brilhar",
+      "Com carinho, um passo de cada vez",
+      "Você é luz — e o mundo percebe",
+      "Respiração fundo… e vamos juntas",
+      "Seu jeitinho único abre portas",
+      "Hoje: fé, café e coisas boas"
+    ];
+    function sweetPhraseForDate(iso) {
+      var s = String(iso || "0");
+      var h = 0;
+      for (var i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) >>> 0;
+      return SWEET_PHRASES[h % SWEET_PHRASES.length];
+    }
+    function updateHelloHero() {
+      var sub = document.getElementById("helloSub");
+      var dateEl = document.getElementById("helloDate");
+      if (!sub || !dateEl) return;
+      var iso = (data && data.daily && data.daily.date) || null;
+      if (!iso) {
+        var now = new Date();
+        iso = now.getFullYear() + "-" + String(now.getMonth() + 1).padStart(2, "0") + "-" + String(now.getDate()).padStart(2, "0");
+      }
+      sub.textContent = sweetPhraseForDate(iso);
+      dateEl.textContent = fullDateLabel(iso);
+    }
+
     function fullDateLabel(iso) {
       var d = parseDate(iso);
       var dd = String(d.getDate()).padStart(2, "0");
@@ -509,6 +567,7 @@
       helloCard.classList.remove("hidden");
       btnBack.classList.add("hidden");
       btnMenu.classList.remove("hidden");
+      updateHelloHero();
     }
     function setChromeInner() {
       helloCard.classList.add("hidden");
