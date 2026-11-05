@@ -393,6 +393,12 @@
     function dailyDate() {
       return (data && data.daily && data.daily.date) || null;
     }
+    function seenStamp() {
+      var d = dailyDate();
+      if (!d) return null;
+      var v = data && data.daily && data.daily.seenVersion;
+      return v ? (d + "-" + v) : d;
+    }
     function dailyDev() {
       return (data && data.daily && data.daily.devotional) || null;
     }
@@ -584,7 +590,7 @@
     }
 
     function makeHomeSpecialCard(type) {
-      var date = dailyDate();
+      var date = seenStamp();
       var isCafe = type === "cafe";
       var btn = document.createElement("button");
       btn.type = "button";
@@ -672,7 +678,7 @@
 
     function showSpecialView(type, opts) {
       opts = opts || {};
-      var date = dailyDate();
+      var date = seenStamp();
       if (type === "cafe" && !dailyDev()) {
         showDaysView({ replace: true, skipHistory: opts.skipHistory });
         return;
@@ -939,7 +945,7 @@
 
     function renderDrawer() {
       drawerContent.innerHTML = "";
-      var date = dailyDate();
+      var date = seenStamp();
 
       function addSpecial(type, label, cls) {
         var b = document.createElement("button");

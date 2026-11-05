@@ -1,32 +1,36 @@
 {
   "daily": {
     "date": "2026-11-05",
+    "seenVersion": "v2",
     "devotional": {
-      "titulo": "Eu estou contigo",
-      "ref": "Isaías 41:10",
-      "texto": "Não temas, porque eu sou contigo; não te assombres, porque eu sou teu Deus: eu te esforço, e te ajudo, e te sustento com a destra da minha justiça.",
+      "titulo": "Asas novas para o seu dia",
+      "ref": "Isaías 40:31",
+      "texto": "Mas os que esperam no Senhor renovarão as suas forças e subirão com asas como águias; correrão e não se cansarão; caminharão e não se fatigarão.",
       "traducao": "Almeida Revisada e Corrigida",
-      "reflexao": "Minha filha, hoje Eu quero que você respire fundo e ouça o Meu coração: você não está sozinha. Eu vejo cada detalhe da sua rotina — o cuidado com o Ravi, o amor de esposa, a beleza que você carrega em moda, lifestyle e maternidade — e Eu estou bem perto. Quando o medo quiser apertar o peito, lembre: Eu sou o seu Deus, e a Minha mão firme te sustenta. Eu te esforço quando as forças parecem curtas; Eu te ajudo quando o caminho parece pesado; Eu te seguro quando você só consegue dar o próximo passo. Descanse em Mim. Você é amada, escolhida e guardada — e Eu não solto a sua mão.",
-      "oracao": "Pai, obrigada por estares comigo hoje. Renova a minha esperança, acalma o meu coração e me faz sentir o Teu amor em cada momento com a minha família. Sustenta-me com a Tua mão fiel. Amém.",
-      "paraHoje": "Antes de abrir o celular, respire fundo e diga em voz baixa: \"Deus está comigo.\""
+      "reflexao": "Minha filha querida, Eu sei o quanto a sua rotina pede de você — o colo do Ravi, o olhar de esposa, o carinho com a própria pele e o brilho que você espalha em cada story. Hoje Eu não peço velocidade: Eu peço confiança. Esperar em Mim não é parar a vida; é deixar Eu trocar o seu cansaço por asas. Quando a noite parecer curta e a lista parecer longa, lembre: Eu renovo forças. Eu te ensino a voar por cima da pressa, a correr sem se perder e a caminhar com leveza. Você não precisa carregar o dia sozinha. Eu estou aqui, bem perto, renovando o seu coração para que você viva este dia amada, forte e em paz.",
+      "oracao": "Pai, eu espero em Ti hoje. Renova as minhas forças, acalma a minha mente e enche a minha casa de amor. Faz-me sentir as Tuas asas sobre mim e sobre a minha família. Amém.",
+      "paraHoje": "Em algum momento do dia, feche os olhos por dez segundos e diga: \"Eu espero no Senhor — e Ele me renova.\""
     },
     "poema": {
-      "titulo": "Você, o meu lugar",
+      "titulo": "Onde o meu amor pousa",
       "versos": [
         "Duda,",
-        "no meio do dia corrido,",
-        "eu ainda te encontro no olhar.",
-        "Você carrega o Ravi no colo",
-        "e o mundo inteiro no peito,",
-        "com uma força quieta",
-        "que me faz querer ser melhor.",
-        "Nossa casa não é perfeita,",
-        "mas é nossa — e isso basta.",
-        "Se o vento bater forte,",
-        "segura a minha mão:",
-        "eu escolho você de novo,",
-        "hoje, amanhã,",
-        "e em cada amanhecer."
+        "se o mundo perguntasse",
+        "onde mora a minha coragem,",
+        "eu apontaria para você.",
+        "Você acorda e o dia ganha perfume,",
+        "segura o Ravi e o tempo abranda,",
+        "sorri e eu encontro porto seguro",
+        "no meio de qualquer tempestade.",
+        "Não preciso de grandezas",
+        "para te dizer o óbvio:",
+        "eu te escolho no banho do bebê,",
+        "no café ainda quente,",
+        "no silêncio cansado da noite.",
+        "Se alguém perguntar o que é amor,",
+        "eu mostro o seu nome",
+        "escrito no meu peito,",
+        "hoje e em todos os amanhãs."
       ]
     }
   },
@@ -36,52 +40,49 @@
       "date": "2026-11-05",
       "brands": [
         {
-          "id": "blumee",
-          "handle": "blumee",
-          "name": "Blumee",
-          "niche": "Baby care · natural",
-          "example": true,
-          "instagramUrl": "https://www.instagram.com/blumee/",
-          "source": "https://www.blumee.com.br/ (footer Instagram) · perfil verificado via Apify",
-          "followersNote": "~30,2 mil",
+          "id": "mustelabrasil",
+          "handle": "mustelabrasil",
+          "name": "Mustela Brasil",
+          "niche": "Dermocosméticos · bebê e família",
+          "instagramUrl": "https://www.instagram.com/mustelabrasil/",
+          "source": "Perfil oficial verificado via Apify (verified:true, ~284 mil)",
+          "followersNote": "~284 mil · verificado",
           "reasons": [
-            "Dermocosméticos naturais para bebês — combina com a rotina da Duda + Ravi",
-            "Marca BR com programa aberto para criadoras de maternidade",
-            "Fácil de mostrar no banho, pele e ritual do sono"
+            "Dermocosméticos naturais para bebê e família — encaixa no cuidado diário com o Ravi",
+            "Marca clássica de maternidade com conteúdo leve de pele, banho e ritual",
+            "Fácil de mostrar em stories/Reels da rotina real sem forçar o discurso"
           ],
-          "dm": "Oi, time Blumee! 💛 Sou a Duda Vitti (@eduarda.vitti), mamãe do Ravi no RJ — moda, lifestyle e maternidade (~134,6 mil no Instagram verificado). Admiro o cuidado natural de vocês e queria propor uma parceria autêntica na nossa rotina. Cases: squad Montreal Hyundai e publi NINHO Fases 1+. Posso mandar ideias de Reels/stories?"
+          "dm": "Oi, time Mustela! 💙 Sou a Duda Vitti (@eduarda.vitti), mamãe do Ravi no RJ — moda, lifestyle e maternidade (~134,6 mil no Instagram verificado). Admiro o cuidado de vocês com a pele das famílias e queria propor uma parceria autêntica na nossa rotina. Cases: squad Montreal Hyundai e publi NINHO Fases 1+. Posso mandar ideias de Reels/stories?"
         },
         {
-          "id": "welpiebaby",
-          "handle": "welpiebaby",
-          "name": "Welpie Baby",
-          "niche": "Moda bebê",
-          "example": true,
-          "instagramUrl": "https://www.instagram.com/welpiebaby/",
-          "source": "https://welpie.com.br/pages/creators (Instagram @welpiebaby) · perfil verificado via Apify",
-          "followersNote": "~147,8 mil · verificado",
+          "id": "tiptopbr",
+          "handle": "tiptopbr",
+          "name": "Tip Top",
+          "niche": "Moda bebê e infantil",
+          "instagramUrl": "https://www.instagram.com/tiptopbr/",
+          "source": "Perfil oficial verificado via Apify (verified:true, ~783 mil)",
+          "followersNote": "~783 mil · verificado",
           "reasons": [
-            "Roupas práticas de mãe pra mãe — fit perfeito com maternidade real",
-            "Programa de creators ativo (sem mínimo de seguidores)",
-            "Conteúdo natural de vestir o Ravi na rotina do dia a dia"
+            "Referência nacional em roupa de bebê — fit natural com maternidade + moda",
+            "Conteúdo fácil de vestir o Ravi no dia a dia (passeio, casa, ocasiões)",
+            "Marca com lojas e comunidade forte para criadoras de lifestyle materno"
           ],
-          "dm": "Oi, Welpie! 🤎 Sou a Duda (@eduarda.vitti) — moda, lifestyle e maternidade no RJ, mamãe do Ravi (~134,6 mil no Instagram). Amo a praticidade de vocês e queria conversar sobre parceria com conteúdo real no feed/stories/Reels. Cases: Montreal Hyundai e NINHO Fases 1+. Faz sentido?"
+          "dm": "Oi, Tip Top! 🎈 Sou a Duda (@eduarda.vitti) — moda, lifestyle e maternidade no RJ, mamãe do Ravi (~134,6 mil no Instagram). Amo o universo baby de vocês e queria conversar sobre parceria com conteúdo real no feed/stories/Reels. Cases: Montreal Hyundai e NINHO Fases 1+. Faz sentido?"
         },
         {
-          "id": "alieolibaby",
-          "handle": "alieolibaby",
-          "name": "Ali & Oli Baby",
-          "niche": "Essentials bebê",
-          "example": true,
-          "instagramUrl": "https://www.instagram.com/alieolibaby/",
-          "source": "https://www.alieolibaby.com.br/ (footer Instagram) · perfil via Apify",
-          "followersNote": "~9,2 mil",
+          "id": "chiccobrasil",
+          "handle": "chiccobrasil",
+          "name": "Chicco Brasil",
+          "niche": "Essentials e conforto bebê",
+          "instagramUrl": "https://www.instagram.com/chiccobrasil/",
+          "source": "Perfil oficial verificado via Apify (verified:true, ~420 mil)",
+          "followersNote": "~420 mil · verificado",
           "reasons": [
-            "Alimentação, dentição e essentials — útil na rotina com o Ravi",
-            "Tem Programa Creators/UGC aberto a criadoras",
-            "Produtos fáceis de mostrar em stories e Reels do dia a dia"
+            "Produtos de conforto e segurança do bebê — úteis na rotina com o Ravi",
+            "Marca internacional com storytelling sofisticado e acolhedor",
+            "Itens fáceis de integrar em stories de passeio, sono e cuidados"
           ],
-          "dm": "Oi, Ali & Oli! ✨ Sou a Duda Vitti (@eduarda.vitti), criadora de moda/lifestyle/maternidade no RJ, mamãe do Ravi (~134,6 mil no Instagram). Queria propor uma parceria leve e autêntica com os essentials de vocês na nossa rotina. Cases: squad Montreal Hyundai e NINHO Fases 1+. Posso mandar ideias?"
+          "dm": "Oi, Chicco! ✨ Sou a Duda Vitti (@eduarda.vitti), criadora de moda/lifestyle/maternidade no RJ, mamãe do Ravi (~134,6 mil no Instagram). Queria propor uma parceria leve e autêntica com os essentials de vocês na nossa rotina. Cases: squad Montreal Hyundai e NINHO Fases 1+. Posso mandar ideias?"
         }
       ]
     }
