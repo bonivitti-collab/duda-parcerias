@@ -187,10 +187,13 @@
 
   <script>
   (function () {
-    var LS_KEY = "duda-parcerias-sent-v1";
+    var LS_SENT = "duda-parcerias-sent-v1";
+    var LS_NAV = "duda-parcerias-nav-v1";
     var data = null;
     var currentDayId = null;
     var openBrandId = null;
+    var applyingHistory = false;
+    var pendingScrollBrand = null;
 
     var elDays = document.getElementById("view-days");
     var elBrands = document.getElementById("view-brands");
@@ -203,17 +206,88 @@
     var drawerContent = document.getElementById("drawerContent");
 
     function loadSent() {
-      try { return JSON.parse(localStorage.getItem(LS_KEY) || "{}") || {}; }
+      try { return JSON.parse(localStorage.getItem(LS_SENT) || "{}") || {}; }
       catch (e) { return {}; }
     }
-    function saveSent(map) {
-      localStorage.setItem(LS_KEY, JSON.stringify(map));
-    }
+    function saveSent(map) { localStorage.setItem(LS_SENT, JSON.stringify(map)); }
     function isSent(id) { return !!loadSent()[id]; }
     function setSent(id, val) {
       var m = loadSent();
       if (val) m[id] = true; else delete m[id];
       saveSent(m);
+    }
+
+    function navState() {
+      return { dayId: currentDayId || null, brandId: openBrandId || null };
+    }
+    function persistNav() {
+      var st = navState();
+      try { sessionStorage.setItem(LS_NAV, JSON.stringify(st)); } catch (e) {}
+      try { localStorage.setItem(LS_NAV, JSON.stringify(st)); } catch (e) {}
+      var hash = "";
+      if (st.dayId) {
+        hash = "#dia=" + encodeURIComponent(st.dayId);
+        if (st.brandId) hash += "&marca=" + encodeURIComponent(st.brandId);
+      }
+      if (location.hash !== hash) {
+        if (!hash) {
+          history.replaceState(st, "", location.pathname + location.search);
+        } else if (applyingHistory) {
+          history.replaceState(st, "", location.pathname + location.search + hash);
+        } else {
+          // hash kept in sync by pushState urls
+        }
+      }
+    }
+    function readStoredNav() {
+      var fromHash = parseHash();
+      if (fromHash.dayId) return fromHash;
+      try {
+        var s = sessionStorage.getItem(LS_NAV) || localStorage.getItem(LS_NAV);
+        if (s) return JSON.parse(s) || {};
+      } catch (e) {}
+      return {};
+    }
+    function parseHash() {
+      var h = (location.hash || "").replace(/^#/, "");
+      if (!h) return {};
+      var out = {};
+      h.split("&").forEach(function (part) {
+        var kv = part.split("=");
+        var k = decodeURIComponent(kv[0] || "");
+        var v = decodeURIComponent(kv[1] || "");
+        if (k === "dia") out.dayId = v;
+        if (k === "marca") out.brandId = v;
+      });
+      return out;
+    }
+    function urlFor(dayId, brandId) {
+      var base = location.pathname + location.search;
+      if (!dayId) return base;
+      var hash = "#dia=" + encodeURIComponent(dayId);
+      if (brandId) hash += "&marca=" + encodeURIComponent(brandId);
+      return base + hash;
+    }
+
+    /** level: 0 days, 1 day list, 2 brand open */
+    function levelOf(st) {
+      if (st && st.brandId && st.dayId) return 2;
+      if (st && st.dayId) return 1;
+      return 0;
+    }
+
+    function pushNav(dayId, brandId) {
+      if (applyingHistory) return;
+      var st = { dayId: dayId || null, brandId: brandId || null };
+      history.pushState(st, "", urlFor(st.dayId, st.brandId));
+      try { sessionStorage.setItem(LS_NAV, JSON.stringify(st)); } catch (e) {}
+      try { localStorage.setItem(LS_NAV, JSON.stringify(st)); } catch (e) {}
+    }
+    function replaceNav(dayId, brandId) {
+      var st = { dayId: dayId || null, brandId: brandId || null };
+      history.replaceState(st, "", urlFor(st.dayId, st.brandId));
+      try { sessionStorage.setItem(LS_NAV, JSON.stringify(st)); } catch (e) {}
+      try { localStorage.setItem(LS_NAV, JSON.stringify(st)); } catch (e) {}
     }
 
     function parseDate(iso) {
@@ -250,20 +324,21 @@
         : allBrands();
       var sent = countSentIn(brands);
       var total = brands.length;
-      if (currentDayId) {
-        barSub.textContent = sent + "/" + total + " enviadas neste dia";
-      } else {
-        barSub.textContent = sent + "/" + total + " enviadas";
-      }
+      barSub.textContent = currentDayId
+        ? (sent + "/" + total + " enviadas neste dia")
+        : (sent + "/" + total + " enviadas");
     }
-
     function sortedRounds() {
       return (data.rounds || []).slice().sort(function (a, b) {
         return a.date < b.date ? 1 : a.date > b.date ? -1 : 0;
       });
     }
+    function findRound(dayId) {
+      return (data.rounds || []).find(function (r) { return r.id === dayId; });
+    }
 
-    function showDays() {
+    function showDaysView(opts) {
+      opts = opts || {};
       currentDayId = null;
       openBrandId = null;
       elDays.classList.remove("hidden");
@@ -275,53 +350,159 @@
       var rounds = sortedRounds();
       if (!rounds.length) {
         elDays.innerHTML = '<p class="empty">Nenhuma rodada ainda.</p>';
-        updateCounter();
-        return;
+      } else {
+        rounds.forEach(function (r) {
+          var brands = r.brands || [];
+          var sent = countSentIn(brands);
+          var btn = document.createElement("button");
+          btn.type = "button";
+          btn.className = "day-card";
+          btn.innerHTML =
+            '<div class="day-meta"><p class="day-title">' + escapeHtml(dayLabel(r.date)) + '</p>' +
+            '<p class="day-count">' + brands.length + " marca" + (brands.length === 1 ? "" : "s") +
+            " · " + sent + " enviada" + (sent === 1 ? "" : "s") + "</p></div>" +
+            '<span class="chev">›</span>';
+          btn.addEventListener("click", function () { goToDay(r.id); });
+          elDays.appendChild(btn);
+        });
       }
-      rounds.forEach(function (r) {
-        var brands = r.brands || [];
-        var sent = countSentIn(brands);
-        var btn = document.createElement("button");
-        btn.type = "button";
-        btn.className = "day-card";
-        btn.innerHTML =
-          '<div class="day-meta"><p class="day-title">' + escapeHtml(dayLabel(r.date)) + '</p>' +
-          '<p class="day-count">' + brands.length + " marca" + (brands.length === 1 ? "" : "s") +
-          " · " + sent + " enviada" + (sent === 1 ? "" : "s") + "</p></div>" +
-          '<span class="chev">›</span>';
-        btn.addEventListener("click", function () { openDay(r.id); });
-        elDays.appendChild(btn);
-      });
       updateCounter();
       renderDrawer();
+      if (!opts.skipHistory) {
+        if (opts.replace) replaceNav(null, null);
+        else pushNav(null, null);
+      } else {
+        persistNavSilent();
+      }
     }
 
-    function openDay(dayId, brandIdToOpen) {
-      var round = data.rounds.find(function (r) { return r.id === dayId; });
-      if (!round) return;
+    function showDayView(dayId, brandId, opts) {
+      opts = opts || {};
+      var round = findRound(dayId);
+      if (!round) {
+        showDaysView({ replace: true, skipHistory: opts.skipHistory });
+        return;
+      }
       currentDayId = dayId;
+      openBrandId = brandId || null;
       elDays.classList.add("hidden");
       elBrands.classList.remove("hidden");
       btnBack.classList.remove("hidden");
       barTitle.textContent = dayLabel(round.date);
-      renderBrands(round, brandIdToOpen);
+      if (brandId) pendingScrollBrand = brandId;
+      renderBrands(round);
       updateCounter();
       closeDrawer();
+      if (!opts.skipHistory) {
+        if (opts.replace) replaceNav(dayId, brandId || null);
+        else pushNav(dayId, brandId || null);
+      } else {
+        persistNavSilent();
+      }
+      if (brandId) {
+        setTimeout(function () {
+          var el = elBrands.querySelector('[data-id="' + cssEscape(brandId) + '"]');
+          if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+        }, 50);
+      }
+    }
+
+    function persistNavSilent() {
+      var st = navState();
+      try { sessionStorage.setItem(LS_NAV, JSON.stringify(st)); } catch (e) {}
+      try { localStorage.setItem(LS_NAV, JSON.stringify(st)); } catch (e) {}
+    }
+
+    function goToDay(dayId) {
+      showDayView(dayId, null, { replace: false });
+    }
+
+    /** Ensure history stack is days -> day -> brand so one back = one level. */
+    function ensureDayThenBrand(dayId, brandId) {
+      if (currentDayId === dayId && openBrandId === brandId) return;
+      if (currentDayId === dayId && !openBrandId) {
+        showDayView(dayId, brandId, { replace: false });
+        return;
+      }
+      if (currentDayId === dayId && openBrandId && openBrandId !== brandId) {
+        showDayView(dayId, brandId, { replace: true });
+        return;
+      }
+      if (currentDayId === dayId && openBrandId === brandId) {
+        showDayView(dayId, null, { replace: true });
+        return;
+      }
+      // coming from another day or from days list: push day, then brand
+      if (currentDayId !== dayId) {
+        showDayView(dayId, null, { replace: !!currentDayId });
+      }
+      showDayView(dayId, brandId, { replace: false });
+    }
+
+    function oneLevelUp() {
+      if (openBrandId && currentDayId) {
+        showDayView(currentDayId, null, { replace: true });
+        return;
+      }
+      if (currentDayId) {
+        showDaysView({ replace: true });
+      }
+    }
+
+    function backButtonHandler() {
+      var lvl = levelOf(navState());
+      if (lvl <= 0) return;
+      var snapshot = JSON.stringify(navState());
+      var settled = false;
+      function fallback() {
+        if (settled) return;
+        if (JSON.stringify(navState()) !== snapshot) { settled = true; return; }
+        settled = true;
+        oneLevelUp();
+      }
+      function onPop() {
+        settled = true;
+        window.removeEventListener("popstate", onPop);
+      }
+      window.addEventListener("popstate", onPop);
+      history.back();
+      setTimeout(fallback, 150);
+    }
+
+    function applyState(st, opts) {
+      opts = opts || {};
+      applyingHistory = true;
+      try {
+        st = st || {};
+        var dayId = st.dayId || null;
+        var brandId = st.brandId || null;
+        if (dayId && findRound(dayId)) {
+          showDayView(dayId, brandId, { skipHistory: true });
+        } else {
+          showDaysView({ skipHistory: true });
+        }
+      } finally {
+        applyingHistory = false;
+        persistNavSilent();
+      }
     }
 
     function sortBrands(brands) {
       return brands.slice().sort(function (a, b) {
         var sa = isSent(a.id) ? 1 : 0;
         var sb = isSent(b.id) ? 1 : 0;
-        if (sa !== sb) return sa - sb;
-        return 0;
+        return sa - sb;
       });
     }
 
-    function renderBrands(round, brandIdToOpen) {
+    function cssEscape(id) {
+      if (window.CSS && CSS.escape) return CSS.escape(id);
+      return String(id).replace(/"/g, '\\"');
+    }
+
+    function renderBrands(round) {
       elBrands.innerHTML = "";
       var brands = sortBrands(round.brands || []);
-      if (brandIdToOpen) openBrandId = brandIdToOpen;
       brands.forEach(function (b) {
         var row = document.createElement("article");
         row.className = "brand-row" + (isSent(b.id) ? " sent-row" : "") + (openBrandId === b.id ? " open" : "");
@@ -339,14 +520,15 @@
           '<span class="chev">▾</span>';
         head.addEventListener("click", function () {
           if (openBrandId === b.id) {
-            openBrandId = null;
+            // close brand: one level up via history when possible
+            history.back();
+            setTimeout(function () {
+              if (openBrandId === b.id) showDayView(round.id, null, { replace: true });
+            }, 160);
+          } else if (openBrandId) {
+            showDayView(round.id, b.id, { replace: true });
           } else {
-            openBrandId = b.id;
-          }
-          renderBrands(round);
-          if (openBrandId === b.id) {
-            var el = elBrands.querySelector('[data-id="' + CSS.escape(b.id) + '"]');
-            if (el) setTimeout(function () { el.scrollIntoView({ behavior: "smooth", block: "start" }); }, 40);
+            showDayView(round.id, b.id, { replace: false });
           }
         });
 
@@ -377,7 +559,6 @@
         elBrands.appendChild(row);
       });
 
-      // wire interactions
       elBrands.querySelectorAll(".dm-toggle").forEach(function (btn) {
         btn.addEventListener("click", function () {
           var id = btn.getAttribute("data-dm");
@@ -390,7 +571,7 @@
         btn.addEventListener("click", function () {
           btn.classList.toggle("expanded");
           var id = btn.id.replace(/^dm-/, "");
-          var t = elBrands.querySelector('.dm-toggle[data-dm="' + CSS.escape(id) + '"]');
+          var t = elBrands.querySelector('.dm-toggle[data-dm="' + cssEscape(id) + '"]');
           if (t) t.textContent = btn.classList.contains("expanded") ? "Ocultar mensagem" : "Ver mensagem";
         });
       });
@@ -399,6 +580,9 @@
           var id = btn.getAttribute("data-copy");
           var brand = (round.brands || []).find(function (x) { return x.id === id; });
           if (!brand) return;
+          // keep day+brand in nav before leaving to IG
+          persistNavSilent();
+          replaceNav(round.id, openBrandId || id);
           copyText(brand.dm, btn, id);
         });
       });
@@ -407,8 +591,15 @@
           var id = btn.getAttribute("data-toggle");
           setSent(id, !isSent(id));
           updateCounter();
-          renderBrands(round, openBrandId);
+          renderBrands(round);
           renderDrawer();
+        });
+      });
+      // ensure IG links re-persist nav on click
+      elBrands.querySelectorAll("a.btn-ig").forEach(function (a) {
+        a.addEventListener("click", function () {
+          persistNavSilent();
+          replaceNav(currentDayId, openBrandId);
         });
       });
     }
@@ -443,14 +634,22 @@
         dayBtn.type = "button";
         dayBtn.className = "drawer-day";
         dayBtn.textContent = dayLabel(r.date) + " (" + (r.brands || []).length + ")";
-        dayBtn.addEventListener("click", function () { openDay(r.id); });
+        dayBtn.addEventListener("click", function () {
+          closeDrawer();
+          if (currentDayId === r.id && !openBrandId) return;
+          if (!currentDayId) goToDay(r.id);
+          else showDayView(r.id, null, { replace: true });
+        });
         sec.appendChild(dayBtn);
         (r.brands || []).forEach(function (b) {
           var bb = document.createElement("button");
           bb.type = "button";
           bb.className = "drawer-brand";
           bb.textContent = (isSent(b.id) ? "✓ " : "• ") + b.name + " @" + b.handle;
-          bb.addEventListener("click", function () { openDay(r.id, b.id); });
+          bb.addEventListener("click", function () {
+            closeDrawer();
+            ensureDayThenBrand(r.id, b.id);
+          });
           sec.appendChild(bb);
         });
         drawerContent.appendChild(sec);
@@ -474,9 +673,41 @@
     }
     function escapeAttr(s) { return escapeHtml(s).replace(/'/g, "&#39;"); }
 
+    function restoreFromStorageOrHash() {
+      var st = parseHash();
+      if (!st.dayId) st = readStoredNav();
+      applyState(st);
+    }
+
     btnMenu.addEventListener("click", openDrawer);
     overlay.addEventListener("click", closeDrawer);
-    btnBack.addEventListener("click", function () { showDays(); });
+    btnBack.addEventListener("click", function (e) {
+      e.preventDefault();
+      backButtonHandler();
+    });
+
+    window.addEventListener("popstate", function (ev) {
+      var st = ev.state;
+      if (!st || typeof st !== "object") st = parseHash();
+      applyState(st);
+    });
+    window.addEventListener("hashchange", function () {
+      if (applyingHistory) return;
+      applyState(parseHash());
+    });
+    window.addEventListener("pageshow", function () {
+      if (!data) return;
+      restoreFromStorageOrHash();
+    });
+    document.addEventListener("visibilitychange", function () {
+      if (document.visibilityState === "visible" && data) {
+        // Keep current view; re-sync from storage if reload wiped memory but hash/storage remain
+        var st = readStoredNav();
+        if (st.dayId && st.dayId !== currentDayId) applyState(st);
+        else if (st.dayId && st.brandId && st.brandId !== openBrandId) applyState(st);
+        else persistNavSilent();
+      }
+    });
 
     fetch("data.json?v=" + Date.now())
       .then(function (r) {
@@ -485,7 +716,22 @@
       })
       .then(function (json) {
         data = json;
-        showDays();
+        var st = parseHash();
+        if (!st.dayId) st = readStoredNav();
+        if (st.dayId && findRound(st.dayId)) {
+          // Seed history: days -> (day) -> (brand?) so back works one level at a time
+          replaceNav(null, null);
+          if (st.brandId) {
+            history.pushState({ dayId: st.dayId, brandId: null }, "", urlFor(st.dayId, null));
+            history.pushState({ dayId: st.dayId, brandId: st.brandId }, "", urlFor(st.dayId, st.brandId));
+          } else {
+            history.pushState({ dayId: st.dayId, brandId: null }, "", urlFor(st.dayId, null));
+          }
+          applyState(st);
+        } else {
+          replaceNav(null, null);
+          showDaysView({ skipHistory: true });
+        }
       })
       .catch(function (err) {
         elDays.innerHTML = '<p class="empty">Erro ao carregar data.json<br>' + escapeHtml(String(err)) + "</p>";
