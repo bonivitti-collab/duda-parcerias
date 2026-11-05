@@ -40,49 +40,49 @@
       "date": "2026-11-05",
       "brands": [
         {
-          "id": "mustelabrasil",
-          "handle": "mustelabrasil",
-          "name": "Mustela Brasil",
-          "niche": "Dermocosméticos · bebê e família",
-          "instagramUrl": "https://www.instagram.com/mustelabrasil/",
-          "source": "Perfil oficial verificado via Apify (verified:true, ~284 mil)",
-          "followersNote": "~284 mil · verificado",
+          "id": "algodaodocecf",
+          "handle": "algodaodocecf",
+          "name": "Algodão Doce Fashion",
+          "niche": "Gestante e bebê · Cabo Frio",
+          "instagramUrl": "https://www.instagram.com/algodaodocecf/",
+          "source": "Bio IG confirma Centro Cabo Frio/RJ · perfil ativo via Apify (~13,7 mil, 3,6 mil posts)",
+          "followersNote": "~13,7 mil",
           "reasons": [
-            "Dermocosméticos naturais para bebê e família — encaixa no cuidado diário com o Ravi",
-            "Marca clássica de maternidade com conteúdo leve de pele, banho e ritual",
-            "Fácil de mostrar em stories/Reels da rotina real sem forçar o discurso"
+            "Moda para gestante e bebê até 18 anos — encaixa com a Duda + Ravi",
+            "Loja tradicional da Região dos Lagos, fácil de combinar visita presencial",
+            "Conteúdo natural de looks, enxoval e rotina de mãe"
           ],
-          "dm": "Oi, time Mustela! 💙 Sou a Duda Vitti (@eduarda.vitti), mamãe do Ravi no RJ — moda, lifestyle e maternidade (~134,6 mil no Instagram verificado). Admiro o cuidado de vocês com a pele das famílias e queria propor uma parceria autêntica na nossa rotina. Cases: squad Montreal Hyundai e publi NINHO Fases 1+. Posso mandar ideias de Reels/stories?"
+          "dm": "Oi, Algodão Doce! 💛 Sou a Duda Vitti (@eduarda.vitti), mamãe do Ravi — moda, lifestyle e maternidade (~134,6 mil no Instagram). Sou da Região dos Lagos e admiro o carinho de vocês com gestante e bebê. Queria propor uma parceria autêntica (posso ir presencialmente também). Cases: squad Montreal Hyundai e publi NINHO Fases 1+. Posso mandar ideias de Reels/stories?"
         },
         {
-          "id": "tiptopbr",
-          "handle": "tiptopbr",
-          "name": "Tip Top",
-          "niche": "Moda bebê e infantil",
-          "instagramUrl": "https://www.instagram.com/tiptopbr/",
-          "source": "Perfil oficial verificado via Apify (verified:true, ~783 mil)",
-          "followersNote": "~783 mil · verificado",
+          "id": "shopkilobaby",
+          "handle": "shopkilobaby",
+          "name": "Doce Rota (Kilobaby)",
+          "niche": "Moda infantil · Cabo Frio",
+          "instagramUrl": "https://www.instagram.com/shopkilobaby/",
+          "source": "Perfil verificado via Apify (verified:true) · loja física Cabo Frio (R. Jonas García)",
+          "followersNote": "~5,9 mil · verificado",
           "reasons": [
-            "Referência nacional em roupa de bebê — fit natural com maternidade + moda",
-            "Conteúdo fácil de vestir o Ravi no dia a dia (passeio, casa, ocasiões)",
-            "Marca com lojas e comunidade forte para criadoras de lifestyle materno"
+            "Roupa infantil com loja física na Região dos Lagos — fit com a rotina do Ravi",
+            "Perfil verificado e ativo, bom para conteúdo de vestir o bebê no dia a dia",
+            "Parceria próxima e presencial é bem viável para a Duda"
           ],
-          "dm": "Oi, Tip Top! 🎈 Sou a Duda (@eduarda.vitti) — moda, lifestyle e maternidade no RJ, mamãe do Ravi (~134,6 mil no Instagram). Amo o universo baby de vocês e queria conversar sobre parceria com conteúdo real no feed/stories/Reels. Cases: Montreal Hyundai e NINHO Fases 1+. Faz sentido?"
+          "dm": "Oi, Kilobaby! 🧸 Sou a Duda (@eduarda.vitti) — moda, lifestyle e maternidade, mamãe do Ravi (~134,6 mil). Moro na Região dos Lagos e adoraria conversar sobre parceria com conteúdo real (e posso passar na loja). Cases: Montreal Hyundai e NINHO Fases 1+. Faz sentido?"
         },
         {
-          "id": "chiccobrasil",
-          "handle": "chiccobrasil",
-          "name": "Chicco Brasil",
-          "niche": "Essentials e conforto bebê",
-          "instagramUrl": "https://www.instagram.com/chiccobrasil/",
-          "source": "Perfil oficial verificado via Apify (verified:true, ~420 mil)",
-          "followersNote": "~420 mil · verificado",
+          "id": "babiesrio_",
+          "handle": "babiesrio_",
+          "name": "Babies Rio",
+          "niche": "Enxoval clássico · Rio",
+          "instagramUrl": "https://www.instagram.com/babiesrio_/",
+          "source": "Bio IG: Barra Shopping + Ipanema · perfil ativo via Apify (~11,1 mil)",
+          "followersNote": "~11,1 mil",
           "reasons": [
-            "Produtos de conforto e segurança do bebê — úteis na rotina com o Ravi",
-            "Marca internacional com storytelling sofisticado e acolhedor",
-            "Itens fáceis de integrar em stories de passeio, sono e cuidados"
+            "Enxoval clássico e roupinhas 0–6 anos — combina com maternidade sofisticada",
+            "Referência carioca com lojas na capital (fácil ir quando estiver no Rio)",
+            "Peças lindas para feed, stories e Reels de rotina com o Ravi"
           ],
-          "dm": "Oi, Chicco! ✨ Sou a Duda Vitti (@eduarda.vitti), criadora de moda/lifestyle/maternidade no RJ, mamãe do Ravi (~134,6 mil no Instagram). Queria propor uma parceria leve e autêntica com os essentials de vocês na nossa rotina. Cases: squad Montreal Hyundai e NINHO Fases 1+. Posso mandar ideias?"
+          "dm": "Oi, Babies! ✨ Sou a Duda Vitti (@eduarda.vitti), criadora de moda/lifestyle/maternidade, mamãe do Ravi (~134,6 mil). Sou da Região dos Lagos e costumo ir ao Rio — adoraria uma parceria autêntica com o enxoval de vocês. Cases: squad Montreal Hyundai e NINHO Fases 1+. Posso mandar ideias?"
         }
       ]
     }
