@@ -65,26 +65,28 @@
     main { max-width: 480px; margin: 0 auto; padding: 14px 14px 28px; }
 
     .hello {
-      display: flex; align-items: center; gap: 12px;
+      display: flex; flex-direction: row; align-items: center; gap: 12px;
       background: linear-gradient(145deg, #fffaf6 0%, #f8ebe4 100%);
       border: 1px solid var(--line); border-radius: 18px;
-      padding: 14px 14px; margin-bottom: 12px; box-shadow: var(--shadow);
+      padding: 14px 14px; margin-bottom: 14px; box-shadow: var(--shadow);
     }
     .avatar {
-      width: 46px; height: 46px; border-radius: 50%; flex-shrink: 0;
+      width: 48px; height: 48px; border-radius: 50%; flex-shrink: 0;
       display: grid; place-items: center;
       background: linear-gradient(145deg, #e8c4bc, #d9a89a);
       color: #fff; font-weight: 800; font-size: 0.95rem; letter-spacing: 0.04em;
       box-shadow: 0 0 0 3px #fff8f4;
+      align-self: center;
     }
-    .hello-text { min-width: 0; }
-    .hello-hi { margin: 0; font-weight: 800; font-size: 1.12rem; letter-spacing: -0.02em; }
-    .hello-sub { margin: 3px 0 0; font-size: 0.86rem; color: var(--muted); font-weight: 500; }
-    .hint {
-      font-size: 0.88rem; color: var(--muted); margin: 0 0 14px;
-      background: #fff; border: 1px dashed var(--line); border-radius: 12px; padding: 10px 12px;
+    .hello-text {
+      min-width: 0; flex: 1;
+      display: flex; flex-direction: column; justify-content: center;
     }
-
+    .hello-hi {
+      margin: 0; font-weight: 800; font-size: 1.12rem; letter-spacing: -0.02em;
+      line-height: 1.2;
+    }
+    .hello-sub { margin: 4px 0 0; font-size: 0.86rem; color: var(--muted); font-weight: 500; }
     .special-card {
       width: 100%; text-align: left; cursor: pointer; color: inherit;
       border-radius: 18px; box-shadow: var(--shadow); margin-bottom: 10px; overflow: hidden;
@@ -232,7 +234,6 @@
       background: #fff; color: var(--ink); border: 1.5px solid var(--line); font-size: 0.92rem;
     }
     .btn-toggle.on { background: var(--ok-soft); border-color: #b9dcc8; color: var(--ok); }
-    .copy-hint { font-size: 0.8rem; color: var(--muted); margin: 8px 0 0; text-align: center; }
     .fallback { display: none; margin-top: 8px; }
     .fallback textarea {
       width: 100%; min-height: 110px; border-radius: 12px; border: 1px solid var(--line);
@@ -309,7 +310,6 @@
         <p class="hello-sub">Bora fechar parcerias lindas hoje?</p>
       </div>
     </div>
-    <p class="hint" id="globalHint">Formato Instagram DM · Copie, abra o perfil, toque em Mensagem e cole</p>
 
     <section id="view-days"></section>
     <section id="view-brands" class="hidden"></section>
@@ -346,7 +346,6 @@
     var overlay = document.getElementById("drawerOverlay");
     var drawerContent = document.getElementById("drawerContent");
     var helloCard = document.getElementById("helloCard");
-    var globalHint = document.getElementById("globalHint");
 
     function loadSent() {
       try { return JSON.parse(localStorage.getItem(LS_SENT) || "{}") || {}; }
@@ -509,13 +508,11 @@
 
     function setChromeHome() {
       helloCard.classList.remove("hidden");
-      globalHint.classList.remove("hidden");
       btnBack.classList.add("hidden");
       btnMenu.classList.remove("hidden");
     }
     function setChromeInner() {
       helloCard.classList.add("hidden");
-      globalHint.classList.add("hidden");
       btnBack.classList.remove("hidden");
     }
 
@@ -826,7 +823,6 @@
               (isSent(b.id) ? "✓ Enviada (desmarcar)" : "Marcar como enviada") +
             "</button>" +
           "</div>" +
-          '<p class="copy-hint">Copie, abra o perfil, toque em Mensagem e cole</p>' +
           '<div class="fallback" id="fb-' + escapeAttr(b.id) + '"><textarea readonly></textarea></div>';
         row.appendChild(head);
         row.appendChild(body);
