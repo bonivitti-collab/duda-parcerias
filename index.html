@@ -4,370 +4,493 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <meta name="robots" content="noindex, nofollow" />
-  <meta name="theme-color" content="#1a1a1a" />
+  <meta name="theme-color" content="#f4ebe4" />
   <title>Parcerias da semana — TESTE · Duda Vitti</title>
   <style>
     :root {
-      --bg: #f6f1eb;
-      --card: #ffffff;
-      --ink: #1a1a1a;
-      --muted: #6b6560;
-      --accent: #c45c4a;
-      --accent-dark: #a34839;
-      --line: #e8e0d6;
-      --ok: #2f6b4f;
-      --warn: #8a5a1a;
-      --radius: 18px;
-      --tap: 52px;
+      --bg: #f4ebe4;
+      --card: #fffaf7;
+      --ink: #2b2420;
+      --muted: #7a6f68;
+      --line: #eadfd6;
+      --accent: #c56b5c;
+      --accent-soft: #f3d6cf;
+      --ok: #3d7a5c;
+      --ok-soft: #dceee4;
+      --warn: #9a6b2f;
+      --warn-soft: #f7e7c8;
+      --sent: #b8aea6;
+      --shadow: 0 6px 20px rgba(43, 36, 32, 0.06);
+      --radius: 16px;
+      --tap: 48px;
+      --bar-h: 58px;
     }
     * { box-sizing: border-box; }
     html, body {
-      margin: 0;
-      padding: 0;
-      background: var(--bg);
-      color: var(--ink);
+      margin: 0; padding: 0;
+      background: var(--bg); color: var(--ink);
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      line-height: 1.45;
-      -webkit-text-size-adjust: 100%;
+      line-height: 1.4; -webkit-text-size-adjust: 100%;
     }
-    body {
-      min-height: 100dvh;
-      padding: 20px 16px calc(28px + env(safe-area-inset-bottom));
+    body { min-height: 100dvh; padding-bottom: env(safe-area-inset-bottom); }
+    button, a { -webkit-tap-highlight-color: transparent; font-family: inherit; }
+    .topbar {
+      position: sticky; top: 0; z-index: 40;
+      height: calc(var(--bar-h) + env(safe-area-inset-top));
+      padding: env(safe-area-inset-top) 12px 0;
+      display: flex; align-items: center; gap: 10px;
+      background: rgba(244, 235, 228, 0.92);
+      backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--line);
     }
-    .wrap {
-      max-width: 440px;
-      margin: 0 auto;
+    .icon-btn {
+      min-width: var(--tap); min-height: var(--tap);
+      border: none; background: transparent; color: var(--ink);
+      border-radius: 12px; display: grid; place-items: center;
+      font-size: 1.35rem; cursor: pointer;
     }
-    header {
-      margin-bottom: 18px;
+    .topbar-main { flex: 1; min-width: 0; }
+    .topbar-title { font-weight: 800; font-size: 1rem; letter-spacing: -0.02em; margin: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .topbar-sub { margin: 1px 0 0; font-size: 0.78rem; color: var(--muted); font-weight: 600; }
+    .badge-test {
+      font-size: 10px; font-weight: 800; letter-spacing: 0.04em; text-transform: uppercase;
+      color: var(--warn); background: var(--warn-soft); border-radius: 999px; padding: 4px 8px; flex-shrink: 0;
     }
-    .badge {
-      display: inline-block;
-      font-size: 12px;
-      font-weight: 700;
-      letter-spacing: 0.04em;
-      text-transform: uppercase;
-      color: #fff;
-      background: var(--warn);
-      padding: 6px 10px;
-      border-radius: 999px;
-      margin-bottom: 10px;
+    main { max-width: 480px; margin: 0 auto; padding: 14px 14px 28px; }
+    .hint {
+      font-size: 0.88rem; color: var(--muted); margin: 0 0 14px;
+      background: #fff; border: 1px dashed var(--line); border-radius: 12px; padding: 10px 12px;
     }
-    h1 {
-      font-size: 1.55rem;
-      line-height: 1.2;
-      margin: 0 0 8px;
-      letter-spacing: -0.02em;
+    .day-card, .brand-row {
+      background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
+      box-shadow: var(--shadow); margin-bottom: 10px; overflow: hidden;
     }
-    .sub {
-      margin: 0;
-      color: var(--muted);
-      font-size: 0.95rem;
+    .day-card {
+      display: flex; align-items: center; gap: 12px; width: 100%;
+      min-height: 72px; padding: 14px 16px; text-align: left;
+      border: 1px solid var(--line); cursor: pointer; color: inherit; background: var(--card);
     }
-    .card {
-      background: var(--card);
-      border: 1px solid var(--line);
-      border-radius: var(--radius);
-      padding: 18px 16px 16px;
-      box-shadow: 0 8px 24px rgba(26, 26, 26, 0.05);
+    .day-card:active { transform: scale(0.99); }
+    .day-card .chev { color: var(--muted); font-size: 1.2rem; }
+    .day-meta { flex: 1; min-width: 0; }
+    .day-title { font-weight: 800; font-size: 1.05rem; margin: 0 0 3px; letter-spacing: -0.02em; }
+    .day-count { margin: 0; color: var(--muted); font-size: 0.85rem; font-weight: 600; }
+    .brand-head {
+      width: 100%; display: flex; align-items: center; gap: 10px;
+      min-height: 64px; padding: 12px 14px; border: none; background: transparent;
+      text-align: left; cursor: pointer; color: inherit;
     }
-    .example-tag {
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      font-size: 12px;
-      font-weight: 800;
-      color: var(--warn);
-      background: #fff4df;
-      border: 1px solid #f0d7a8;
-      padding: 5px 9px;
-      border-radius: 8px;
-      margin-bottom: 12px;
+    .status-dot {
+      width: 10px; height: 10px; border-radius: 50%; background: var(--accent);
+      flex-shrink: 0; box-shadow: 0 0 0 3px var(--accent-soft);
     }
-    .brand {
-      font-size: 1.35rem;
-      font-weight: 800;
-      margin: 0 0 4px;
-      letter-spacing: -0.02em;
+    .status-dot.sent { background: var(--sent); box-shadow: 0 0 0 3px #ece7e2; }
+    .brand-head-text { flex: 1; min-width: 0; }
+    .brand-name { font-weight: 800; font-size: 1rem; margin: 0; display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+    .niche-tag {
+      display: inline-block; font-size: 11px; font-weight: 700; color: var(--muted);
+      background: #f0e8e1; border-radius: 999px; padding: 3px 8px; margin-top: 4px;
     }
-    .brand-meta {
-      color: var(--muted);
-      font-size: 0.9rem;
-      margin: 0 0 14px;
+    .example-chip {
+      font-size: 10px; font-weight: 800; color: var(--warn); background: var(--warn-soft);
+      border-radius: 6px; padding: 2px 6px; letter-spacing: 0.03em;
     }
-    .why {
-      margin: 0 0 16px;
-      padding: 0 0 0 18px;
+    .chev { transition: transform .18s ease; color: var(--muted); }
+    .brand-row.open .chev { transform: rotate(180deg); }
+    .brand-row.sent-row { opacity: 0.62; }
+    .brand-row.sent-row .brand-name { color: var(--muted); }
+    .brand-body { display: none; padding: 0 14px 14px; border-top: 1px solid var(--line); }
+    .brand-row.open .brand-body { display: block; }
+    .reasons { margin: 12px 0; padding: 0 0 0 18px; }
+    .reasons li { margin: 0 0 6px; font-size: 0.92rem; }
+    .dm-box {
+      background: #fff; border: 1px solid var(--line); border-radius: 12px; padding: 10px 12px; margin-bottom: 10px;
     }
-    .why li {
-      margin: 0 0 8px;
-      color: var(--ink);
+    .dm-label { font-size: 11px; font-weight: 800; letter-spacing: 0.04em; text-transform: uppercase; color: var(--muted); margin-bottom: 4px; }
+    .dm-preview {
+      width: 100%; border: none; background: transparent; text-align: left; padding: 0;
+      color: var(--ink); font-size: 0.92rem; cursor: pointer; white-space: pre-wrap;
+      display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
     }
-    .section-label {
-      font-size: 12px;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      color: var(--muted);
-      margin: 0 0 6px;
-    }
-    .subject-box,
-    .email-preview,
-    .contact-real {
-      background: #faf7f3;
-      border: 1px solid var(--line);
-      border-radius: 12px;
-      padding: 12px;
-      margin-bottom: 12px;
-      word-break: break-word;
-    }
-    .subject-box strong,
-    .email-preview strong {
-      display: block;
-      font-size: 12px;
-      color: var(--muted);
-      margin-bottom: 4px;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.04em;
-    }
-    .email-preview {
-      white-space: pre-wrap;
-      font-size: 0.92rem;
-      max-height: 220px;
-      overflow: auto;
-      -webkit-overflow-scrolling: touch;
-    }
-    .to-test {
-      background: #eef7f1;
-      border-color: #c7e3d2;
-      color: var(--ok);
-      font-weight: 600;
-      font-size: 0.92rem;
-      margin-bottom: 12px;
-    }
-    .contact-real {
-      font-size: 0.88rem;
-      color: var(--muted);
-    }
-    .contact-real a {
-      color: var(--ink);
-      word-break: break-all;
-    }
-    .actions {
-      display: grid;
-      gap: 10px;
-      margin-top: 16px;
-    }
+    .dm-preview.expanded { display: block; -webkit-line-clamp: unset; overflow: visible; }
+    .dm-toggle { font-size: 0.8rem; font-weight: 700; color: var(--accent); margin-top: 6px; border: none; background: none; padding: 0; cursor: pointer; }
+    .handle-line { font-size: 0.85rem; color: var(--muted); margin: 0 0 10px; }
+    .handle-line strong { color: var(--ink); }
+    .actions { display: grid; gap: 8px; }
     .btn {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      min-height: var(--tap);
-      padding: 14px 16px;
-      border-radius: 14px;
-      border: none;
-      font-size: 1.02rem;
-      font-weight: 700;
-      text-decoration: none;
-      text-align: center;
-      cursor: pointer;
-      -webkit-tap-highlight-color: transparent;
-      transition: transform 0.08s ease, opacity 0.15s ease;
-      width: 100%;
-      font-family: inherit;
+      min-height: var(--tap); border-radius: 14px; border: none; font-weight: 800; font-size: 1rem;
+      display: flex; align-items: center; justify-content: center; text-decoration: none; cursor: pointer;
+      padding: 12px 14px; width: 100%;
     }
     .btn:active { transform: scale(0.98); }
-    .btn-primary {
-      background: var(--accent);
-      color: #fff;
+    .btn-copy { background: var(--accent); color: #fff; }
+    .btn-copy.copied { background: var(--ok); }
+    .btn-ig { background: linear-gradient(135deg, #f58529, #dd2a7b 55%, #8134af); color: #fff; }
+    .btn-toggle {
+      background: #fff; color: var(--ink); border: 1.5px solid var(--line); font-size: 0.92rem;
     }
-    .btn-primary:hover { background: var(--accent-dark); }
-    .btn-secondary {
-      background: var(--ink);
-      color: #fff;
-    }
-    .btn-ghost {
-      background: #fff;
-      color: var(--ink);
-      border: 1.5px solid var(--line);
-    }
-    .btn-ig {
-      background: linear-gradient(135deg, #f58529, #dd2a7b 50%, #8134af);
-      color: #fff;
-    }
-    .toast {
-      display: none;
-      margin-top: 10px;
-      text-align: center;
-      font-size: 0.9rem;
-      font-weight: 700;
-      color: var(--ok);
-    }
-    .toast.show { display: block; }
-    .fallback {
-      display: none;
-      margin-top: 10px;
-    }
+    .btn-toggle.on { background: var(--ok-soft); border-color: #b9dcc8; color: var(--ok); }
+    .copy-hint { font-size: 0.8rem; color: var(--muted); margin: 8px 0 0; text-align: center; }
+    .fallback { display: none; margin-top: 8px; }
     .fallback textarea {
-      width: 100%;
-      min-height: 120px;
-      border-radius: 12px;
-      border: 1px solid var(--line);
-      padding: 10px;
-      font: inherit;
-      font-size: 0.9rem;
+      width: 100%; min-height: 110px; border-radius: 12px; border: 1px solid var(--line);
+      padding: 10px; font: inherit; font-size: 0.88rem;
     }
-    footer {
-      margin-top: 22px;
-      text-align: center;
-      color: var(--muted);
-      font-size: 0.82rem;
-      line-height: 1.4;
+    .empty { text-align: center; color: var(--muted); padding: 40px 16px; }
+    .drawer-overlay {
+      position: fixed; inset: 0; background: rgba(43,36,32,.35); z-index: 50;
+      opacity: 0; pointer-events: none; transition: opacity .2s ease;
     }
-    #copySource { position: absolute; left: -9999px; top: 0; width: 1px; height: 1px; opacity: 0; }
+    .drawer-overlay.open { opacity: 1; pointer-events: auto; }
+    .drawer {
+      position: fixed; top: 0; left: 0; bottom: 0; width: min(86vw, 320px); z-index: 60;
+      background: #fffaf7; box-shadow: 8px 0 30px rgba(0,0,0,.12);
+      transform: translateX(-105%); transition: transform .22s ease;
+      padding: calc(12px + env(safe-area-inset-top)) 0 20px; overflow-y: auto;
+    }
+    .drawer.open { transform: translateX(0); }
+    .drawer h2 { margin: 0 16px 12px; font-size: 1.05rem; }
+    .drawer-section { padding: 8px 8px 4px; }
+    .drawer-day, .drawer-brand {
+      width: 100%; text-align: left; border: none; background: transparent;
+      min-height: 46px; padding: 10px 16px; font-weight: 700; color: var(--ink); cursor: pointer; border-radius: 10px;
+    }
+    .drawer-day:active, .drawer-brand:active { background: var(--accent-soft); }
+    .drawer-brand { font-weight: 600; color: var(--muted); padding-left: 28px; font-size: 0.92rem; }
+    .hidden { display: none !important; }
+    #view-brands.hidden, #view-days.hidden { display: none !important; }
   </style>
 </head>
 <body>
-  <div class="wrap">
-    <header>
-      <div class="badge">Página de teste</div>
-      <h1>Parcerias da semana — TESTE</h1>
-      <p class="sub">Formato para rodadas futuras · Duda Vitti (@eduarda.vitti)</p>
-    </header>
+  <header class="topbar">
+    <button type="button" class="icon-btn" id="btnMenu" aria-label="Menu">☰</button>
+    <button type="button" class="icon-btn hidden" id="btnBack" aria-label="Voltar">←</button>
+    <div class="topbar-main">
+      <p class="topbar-title" id="barTitle">Parcerias da semana — TESTE</p>
+      <p class="topbar-sub" id="barSub">0/0 enviadas</p>
+    </div>
+    <span class="badge-test">TESTE</span>
+  </header>
 
-    <article class="card" id="brandCard">
-      <div class="example-tag">★ EXEMPLO — não enviar para a marca de verdade</div>
-      <h2 class="brand">Blumee</h2>
-      <p class="brand-meta">Dermocosméticos naturais para bebês · Instagram @blumeenatural</p>
+  <main>
+    <p class="hint" id="globalHint">Formato Instagram DM · Copie, abra o perfil, toque em Mensagem e cole</p>
 
-      <p class="section-label">Por que encaixa</p>
-      <ul class="why">
-        <li>Universo baby/maternidade com rotina real — combina com a vida da Duda + Ravi</li>
-        <li>Marca brasileira que já tem programa aberto para criadoras (afiliadas/influences)</li>
-        <li>Produtos naturais e veganos: fácil de mostrar no banho, pele e ritual do sono</li>
-      </ul>
+    <section id="view-days"></section>
+    <section id="view-brands" class="hidden"></section>
+  </main>
 
-      <div class="to-test subject-box">
-        <strong>Para (TESTE)</strong>
-        contato.dudavitti@gmail.com
-        <div style="margin-top:6px;font-weight:500;font-size:0.85rem;">
-          Destinatário = e-mail da Duda (teste). Um toque não e-maila a marca.
-        </div>
-      </div>
-
-      <div class="contact-real">
-        <strong style="color:var(--ink)">Contato real da marca (só referência, texto):</strong><br />
-        oi@blumee.com.br<br />
-        Fonte:
-        <a href="https://www.blumee.com.br/pages/programa-de-afiliadas" target="_blank" rel="noopener noreferrer">blumee.com.br/pages/programa-de-afiliadas</a>
-        · também em
-        <a href="https://www.blumee.com.br/pages/canais-oficiais" target="_blank" rel="noopener noreferrer">canais oficiais</a>
-      </div>
-
-      <div class="subject-box">
-        <strong>Assunto</strong>
-        <span id="emailSubject">Parceria Instagram — Duda Vitti × Blumee (TESTE)</span>
-      </div>
-
-      <p class="section-label">Pitch (prévia)</p>
-      <div class="email-preview" id="emailPreview"></div>
-
-      <div class="actions">
-        <a class="btn btn-primary" id="btnGmailApp" href="#">Abrir no Gmail</a>
-        <a class="btn btn-secondary" id="btnGmailWeb" href="#" target="_blank" rel="noopener noreferrer">Abrir Gmail no navegador</a>
-        <button type="button" class="btn btn-ghost" id="btnCopy">Copiar texto</button>
-        <a class="btn btn-ig" href="https://www.instagram.com/blumeenatural/" target="_blank" rel="noopener noreferrer">Abrir Instagram da marca</a>
-      </div>
-      <div class="toast" id="toast" role="status">Texto copiado ✓</div>
-      <div class="fallback" id="fallback">
-        <p style="margin:0 0 6px;font-size:0.85rem;color:var(--muted);">Selecione e copie manualmente:</p>
-        <textarea id="fallbackText" readonly></textarea>
-      </div>
-    </article>
-
-    <footer>
-      Duda, me conta qual botão funcionou no iPhone/Safari ou no WhatsApp 🙏<br />
-      (manda um zap pro Danillo)
-    </footer>
-  </div>
-
-  <textarea id="copySource" aria-hidden="true"></textarea>
+  <div class="drawer-overlay" id="drawerOverlay"></div>
+  <aside class="drawer" id="drawer" aria-hidden="true">
+    <h2>Rodadas</h2>
+    <div id="drawerContent"></div>
+  </aside>
 
   <script>
-    (function () {
-      var TO = "contato.dudavitti@gmail.com";
-      var SUBJECT = "Parceria Instagram — Duda Vitti × Blumee (TESTE)";
-      var BODY = [
-        "Oi, time Blumee! 💛",
-        "",
-        "Tudo bem? Sou a Duda Vitti (@eduarda.vitti) — criadora de conteúdo de moda, lifestyle e maternidade no Rio de Janeiro, mamãe do Ravi.",
-        "",
-        "Vim me apresentar com carinho porque admiro muito o jeito natural e seguro que a Blumee cuida dos bebês, e acho que o nosso universo combina bastante.",
-        "",
-        "Um pouquinho sobre mim:",
-        "• Instagram verificado com ~134,6 mil seguidores",
-        "• TikTok @eduarda.vitti (~2,8 mil) com foco em TikTok Shop",
-        "• Conteúdo de moda | lifestyle | maternidade, com rotina real de mãe",
-        "",
-        "Cases recentes:",
-        "• Squad Montreal Hyundai",
-        "• Publi NINHO Fases 1+",
-        "",
-        "Adoraria conversar sobre uma parceria autêntica — conteúdo no feed/stories/Reels mostrando a Blumee na nossa rotina com o Ravi, do jeitinho que a gente vive de verdade.",
-        "",
-        "Se fizer sentido pra vocês, me responde por aqui que eu mando o mídia kit e ideias de formato ✨",
-        "",
-        "Beijos,",
-        "Duda Vitti",
-        "contato.dudavitti@gmail.com",
-        "Instagram: @eduarda.vitti",
-        "",
-        "— Este e-mail é um TESTE do fluxo de parcerias (destinatário = eu mesma). Contato real da marca: oi@blumee.com.br"
-      ].join("\n");
+  (function () {
+    var LS_KEY = "duda-parcerias-sent-v1";
+    var data = null;
+    var currentDayId = null;
+    var openBrandId = null;
 
-      var copyText = "Para: " + TO + "\nAssunto: " + SUBJECT + "\n\n" + BODY;
+    var elDays = document.getElementById("view-days");
+    var elBrands = document.getElementById("view-brands");
+    var barTitle = document.getElementById("barTitle");
+    var barSub = document.getElementById("barSub");
+    var btnBack = document.getElementById("btnBack");
+    var btnMenu = document.getElementById("btnMenu");
+    var drawer = document.getElementById("drawer");
+    var overlay = document.getElementById("drawerOverlay");
+    var drawerContent = document.getElementById("drawerContent");
 
-      document.getElementById("emailPreview").textContent = BODY;
-      document.getElementById("copySource").value = copyText;
-      document.getElementById("fallbackText").value = copyText;
+    function loadSent() {
+      try { return JSON.parse(localStorage.getItem(LS_KEY) || "{}") || {}; }
+      catch (e) { return {}; }
+    }
+    function saveSent(map) {
+      localStorage.setItem(LS_KEY, JSON.stringify(map));
+    }
+    function isSent(id) { return !!loadSent()[id]; }
+    function setSent(id, val) {
+      var m = loadSent();
+      if (val) m[id] = true; else delete m[id];
+      saveSent(m);
+    }
 
-      var encTo = encodeURIComponent(TO);
-      var encSu = encodeURIComponent(SUBJECT);
-      var encBody = encodeURIComponent(BODY);
+    function parseDate(iso) {
+      var p = iso.split("-");
+      return new Date(+p[0], +p[1] - 1, +p[2]);
+    }
+    var WEEKDAYS = ["dom", "seg", "ter", "qua", "qui", "sex", "sáb"];
+    function dayLabel(iso) {
+      var d = parseDate(iso);
+      var today = new Date();
+      var same = d.getFullYear() === today.getFullYear() && d.getMonth() === today.getMonth() && d.getDate() === today.getDate();
+      var dd = String(d.getDate()).padStart(2, "0");
+      var mm = String(d.getMonth() + 1).padStart(2, "0");
+      var w = WEEKDAYS[d.getDay()];
+      if (same) return "Hoje · " + w + " " + dd + "/" + mm;
+      return w.charAt(0).toUpperCase() + w.slice(1) + " " + dd + "/" + mm;
+    }
 
-      document.getElementById("btnGmailApp").href =
-        "googlegmail:///co?to=" + encTo + "&subject=" + encSu + "&body=" + encBody;
-
-      document.getElementById("btnGmailWeb").href =
-        "https://mail.google.com/mail/?view=cm&fs=1&to=" + encTo + "&su=" + encSu + "&body=" + encBody;
-
-      function showToast() {
-        var t = document.getElementById("toast");
-        t.classList.add("show");
-        setTimeout(function () { t.classList.remove("show"); }, 2200);
-      }
-
-      function fallbackCopy() {
-        var box = document.getElementById("fallback");
-        var ta = document.getElementById("fallbackText");
-        box.style.display = "block";
-        ta.focus();
-        ta.select();
-        try {
-          var ok = document.execCommand("copy");
-          if (ok) showToast();
-        } catch (e) {}
-      }
-
-      document.getElementById("btnCopy").addEventListener("click", function () {
-        if (navigator.clipboard && navigator.clipboard.writeText) {
-          navigator.clipboard.writeText(copyText).then(showToast).catch(fallbackCopy);
-        } else {
-          fallbackCopy();
-        }
+    function allBrands() {
+      var out = [];
+      (data.rounds || []).forEach(function (r) {
+        (r.brands || []).forEach(function (b) { out.push(b); });
       });
-    })();
+      return out;
+    }
+    function countSentIn(brands) {
+      var n = 0;
+      brands.forEach(function (b) { if (isSent(b.id)) n++; });
+      return n;
+    }
+    function updateCounter() {
+      var brands = currentDayId
+        ? ((data.rounds.find(function (r) { return r.id === currentDayId; }) || {}).brands || [])
+        : allBrands();
+      var sent = countSentIn(brands);
+      var total = brands.length;
+      if (currentDayId) {
+        barSub.textContent = sent + "/" + total + " enviadas neste dia";
+      } else {
+        barSub.textContent = sent + "/" + total + " enviadas";
+      }
+    }
+
+    function sortedRounds() {
+      return (data.rounds || []).slice().sort(function (a, b) {
+        return a.date < b.date ? 1 : a.date > b.date ? -1 : 0;
+      });
+    }
+
+    function showDays() {
+      currentDayId = null;
+      openBrandId = null;
+      elDays.classList.remove("hidden");
+      elBrands.classList.add("hidden");
+      btnBack.classList.add("hidden");
+      btnMenu.classList.remove("hidden");
+      barTitle.textContent = "Parcerias da semana — TESTE";
+      elDays.innerHTML = "";
+      var rounds = sortedRounds();
+      if (!rounds.length) {
+        elDays.innerHTML = '<p class="empty">Nenhuma rodada ainda.</p>';
+        updateCounter();
+        return;
+      }
+      rounds.forEach(function (r) {
+        var brands = r.brands || [];
+        var sent = countSentIn(brands);
+        var btn = document.createElement("button");
+        btn.type = "button";
+        btn.className = "day-card";
+        btn.innerHTML =
+          '<div class="day-meta"><p class="day-title">' + escapeHtml(dayLabel(r.date)) + '</p>' +
+          '<p class="day-count">' + brands.length + " marca" + (brands.length === 1 ? "" : "s") +
+          " · " + sent + " enviada" + (sent === 1 ? "" : "s") + "</p></div>" +
+          '<span class="chev">›</span>';
+        btn.addEventListener("click", function () { openDay(r.id); });
+        elDays.appendChild(btn);
+      });
+      updateCounter();
+      renderDrawer();
+    }
+
+    function openDay(dayId, brandIdToOpen) {
+      var round = data.rounds.find(function (r) { return r.id === dayId; });
+      if (!round) return;
+      currentDayId = dayId;
+      elDays.classList.add("hidden");
+      elBrands.classList.remove("hidden");
+      btnBack.classList.remove("hidden");
+      barTitle.textContent = dayLabel(round.date);
+      renderBrands(round, brandIdToOpen);
+      updateCounter();
+      closeDrawer();
+    }
+
+    function sortBrands(brands) {
+      return brands.slice().sort(function (a, b) {
+        var sa = isSent(a.id) ? 1 : 0;
+        var sb = isSent(b.id) ? 1 : 0;
+        if (sa !== sb) return sa - sb;
+        return 0;
+      });
+    }
+
+    function renderBrands(round, brandIdToOpen) {
+      elBrands.innerHTML = "";
+      var brands = sortBrands(round.brands || []);
+      if (brandIdToOpen) openBrandId = brandIdToOpen;
+      brands.forEach(function (b) {
+        var row = document.createElement("article");
+        row.className = "brand-row" + (isSent(b.id) ? " sent-row" : "") + (openBrandId === b.id ? " open" : "");
+        row.dataset.id = b.id;
+
+        var head = document.createElement("button");
+        head.type = "button";
+        head.className = "brand-head";
+        head.setAttribute("aria-expanded", openBrandId === b.id ? "true" : "false");
+        head.innerHTML =
+          '<span class="status-dot' + (isSent(b.id) ? " sent" : "") + '"></span>' +
+          '<div class="brand-head-text"><p class="brand-name">' + escapeHtml(b.name) +
+          (b.example ? ' <span class="example-chip">EXEMPLO</span>' : "") + "</p>" +
+          '<span class="niche-tag">' + escapeHtml(b.niche || "") + "</span></div>" +
+          '<span class="chev">▾</span>';
+        head.addEventListener("click", function () {
+          if (openBrandId === b.id) {
+            openBrandId = null;
+          } else {
+            openBrandId = b.id;
+          }
+          renderBrands(round);
+          if (openBrandId === b.id) {
+            var el = elBrands.querySelector('[data-id="' + CSS.escape(b.id) + '"]');
+            if (el) setTimeout(function () { el.scrollIntoView({ behavior: "smooth", block: "start" }); }, 40);
+          }
+        });
+
+        var body = document.createElement("div");
+        body.className = "brand-body";
+        var reasons = (b.reasons || []).map(function (r) { return "<li>" + escapeHtml(r) + "</li>"; }).join("");
+        body.innerHTML =
+          "<ul class=\"reasons\">" + reasons + "</ul>" +
+          '<div class="dm-box">' +
+            '<div class="dm-label">Mensagem (DM)</div>' +
+            '<button type="button" class="dm-preview" id="dm-' + escapeAttr(b.id) + '">' + escapeHtml(b.dm) + "</button>" +
+            '<button type="button" class="dm-toggle" data-dm="' + escapeAttr(b.id) + '">Ver mensagem</button>' +
+          "</div>" +
+          '<p class="handle-line">Instagram: <strong>@' + escapeHtml(b.handle) + "</strong>" +
+          (b.followersNote ? " · " + escapeHtml(b.followersNote) : "") + "</p>" +
+          '<div class="actions">' +
+            '<button type="button" class="btn btn-copy" data-copy="' + escapeAttr(b.id) + '">Copiar mensagem</button>' +
+            '<a class="btn btn-ig" href="' + escapeAttr(b.instagramUrl) + '" target="_blank" rel="noopener noreferrer">Abrir Instagram · @' + escapeHtml(b.handle) + "</a>" +
+            '<button type="button" class="btn btn-toggle' + (isSent(b.id) ? " on" : "") + '" data-toggle="' + escapeAttr(b.id) + '">' +
+              (isSent(b.id) ? "✓ Enviada (desmarcar)" : "Marcar como enviada") +
+            "</button>" +
+          "</div>" +
+          '<p class="copy-hint">Copie, abra o perfil, toque em Mensagem e cole</p>' +
+          '<div class="fallback" id="fb-' + escapeAttr(b.id) + '"><textarea readonly></textarea></div>';
+
+        row.appendChild(head);
+        row.appendChild(body);
+        elBrands.appendChild(row);
+      });
+
+      // wire interactions
+      elBrands.querySelectorAll(".dm-toggle").forEach(function (btn) {
+        btn.addEventListener("click", function () {
+          var id = btn.getAttribute("data-dm");
+          var prev = document.getElementById("dm-" + id);
+          var open = prev.classList.toggle("expanded");
+          btn.textContent = open ? "Ocultar mensagem" : "Ver mensagem";
+        });
+      });
+      elBrands.querySelectorAll(".dm-preview").forEach(function (btn) {
+        btn.addEventListener("click", function () {
+          btn.classList.toggle("expanded");
+          var id = btn.id.replace(/^dm-/, "");
+          var t = elBrands.querySelector('.dm-toggle[data-dm="' + CSS.escape(id) + '"]');
+          if (t) t.textContent = btn.classList.contains("expanded") ? "Ocultar mensagem" : "Ver mensagem";
+        });
+      });
+      elBrands.querySelectorAll("[data-copy]").forEach(function (btn) {
+        btn.addEventListener("click", function () {
+          var id = btn.getAttribute("data-copy");
+          var brand = (round.brands || []).find(function (x) { return x.id === id; });
+          if (!brand) return;
+          copyText(brand.dm, btn, id);
+        });
+      });
+      elBrands.querySelectorAll("[data-toggle]").forEach(function (btn) {
+        btn.addEventListener("click", function () {
+          var id = btn.getAttribute("data-toggle");
+          setSent(id, !isSent(id));
+          updateCounter();
+          renderBrands(round, openBrandId);
+          renderDrawer();
+        });
+      });
+    }
+
+    function copyText(text, btn, id) {
+      function ok() {
+        var old = btn.textContent;
+        btn.textContent = "Copiado!";
+        btn.classList.add("copied");
+        setTimeout(function () { btn.textContent = old; btn.classList.remove("copied"); }, 1800);
+      }
+      function fallback() {
+        var box = document.getElementById("fb-" + id);
+        if (!box) return;
+        box.style.display = "block";
+        var ta = box.querySelector("textarea");
+        ta.value = text;
+        ta.focus(); ta.select();
+        try { if (document.execCommand("copy")) ok(); } catch (e) {}
+      }
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(ok).catch(fallback);
+      } else fallback();
+    }
+
+    function renderDrawer() {
+      drawerContent.innerHTML = "";
+      sortedRounds().forEach(function (r) {
+        var sec = document.createElement("div");
+        sec.className = "drawer-section";
+        var dayBtn = document.createElement("button");
+        dayBtn.type = "button";
+        dayBtn.className = "drawer-day";
+        dayBtn.textContent = dayLabel(r.date) + " (" + (r.brands || []).length + ")";
+        dayBtn.addEventListener("click", function () { openDay(r.id); });
+        sec.appendChild(dayBtn);
+        (r.brands || []).forEach(function (b) {
+          var bb = document.createElement("button");
+          bb.type = "button";
+          bb.className = "drawer-brand";
+          bb.textContent = (isSent(b.id) ? "✓ " : "• ") + b.name + " @" + b.handle;
+          bb.addEventListener("click", function () { openDay(r.id, b.id); });
+          sec.appendChild(bb);
+        });
+        drawerContent.appendChild(sec);
+      });
+    }
+
+    function openDrawer() {
+      drawer.classList.add("open");
+      overlay.classList.add("open");
+      drawer.setAttribute("aria-hidden", "false");
+    }
+    function closeDrawer() {
+      drawer.classList.remove("open");
+      overlay.classList.remove("open");
+      drawer.setAttribute("aria-hidden", "true");
+    }
+
+    function escapeHtml(s) {
+      return String(s == null ? "" : s)
+        .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+    }
+    function escapeAttr(s) { return escapeHtml(s).replace(/'/g, "&#39;"); }
+
+    btnMenu.addEventListener("click", openDrawer);
+    overlay.addEventListener("click", closeDrawer);
+    btnBack.addEventListener("click", function () { showDays(); });
+
+    fetch("data.json?v=" + Date.now())
+      .then(function (r) {
+        if (!r.ok) throw new Error("data.json " + r.status);
+        return r.json();
+      })
+      .then(function (json) {
+        data = json;
+        showDays();
+      })
+      .catch(function (err) {
+        elDays.innerHTML = '<p class="empty">Erro ao carregar data.json<br>' + escapeHtml(String(err)) + "</p>";
+      });
+  })();
   </script>
 </body>
 </html>

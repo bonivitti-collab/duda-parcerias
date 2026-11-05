@@ -1,0 +1,58 @@
+{
+  "rounds": [
+    {
+      "id": "2026-11-05",
+      "date": "2026-11-05",
+      "brands": [
+        {
+          "id": "blumee",
+          "handle": "blumee",
+          "name": "Blumee",
+          "niche": "Baby care · natural",
+          "example": true,
+          "instagramUrl": "https://www.instagram.com/blumee/",
+          "source": "https://www.blumee.com.br/ (footer Instagram) · perfil verificado via Apify",
+          "followersNote": "~30,2 mil",
+          "reasons": [
+            "Dermocosméticos naturais para bebês — combina com a rotina da Duda + Ravi",
+            "Marca BR com programa aberto para criadoras de maternidade",
+            "Fácil de mostrar no banho, pele e ritual do sono"
+          ],
+          "dm": "Oi, time Blumee! 💛 Sou a Duda Vitti (@eduarda.vitti), mamãe do Ravi no RJ — moda, lifestyle e maternidade (~134,6 mil no Instagram verificado). Admiro o cuidado natural de vocês e queria propor uma parceria autêntica na nossa rotina. Cases: squad Montreal Hyundai e publi NINHO Fases 1+. Posso mandar ideias de Reels/stories?"
+        },
+        {
+          "id": "welpiebaby",
+          "handle": "welpiebaby",
+          "name": "Welpie Baby",
+          "niche": "Moda bebê",
+          "example": true,
+          "instagramUrl": "https://www.instagram.com/welpiebaby/",
+          "source": "https://welpie.com.br/pages/creators (Instagram @welpiebaby) · perfil verificado via Apify",
+          "followersNote": "~147,8 mil · verificado",
+          "reasons": [
+            "Roupas práticas de mãe pra mãe — fit perfeito com maternidade real",
+            "Programa de creators ativo (sem mínimo de seguidores)",
+            "Conteúdo natural de vestir o Ravi na rotina do dia a dia"
+          ],
+          "dm": "Oi, Welpie! 🤎 Sou a Duda (@eduarda.vitti) — moda, lifestyle e maternidade no RJ, mamãe do Ravi (~134,6 mil no Instagram). Amo a praticidade de vocês e queria conversar sobre parceria com conteúdo real no feed/stories/Reels. Cases: Montreal Hyundai e NINHO Fases 1+. Faz sentido?"
+        },
+        {
+          "id": "alieolibaby",
+          "handle": "alieolibaby",
+          "name": "Ali & Oli Baby",
+          "niche": "Essentials bebê",
+          "example": true,
+          "instagramUrl": "https://www.instagram.com/alieolibaby/",
+          "source": "https://www.alieolibaby.com.br/ (footer Instagram) · perfil via Apify",
+          "followersNote": "~9,2 mil",
+          "reasons": [
+            "Alimentação, dentição e essentials — útil na rotina com o Ravi",
+            "Tem Programa Creators/UGC aberto a criadoras",
+            "Produtos fáceis de mostrar em stories e Reels do dia a dia"
+          ],
+          "dm": "Oi, Ali & Oli! ✨ Sou a Duda Vitti (@eduarda.vitti), criadora de moda/lifestyle/maternidade no RJ, mamãe do Ravi (~134,6 mil no Instagram). Queria propor uma parceria leve e autêntica com os essentials de vocês na nossa rotina. Cases: squad Montreal Hyundai e NINHO Fases 1+. Posso mandar ideias?"
+        }
+      ]
+    }
+  ]
+}
