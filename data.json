@@ -1,7 +1,7 @@
 {
   "daily": {
     "date": "2026-11-05",
-    "seenVersion": "v3",
+    "seenVersion": "v4",
     "devotional": {
       "titulo": "Asas novas para o seu dia",
       "ref": "Isaías 40:31",
@@ -40,49 +40,64 @@
       "date": "2026-11-05",
       "brands": [
         {
-          "id": "hotelparadisodelsol",
-          "handle": "hotelparadisodelsol",
-          "name": "Hotel Paradiso Del Sol",
-          "niche": "Hotelaria · Cabo Frio",
-          "instagramUrl": "https://www.instagram.com/hotelparadisodelsol/",
-          "source": "Grupo Paradiso (Del Sol · Corporate · Peró) · Apify verified ~60 mil",
-          "followersNote": "~60 mil · verificado",
-          "reasons": [
-            "Rede Paradiso em Cabo Frio — a Duda já fez conteúdo e se hospedou",
-            "Hotelaria familiar com vista e lifestyle de viagem na Região dos Lagos",
-            "Ótimo para Reels de estadia, day use e rotina com o Ravi"
-          ],
-          "dm": "Oi, Paradiso Del Sol! 🌴 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Sou da Região dos Lagos e já vivi experiências lindas com a rede Paradiso. Queria conversar sobre novas parcerias de conteúdo (estadias/day use). Cases: squad Montreal Hyundai e publi NINHO Fases 1+. Posso mandar ideias?"
-        },
-        {
-          "id": "paradisoperopraiahotel",
-          "handle": "paradisoperopraiahotel",
-          "name": "Paradiso Peró Praia Hotel",
-          "niche": "Hotelaria praia · Cabo Frio",
-          "instagramUrl": "https://www.instagram.com/paradisoperopraiahotel/",
-          "source": "Grupo Paradiso · Apify ~3,2 mil",
-          "followersNote": "~3,2 mil",
-          "reasons": [
-            "Pé na areia no Peró — lifestyle de verão e família",
-            "Completa a rede Paradiso (3 hotéis) que a Duda já conhece",
-            "Conteúdo de praia, kids e descanso"
-          ],
-          "dm": "Oi, Paradiso Peró! 🏖️ Sou a Duda (@eduarda.vitti), mamãe do Ravi (~134,6 mil). Sou da Região dos Lagos e admiro o clima pé-na-areia de vocês. Queria parceria de conteúdo autêntico. Cases: Montreal Hyundai e NINHO Fases 1+. Faz sentido?"
-        },
-        {
           "id": "pousadabrasilnativo",
           "handle": "pousadabrasilnativo",
           "name": "Brasil Nativo Pousada",
           "niche": "Pousada · Cabo Frio",
           "instagramUrl": "https://www.instagram.com/pousadabrasilnativo/",
-          "source": "Apify · perto Praia do Forte",
+          "source": "Apify · Praia do Forte ~3 mil",
           "followersNote": "~3 mil",
           "reasons": [
-            "Pousada perto da Praia do Forte — hospitalidade local",
-            "Encaixa no histórico de parcerias com hospedagem na região",
-            "Conteúdo aconchegante de viagem em família"
+            "Pousada local perto da Praia do Forte",
+            "Hospitalidade familiar na Lagos",
+            "Conteúdo leve de estadia com o Ravi"
           ],
-          "dm": "Oi, Brasil Nativo! 🌿 Sou a Duda Vitti (@eduarda.vitti) — lifestyle e maternidade (~134,6 mil). Sou da Região dos Lagos e queria propor uma parceria carinhosa de pousada/rotina. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar ideias?"
+          "dm": "Oi, Brasil Nativo! 🌿 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Sou da Região dos Lagos e queria parceria carinhosa de pousada/rotina. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar ideias?"
+        },
+        {
+          "id": "pousadadoluarcf",
+          "handle": "pousadadoluarcf",
+          "name": "Pousada do Luar",
+          "niche": "Pousada · Cabo Frio",
+          "instagramUrl": "https://www.instagram.com/pousadadoluarcf/",
+          "source": "Apify ~8 mil · Praia do Forte",
+          "followersNote": "~8 mil",
+          "reasons": [
+            "Pousada na Praia do Forte",
+            "Tamanho ideal para DM de influenciadora local",
+            "Lifestyle de verão em família"
+          ],
+          "dm": "Oi, Pousada do Luar! 🌙 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Sou da Região dos Lagos. Admiro a vibe de vocês na Praia do Forte e queria parceria de conteúdo. Cases: Montreal Hyundai e NINHO Fases 1+. Faz sentido?"
+        },
+        {
+          "id": "pousadamariliacabofrio",
+          "handle": "pousadamariliacabofrio",
+          "name": "Pousada Marília",
+          "niche": "Pousada · Cabo Frio",
+          "instagramUrl": "https://www.instagram.com/pousadamariliacabofrio/",
+          "source": "Apify ~22 mil · canal/deck",
+          "followersNote": "~22 mil",
+          "reasons": [
+            "Vista do canal e deck — conteúdo visual forte",
+            "Pousada local que responde networking",
+            "Estadia + lifestyle Lagos"
+          ],
+          "dm": "Oi, Pousada Marília! ⚓ Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Sou da Região dos Lagos e queria propor parceria de conteúdo autêntico. Cases: Montreal Hyundai e NINHO Fases 1+. Podemos falar?"
+        },
+        {
+          "id": "mariamariapousada",
+          "handle": "mariamariapousada",
+          "name": "Pousada Maria Maria",
+          "niche": "Pousada · Búzios",
+          "instagramUrl": "https://www.instagram.com/mariamariapousada/",
+          "source": "Apify ~8,4 mil · Ferradura",
+          "followersNote": "~8,4 mil",
+          "reasons": [
+            "Pousada na Ferradura — Búzios local",
+            "Pé perto da praia, vibe boutique menor",
+            "Ótimo para Reels de fim de semana"
+          ],
+          "dm": "Oi, Maria Maria! 🏖️ Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Sou da Região dos Lagos. Queria parceria leve de pousada em Búzios. Cases: Montreal Hyundai e NINHO Fases 1+. Topam?"
         },
         {
           "id": "spin_educacional",
@@ -90,17 +105,17 @@
           "name": "Spin Educacional",
           "niche": "Escola · Unamar/Cabo Frio",
           "instagramUrl": "https://www.instagram.com/spin_educacional/",
-          "source": "Spin Educacional (Unamar + Rio das Ostras) · Apify ~8,3 mil",
+          "source": "Apify ~8,3 mil",
           "followersNote": "~8,3 mil",
           "reasons": [
-            "Escola da região (infantil ao médio) — alinhada à fase do Ravi (~3 anos)",
-            "Networking local forte e clube de vantagens",
-            "Conteúdo de rotina escolar, família e comunidade"
+            "Escola local (infantil ao médio) — fase do Ravi (~3 anos)",
+            "Networking forte na comunidade",
+            "Conteúdo de rotina escolar/família"
           ],
-          "dm": "Oi, Spin Educacional! 📚 Sou a Duda (@eduarda.vitti), mamãe do Ravi (~134,6 mil). Sou da Região dos Lagos e valorizo educação com carinho e performance. Queria conversar sobre parceria/conteúdo com famílias. Cases: Montreal Hyundai e NINHO Fases 1+. Podemos falar?"
+          "dm": "Oi, Spin Educacional! 📚 Sou a Duda (@eduarda.vitti), mamãe do Ravi (~134,6 mil). Sou da Região dos Lagos e valorizo educação com carinho. Queria conversar sobre parceria/conteúdo com famílias. Cases: Montreal Hyundai e NINHO Fases 1+."
         },
         {
-          "id": "ultra.academias_cabofrio",
+          "id": "ultra_academias_cabofrio",
           "handle": "ultra.academias_cabofrio",
           "name": "Ultra Academia Cabo Frio",
           "niche": "Academia · Cabo Frio",
@@ -108,11 +123,11 @@
           "source": "Apify ~15 mil",
           "followersNote": "~15 mil",
           "reasons": [
-            "Academia local com musculação, cardio e aulas coletivas",
-            "Lifestyle fitness no nível da Duda (rotina, shape, bem-estar)",
-            "Fácil gravar treinos e rotina presencial"
+            "Academia local com musculação e aulas",
+            "Fit lifestyle presencial fácil",
+            "Negócio que precisa de alunos na região"
           ],
-          "dm": "Oi, Ultra Academia! 💪 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Sou da Região dos Lagos e queria parceria de conteúdo fitness/rotina. Cases: Montreal Hyundai e NINHO Fases 1+. Topam?"
+          "dm": "Oi, Ultra Academia! 💪 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Sou da Região dos Lagos e queria parceria de treino/rotina. Cases: Montreal Hyundai e NINHO Fases 1+. Topam?"
         },
         {
           "id": "imperiofitcabofrio",
@@ -120,74 +135,29 @@
           "name": "Império Fit Cabo Frio",
           "niche": "Academia · Cabo Frio",
           "instagramUrl": "https://www.instagram.com/imperiofitcabofrio/",
-          "source": "3 unidades Cabo Frio · Apify ~8,3 mil",
+          "source": "Apify ~8,3 mil · 3 unidades",
           "followersNote": "~8,3 mil",
           "reasons": [
-            "Rede local de academias (várias unidades, um plano)",
-            "Fit lifestyle + maternidade ativa",
+            "Rede local com várias unidades",
+            "Fit + maternidade ativa",
             "Parceria presencial fácil"
           ],
-          "dm": "Oi, Império Fit! 🏋️‍♀️ Sou a Duda (@eduarda.vitti), mamãe do Ravi (~134,6 mil). Sou da Região dos Lagos e adoraria parceria de treino/rotina. Cases: Montreal Hyundai e NINHO Fases 1+. Faz sentido?"
+          "dm": "Oi, Império Fit! 🏋️‍♀️ Sou a Duda (@eduarda.vitti), mamãe do Ravi (~134,6 mil). Sou da Região dos Lagos e adoraria parceria de treino. Cases: Montreal Hyundai e NINHO Fases 1+. Faz sentido?"
         },
         {
-          "id": "montrealhyundai",
-          "handle": "montrealhyundai",
-          "name": "Hyundai Montreal",
-          "niche": "Auto · Lagos/Norte Fluminense",
-          "instagramUrl": "https://www.instagram.com/montrealhyundai/",
-          "source": "Já é squad da Duda · SPA/Macaé/Friburgo · Apify ~3,9 mil",
-          "followersNote": "~3,9 mil",
+          "id": "academiamonalizapinheiros1",
+          "handle": "academiamonalizapinheiros1",
+          "name": "Academia Monaliza Pinheiros",
+          "niche": "Academia · Unamar",
+          "instagramUrl": "https://www.instagram.com/academiamonalizapinheiros1/",
+          "source": "Apify ~11 mil",
+          "followersNote": "~11 mil",
           "reasons": [
-            "Concessionária Hyundai da região — a Duda já é squad",
-            "Mobilidade + lifestyle (i20 e rotina real)",
-            "Conteúdo de carro na vida da família"
+            "Academia completa em Unamar",
+            "Serviços locais (treino, pilates, estética)",
+            "Público da comunidade onde a Duda vive"
           ],
-          "dm": "Oi, time Montreal! 🚗 Sou a Duda Vitti (@eduarda.vitti). Obrigada por caminharem comigo no squad — queria alinhar próximas ideias de conteúdo com o Hyundai na nossa rotina (eu + Ravi + Região dos Lagos). Posso mandar um roteiro fresco?"
-        },
-        {
-          "id": "grupoautomotive",
-          "handle": "grupoautomotive",
-          "name": "Grupo Automotive",
-          "niche": "Auto · Região dos Lagos",
-          "instagramUrl": "https://www.instagram.com/grupoautomotive/",
-          "source": "Maior grupo automotivo Lagos/Norte · Apify ~8,6 mil",
-          "followersNote": "~8,6 mil",
-          "reasons": [
-            "Grupo automotivo da Região dos Lagos (inclui Montreal)",
-            "A Duda já falou de Automotive/seminovos no feed",
-            "Conteúdo de carro, família e liberdade"
-          ],
-          "dm": "Oi, Grupo Automotive! 🔑 Sou a Duda (@eduarda.vitti) — lifestyle e maternidade (~134,6 mil). Sou da Região dos Lagos e adoro mostrar o carro na rotina real. Queria parceria de conteúdo. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar ideias?"
-        },
-        {
-          "id": "parklagos",
-          "handle": "parklagos",
-          "name": "Shopping Park Lagos",
-          "niche": "Shopping · Cabo Frio",
-          "instagramUrl": "https://www.instagram.com/parklagos/",
-          "source": "Apify ~124 mil",
-          "followersNote": "~124 mil",
-          "reasons": [
-            "Shopping âncora de Cabo Frio — lifestyle e networking local",
-            "Looks, passeios em família e lojas",
-            "Conteúdo de rolê e vitrine"
-          ],
-          "dm": "Oi, Park Lagos! 🛍️ Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Sou da Região dos Lagos e o Park faz parte da nossa rotina. Queria parceria de conteúdo. Cases: Montreal Hyundai e NINHO Fases 1+. Podemos conversar?"
-        },
-        {
-          "id": "lojasleader",
-          "handle": "lojasleader",
-          "name": "Lojas Leader",
-          "niche": "Varejo família · RJ/Lagos",
-          "instagramUrl": "https://www.instagram.com/lojasleader/",
-          "source": "Apify verified ~712 mil",
-          "followersNote": "~712 mil · verificado",
-          "reasons": [
-            "Varejo completo para a família — nível de loja grande",
-            "Encaixa moda + casa + kids sem ser só bebê",
-            "Presença forte no RJ"
-          ],
-          "dm": "Oi, Leader! ✨ Sou a Duda (@eduarda.vitti), mamãe do Ravi (~134,6 mil). Sou da Região dos Lagos e queria parceria de lifestyle/família. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar ideias?"
+          "dm": "Oi, Monaliza Pinheiros! 💪 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Sou da Região dos Lagos (Unamar) e queria parceria de conteúdo fitness/rotina. Cases: Montreal Hyundai e NINHO Fases 1+. Podemos conversar?"
         },
         {
           "id": "algodaodocecf",
@@ -198,11 +168,11 @@
           "source": "Apify ~13,7 mil · Centro CF",
           "followersNote": "~13,7 mil",
           "reasons": [
-            "Moda gestante ao teen — cabe a fase dos 3 anos do Ravi",
-            "Loja tradicional da Região dos Lagos",
-            "Fatia maternidade/kids no mix (não o centro)"
+            "Loja tradicional gestante ao teen",
+            "Fase dos 3 anos do Ravi",
+            "Comércio local que vende presencial"
           ],
-          "dm": "Oi, Algodão Doce! 💛 Sou a Duda Vitti (@eduarda.vitti), mamãe do Ravi (~134,6 mil). Sou da Região dos Lagos e queria parceria leve de looks kids/família. Cases: Montreal Hyundai e NINHO Fases 1+. Faz sentido?"
+          "dm": "Oi, Algodão Doce! 💛 Sou a Duda (@eduarda.vitti), mamãe do Ravi (~134,6 mil). Sou da Região dos Lagos e queria parceria leve de looks kids/família. Cases: Montreal Hyundai e NINHO Fases 1+."
         },
         {
           "id": "nanakidscf",
@@ -213,11 +183,11 @@
           "source": "Apify ~9,2 mil",
           "followersNote": "~9,2 mil",
           "reasons": [
-            "Foco em meninos 2–14 — perfeito para o Ravi de ~3 anos",
+            "Foco em meninos 2–14 — perfeito pro Ravi",
             "Marca local ativa",
-            "Looks do dia a dia, não só enxoval de bebê"
+            "Looks do dia a dia"
           ],
-          "dm": "Oi, Nana Kids! 💙 Sou a Duda (@eduarda.vitti), mamãe do Ravi de 3 aninhos (~134,6 mil). Sou da Região dos Lagos e amei o estilo de vocês. Queria parceria. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar ideias?"
+          "dm": "Oi, Nana Kids! 💙 Sou a Duda (@eduarda.vitti), mamãe do Ravi de 3 aninhos (~134,6 mil). Amei o estilo de vocês. Queria parceria. Cases: Montreal Hyundai e NINHO Fases 1+."
         },
         {
           "id": "shopkilobaby",
@@ -225,14 +195,59 @@
           "name": "Doce Rota (Kilobaby)",
           "niche": "Moda infantil · Cabo Frio",
           "instagramUrl": "https://www.instagram.com/shopkilobaby/",
-          "source": "Apify verified · CF",
+          "source": "Apify verified ~5,9 mil",
           "followersNote": "~5,9 mil · verificado",
           "reasons": [
-            "Moda infantil com loja física em Cabo Frio",
-            "Perfil verificado",
-            "Completa a fatia kids sem dominar a lista"
+            "Loja física + online em Cabo Frio",
+            "Perfil verificado local",
+            "Fatia kids sem dominar"
           ],
-          "dm": "Oi, Kilobaby! 🧸 Sou a Duda Vitti (@eduarda.vitti), mamãe do Ravi (~134,6 mil). Sou da Região dos Lagos e queria parceria de looks infantis. Cases: Montreal Hyundai e NINHO Fases 1+. Topam?"
+          "dm": "Oi, Kilobaby! 🧸 Sou a Duda (@eduarda.vitti), mamãe do Ravi (~134,6 mil). Queria parceria de looks infantis. Cases: Montreal Hyundai e NINHO Fases 1+. Topam?"
+        },
+        {
+          "id": "pequenaboutikids",
+          "handle": "pequenaboutikids",
+          "name": "Pequena Boutikids",
+          "niche": "Moda infantil · Unamar",
+          "instagramUrl": "https://www.instagram.com/pequenaboutikids/",
+          "source": "Apify ~20 mil",
+          "followersNote": "~20 mil",
+          "reasons": [
+            "Loja kids em Unamar — perto da Duda",
+            "Envia e vende local",
+            "Looks blogueirinha / rotina"
+          ],
+          "dm": "Oi, Pequena Boutikids! 🩷 Sou a Duda (@eduarda.vitti), mamãe do Ravi (~134,6 mil) em Unamar. Queria parceria de looks kids. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar ideias?"
+        },
+        {
+          "id": "bambolekidsmoda",
+          "handle": "bambolekidsmoda",
+          "name": "Bambolê Kids",
+          "niche": "Moda infantil · Arraial do Cabo",
+          "instagramUrl": "https://www.instagram.com/bambolekidsmoda/",
+          "source": "Apify ~1 mil",
+          "followersNote": "~1 mil",
+          "reasons": [
+            "Lojinha kids em Arraial",
+            "Comércio pequeno que responde DM",
+            "Completa a fatia Lagos"
+          ],
+          "dm": "Oi, Bambolê Kids! 🎈 Sou a Duda (@eduarda.vitti) (~134,6 mil), da Região dos Lagos. Queria parceria carinhosa de moda infantil. Cases: Montreal Hyundai e NINHO Fases 1+."
+        },
+        {
+          "id": "mundo_dacriancaspa",
+          "handle": "mundo.dacriancaspa",
+          "name": "Mundo da Criança",
+          "niche": "Boutique kids · São Pedro da Aldeia",
+          "instagramUrl": "https://www.instagram.com/mundo.dacriancaspa/",
+          "source": "Apify · SPA",
+          "followersNote": "~205",
+          "reasons": [
+            "Boutique bebê/infantil em SPA",
+            "Comércio local da Lagos",
+            "Looks e calçados kids"
+          ],
+          "dm": "Oi, Mundo da Criança! 👗 Sou a Duda (@eduarda.vitti), mamãe do Ravi (~134,6 mil). Sou da Região dos Lagos e queria parceria. Cases: Montreal Hyundai e NINHO Fases 1+."
         },
         {
           "id": "armarinhodantas",
@@ -243,116 +258,86 @@
           "source": "Apify ~10,7 mil · entrega Lagos",
           "followersNote": "~10,7 mil",
           "reasons": [
-            "Beleza e estética com entrega na Região dos Lagos",
-            "Lifestyle de autocuidado da Duda",
-            "Parceria local e presencial"
+            "Cosméticos com entrega na Lagos",
+            "Autocuidado local",
+            "Parceria presencial fácil"
           ],
-          "dm": "Oi, Dantas! ✨ Sou a Duda (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Sou da Região dos Lagos e queria parceria de beleza/autocuidado. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar ideias?"
+          "dm": "Oi, Dantas! ✨ Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Sou da Região dos Lagos e queria parceria de beleza/autocuidado. Cases: Montreal Hyundai e NINHO Fases 1+."
         },
         {
-          "id": "farmrio",
-          "handle": "farmrio",
-          "name": "FARM Rio",
-          "niche": "Moda lifestyle · Rio",
-          "instagramUrl": "https://www.instagram.com/farmrio/",
-          "source": "Apify verified ~1,9 mi",
-          "followersNote": "~1,9 mi · verificado",
+          "id": "wernercoiffeurbuzios",
+          "handle": "wernercoiffeurbuzios",
+          "name": "Werner Coiffeur Búzios",
+          "niche": "Salão · Búzios",
+          "instagramUrl": "https://www.instagram.com/wernercoiffeurbuzios/",
+          "source": "Apify ~5,3 mil",
+          "followersNote": "~5,3 mil",
           "reasons": [
-            "Moda carioca alegre — nível fashion da Duda",
-            "Lifestyle/vestir felicidade",
-            "Conteúdo de looks no Rio e na Lagos"
+            "Salão tradicional em Búzios",
+            "Beleza/lifestyle local",
+            "Conteúdo de dia de salão"
           ],
-          "dm": "Oi, FARM! 💛 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Sou da Região dos Lagos e costumo ir ao Rio. Queria parceria de looks autênticos. Cases: Montreal Hyundai e NINHO Fases 1+. Podemos falar?"
+          "dm": "Oi, Werner Coiffeur! 💇 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Sou da Região dos Lagos. Queria parceria de conteúdo de beleza em Búzios. Cases: Montreal Hyundai e NINHO Fases 1+. Faz sentido?"
         },
         {
-          "id": "animalebrasil",
-          "handle": "animalebrasil",
-          "name": "Animale",
-          "niche": "Moda contemporânea · Rio",
-          "instagramUrl": "https://www.instagram.com/animalebrasil/",
-          "source": "Apify verified ~1,5 mi",
-          "followersNote": "~1,5 mi · verificado",
+          "id": "brilho_de_mar",
+          "handle": "brilho_de_mar",
+          "name": "Brilho de Mar",
+          "niche": "Moda feminina · Cabo Frio",
+          "instagramUrl": "https://www.instagram.com/brilho_de_mar/",
+          "source": "Apify ~6,2 mil · Centro CF",
+          "followersNote": "~6,2 mil",
           "reasons": [
-            "Moda contemporânea no nível dela",
-            "Lifestyle sofisticado sem ser maternidade",
-            "Looks para feed e Reels"
+            "Lojinha de moda no centro de Cabo Frio",
+            "Looks delicados pro feed",
+            "Comércio local que precisa vender"
           ],
-          "dm": "Oi, Animale! ✨ Sou a Duda (@eduarda.vitti) — moda e lifestyle (~134,6 mil). Sou da Região dos Lagos e admiro a estética de vocês. Queria parceria. Cases: Montreal Hyundai e NINHO Fases 1+. Faz sentido?"
+          "dm": "Oi, Brilho de Mar! ✨ Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Sou da Região dos Lagos e adorei as peças de vocês. Queria parceria de looks. Cases: Montreal Hyundai e NINHO Fases 1+."
         },
         {
-          "id": "quemdisseberenice",
-          "handle": "quemdisseberenice",
-          "name": "Quem Disse, Berenice?",
-          "niche": "Beleza/make · Brasil (RJ forte)",
-          "instagramUrl": "https://www.instagram.com/quemdisseberenice/",
-          "source": "Apify verified ~3 mi",
-          "followersNote": "~3 mi · verificado",
+          "id": "modaospan",
+          "handle": "modaospan",
+          "name": "OSPAN",
+          "niche": "Moda plus · Cabo Frio/Araruama",
+          "instagramUrl": "https://www.instagram.com/modaospan/",
+          "source": "Apify ~4,8 mil",
+          "followersNote": "~4,8 mil",
           "reasons": [
-            "Make e beleza no tom leve da Duda",
-            "Marca grande no nível dela",
-            "Conteúdo de autocuidado e lifestyle"
+            "Loja plus size local (CF e Araruama)",
+            "Moda inclusiva na Lagos",
+            "Bom para DM e visita"
           ],
-          "dm": "Oi, Berenice! 🩷 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Queria parceria de beleza/make na rotina real. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar ideias?"
+          "dm": "Oi, OSPAN! 🛍️ Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Sou da Região dos Lagos. Queria parceria de moda/lifestyle. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar ideias?"
         },
         {
-          "id": "oboticario",
-          "handle": "oboticario",
-          "name": "O Boticário",
-          "niche": "Beleza · Brasil",
-          "instagramUrl": "https://www.instagram.com/oboticario/",
-          "source": "Apify verified ~13,5 mi",
-          "followersNote": "~13,5 mi · verificado",
+          "id": "yazilook_",
+          "handle": "yazilook_",
+          "name": "Yazi Moda Feminina",
+          "niche": "Moda feminina · Cabo Frio",
+          "instagramUrl": "https://www.instagram.com/yazilook_/",
+          "source": "Apify ~751 · delivery Lagos",
+          "followersNote": "~751",
           "reasons": [
-            "Beleza grande e amada — nível Havan/Hyundai dela",
-            "Perfumaria e skincare no dia a dia",
-            "Lojas fáceis na região e no Rio"
+            "Boutique local com delivery na Lagos",
+            "Looks do dia a dia",
+            "Lojinha que responde influenciadora"
           ],
-          "dm": "Oi, O Boticário! 💚 Sou a Duda (@eduarda.vitti), mamãe do Ravi (~134,6 mil). Sou da Região dos Lagos e queria parceria carinhosa de beleza. Cases: Montreal Hyundai e NINHO Fases 1+. Topam conversar?"
+          "dm": "Oi, Yazi! 👗 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Sou da Região dos Lagos e queria parceria leve de looks. Cases: Montreal Hyundai e NINHO Fases 1+. Topam?"
         },
         {
-          "id": "naturabroficial",
-          "handle": "naturabroficial",
-          "name": "Natura",
-          "niche": "Beleza e bem-estar · Brasil",
-          "instagramUrl": "https://www.instagram.com/naturabroficial/",
-          "source": "Apify verified ~6,4 mi",
-          "followersNote": "~6,4 mi · verificado",
+          "id": "studioalao",
+          "handle": "studioalao",
+          "name": "Studio Alão",
+          "niche": "Salão / beleza · Cabo Frio",
+          "instagramUrl": "https://www.instagram.com/studioalao/",
+          "source": "Apify · Jardim Esperança",
+          "followersNote": "~189",
           "reasons": [
-            "Bem-estar e beleza com propósito",
-            "Encaixa lifestyle + maternidade consciente",
-            "Marca grande no patamar dela"
+            "Salão local com cantinho kids",
+            "Cachos, cílios, lábios",
+            "Serviço local de autocuidado"
           ],
-          "dm": "Oi, Natura! 🌱 Sou a Duda Vitti (@eduarda.vitti) — lifestyle e maternidade (~134,6 mil). Queria parceria de bem-estar na rotina com o Ravi. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar ideias?"
-        },
-        {
-          "id": "bondrio.br",
-          "handle": "bondrio.br",
-          "name": "Bond",
-          "niche": "Skincare · Rio",
-          "instagramUrl": "https://www.instagram.com/bondrio.br/",
-          "source": "Sede RJ · Apify ~8,3 mil",
-          "followersNote": "~8,3 mil",
-          "reasons": [
-            "Skincare carioca clean beauty",
-            "Beleza local do Rio",
-            "Rotina de pele leve"
-          ],
-          "dm": "Oi, Bond! 🧴 Sou a Duda (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Sou da Região dos Lagos e admiro o skincare de vocês. Queria parceria. Cases: Montreal Hyundai e NINHO Fases 1+. Faz sentido?"
-        },
-        {
-          "id": "vivelavu",
-          "handle": "vivelavu",
-          "name": "Vivelavu",
-          "niche": "Cuidado feminino · Ipanema",
-          "instagramUrl": "https://www.instagram.com/vivelavu/",
-          "source": "Garcia d’Ávila · Apify ~21 mil",
-          "followersNote": "~21 mil",
-          "reasons": [
-            "Cuidado feminino natural em Ipanema",
-            "Lifestyle e autocuidado",
-            "Visita fácil quando estiver no Rio"
-          ],
-          "dm": "Oi, Vivelavu! 🌿 Sou a Duda Vitti (@eduarda.vitti) (~134,6 mil). Sou da Região dos Lagos e quando estou no Rio adoraria parceria de autocuidado. Cases: Montreal Hyundai e NINHO Fases 1+. Podemos falar?"
+          "dm": "Oi, Studio Alão! 🪷 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Sou da Região dos Lagos. Queria parceria de beleza/autocuidado. Cases: Montreal Hyundai e NINHO Fases 1+."
         },
         {
           "id": "babiesrio_",
@@ -360,14 +345,14 @@
           "name": "Babies Rio",
           "niche": "Enxoval/kids · Rio",
           "instagramUrl": "https://www.instagram.com/babiesrio_/",
-          "source": "Barra + Ipanema · Apify ~11 mil",
-          "followersNote": "~11,1 mil",
+          "source": "Apify · Barra + Ipanema ~11 mil",
+          "followersNote": "~11 mil",
           "reasons": [
-            "Fatia maternidade/kids clássica no Rio",
-            "Lojas na capital",
-            "Não é o centro da lista — complementa"
+            "Lojas kids na capital",
+            "Fatia maternidade/kids no Rio",
+            "Visita quando for ao Rio"
           ],
-          "dm": "Oi, Babies! ✨ Sou a Duda (@eduarda.vitti), mamãe do Ravi (~134,6 mil). Sou da Região dos Lagos e vou ao Rio — queria parceria leve de kids/enxoval. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar ideias?"
+          "dm": "Oi, Babies! ✨ Sou a Duda (@eduarda.vitti), mamãe do Ravi (~134,6 mil). Sou da Lagos e vou ao Rio — queria parceria leve. Cases: Montreal Hyundai e NINHO Fases 1+."
         },
         {
           "id": "casadagestante",
@@ -375,119 +360,134 @@
           "name": "Casa da Gestante",
           "niche": "Moda gestante · Rio",
           "instagramUrl": "https://www.instagram.com/casadagestante/",
-          "source": "Barra + Tijuca · Apify ~10,6 mil",
+          "source": "Apify · Barra + Tijuca ~10,6 mil",
           "followersNote": "~10,6 mil",
           "reasons": [
-            "Fatia maternidade (gestante) no mix",
-            "Lojas na capital",
+            "Lojas gestante na capital",
+            "Fatia maternidade no mix",
             "Looks e rotina"
           ],
-          "dm": "Oi, Casa da Gestante! 🤰 Sou a Duda Vitti (@eduarda.vitti) (~134,6 mil). Sou da Região dos Lagos e costumo ir ao Rio. Queria parceria carinhosa. Cases: Montreal Hyundai e NINHO Fases 1+. Topam?"
+          "dm": "Oi, Casa da Gestante! 🤰 Sou a Duda (@eduarda.vitti) (~134,6 mil). Costumo ir ao Rio e queria parceria carinhosa. Cases: Montreal Hyundai e NINHO Fases 1+."
         },
         {
-          "id": "nestleninho",
-          "handle": "nestleninho",
-          "name": "Ninho (Nestlé)",
-          "niche": "Nutrição infantil · Brasil",
-          "instagramUrl": "https://www.instagram.com/nestleninho/",
-          "source": "Apify verified · já tem publi NINHO Fases 1+ com a Duda",
-          "followersNote": "~276 mil · verificado",
+          "id": "bondrio_br",
+          "handle": "bondrio.br",
+          "name": "Bond",
+          "niche": "Skincare · Rio",
+          "instagramUrl": "https://www.instagram.com/bondrio.br/",
+          "source": "Apify · sede RJ ~8,3 mil",
+          "followersNote": "~8,3 mil",
           "reasons": [
-            "Marca grande no nível dela — já fez publi NINHO Fases 1+",
-            "Nutrição na fase 1–3/escolar do Ravi",
-            "Conteúdo de café da manhã e rotina real"
+            "Skincare carioca clean beauty",
+            "Marca local do Rio (não gigante)",
+            "Rotina de pele leve"
           ],
-          "dm": "Oi, time Ninho! 💛 Sou a Duda (@eduarda.vitti). Adorei caminhar com NINHO Fases 1+ na nossa rotina com o Ravi — queria alinhar próximas ideias de conteúdo autêntico. Posso mandar um roteiro?"
+          "dm": "Oi, Bond! 🧴 Sou a Duda (@eduarda.vitti) (~134,6 mil). Admiro o skincare de vocês e queria parceria. Cases: Montreal Hyundai e NINHO Fases 1+."
         },
         {
-          "id": "havanoficial",
-          "handle": "havanoficial",
-          "name": "Havan",
-          "niche": "Varejo · Brasil",
-          "instagramUrl": "https://www.instagram.com/havanoficial/",
-          "source": "Apify verified · marca grande estilo Hyundai",
-          "followersNote": "~11,5 mi · verificado",
+          "id": "vivelavu",
+          "handle": "vivelavu",
+          "name": "Vivelavu",
+          "niche": "Cuidado feminino · Ipanema",
+          "instagramUrl": "https://www.instagram.com/vivelavu/",
+          "source": "Apify ~21 mil · Garcia d’Ávila",
+          "followersNote": "~21 mil",
           "reasons": [
-            "Varejo colossal no patamar que a Duda já atrai",
-            "Casa, moda e família num só lugar",
-            "Conteúdo de compras e lifestyle"
+            "Cuidado íntimo/natural em Ipanema",
+            "Loja física visitável no Rio",
+            "Lifestyle e autocuidado"
           ],
-          "dm": "Oi, Havan! 💙 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Sou da Região dos Lagos e queria parceria de conteúdo família/casa. Cases: Montreal Hyundai e NINHO Fases 1+. Podemos conversar?"
+          "dm": "Oi, Vivelavu! 🌿 Sou a Duda (@eduarda.vitti) (~134,6 mil). Quando estou no Rio adoraria parceria de autocuidado. Cases: Montreal Hyundai e NINHO Fases 1+."
         },
         {
-          "id": "lojasrenner",
-          "handle": "lojasrenner",
-          "name": "Lojas Renner",
-          "niche": "Moda varejo · Brasil",
-          "instagramUrl": "https://www.instagram.com/lojasrenner/",
-          "source": "Apify verified ~9 mi",
-          "followersNote": "~9 mi · verificado",
+          "id": "_bellobambino",
+          "handle": "_bellobambino",
+          "name": "Bello Bambino",
+          "niche": "Moda infantil · Ipanema",
+          "instagramUrl": "https://www.instagram.com/_bellobambino/",
+          "source": "Apify ~2,6 mil · Diverso Ipanema",
+          "followersNote": "~2,6 mil",
           "reasons": [
-            "Moda de varejo grande — nível dela",
-            "Looks e campanhas de lifestyle",
-            "Fácil achar loja no RJ/SP"
+            "Moda kids com alma italiana no Rio",
+            "Disponível em Ipanema",
+            "Looks do Ravi"
           ],
-          "dm": "Oi, Renner! 🛍️ Sou a Duda (@eduarda.vitti) (~134,6 mil). Queria parceria de moda/lifestyle na rotina real (eu + Ravi). Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar ideias?"
+          "dm": "Oi, Bello Bambino! 🇮🇹 Sou a Duda (@eduarda.vitti), mamãe do Ravi (~134,6 mil). Queria parceria de moda infantil. Cases: Montreal Hyundai e NINHO Fases 1+."
         },
         {
-          "id": "eudora",
-          "handle": "eudora",
-          "name": "Eudora",
-          "niche": "Beleza · Brasil (SP forte)",
-          "instagramUrl": "https://www.instagram.com/eudora/",
-          "source": "Apify verified ~6,9 mi",
-          "followersNote": "~6,9 mi · verificado",
+          "id": "cosmeticosipanema",
+          "handle": "cosmeticosipanema",
+          "name": "Ipanema Cosméticos",
+          "niche": "Beleza · Rio",
+          "instagramUrl": "https://www.instagram.com/cosmeticosipanema/",
+          "source": "Apify ~3 mil",
+          "followersNote": "~3 mil",
           "reasons": [
-            "Beleza grande no mix lifestyle",
-            "Make e cuidado no dia a dia",
-            "Patamar de marca nacional"
+            "Cosméticos cariocas 20 anos",
+            "Lojinha de beleza no Rio",
+            "Autocuidado local"
           ],
-          "dm": "Oi, Eudora! ✨ Sou a Duda Vitti (@eduarda.vitti) — lifestyle e maternidade (~134,6 mil). Queria parceria de beleza. Cases: Montreal Hyundai e NINHO Fases 1+. Faz sentido?"
+          "dm": "Oi, Ipanema Cosméticos! 💄 Sou a Duda (@eduarda.vitti) (~134,6 mil). Queria parceria de beleza. Cases: Montreal Hyundai e NINHO Fases 1+."
         },
         {
-          "id": "smartfit",
-          "handle": "smartfit",
-          "name": "Smart Fit",
-          "niche": "Academia · Brasil (unidades Lagos)",
-          "instagramUrl": "https://www.instagram.com/smartfit/",
-          "source": "Unidades Cabo Frio e Búzios · Apify verified ~2,6 mi",
-          "followersNote": "~2,6 mi · verificado",
+          "id": "paradinha_243",
+          "handle": "paradinha_243",
+          "name": "Paradinha do Bebê",
+          "niche": "Kids · Centro do Rio",
+          "instagramUrl": "https://www.instagram.com/paradinha_243/",
+          "source": "Apify ~2,6 mil · Rua da Alfândega",
+          "followersNote": "~2,6 mil",
           "reasons": [
-            "Academia grande com unidades em Cabo Frio e Búzios",
-            "Fitness lifestyle no nível dela",
-            "Treino + rotina de mãe"
+            "Lojinha de bebê no Centro",
+            "Comércio pequeno presencial",
+            "Completa fatia kids Rio"
           ],
-          "dm": "Oi, Smart Fit! 💪 Sou a Duda (@eduarda.vitti) (~134,6 mil). Treino na Região dos Lagos e queria parceria de conteúdo fitness/rotina. Cases: Montreal Hyundai e NINHO Fases 1+. Topam?"
+          "dm": "Oi, Paradinha do Bebê! 👶 Sou a Duda (@eduarda.vitti), mamãe do Ravi (~134,6 mil). Queria parceria leve. Cases: Montreal Hyundai e NINHO Fases 1+."
         },
         {
-          "id": "arezzo",
-          "handle": "arezzo",
-          "name": "Arezzo",
-          "niche": "Moda/acessórios · Brasil",
-          "instagramUrl": "https://www.instagram.com/arezzo/",
-          "source": "Apify verified ~6,2 mi",
-          "followersNote": "~6,2 mi · verificado",
+          "id": "sweetbabyvalqueire",
+          "handle": "sweetbabyvalqueire",
+          "name": "Baby Sweet Baby",
+          "niche": "Kids · Rio (Valqueire)",
+          "instagramUrl": "https://www.instagram.com/sweetbabyvalqueire/",
+          "source": "Apify ~851 · Shopping Center Point",
+          "followersNote": "~851",
           "reasons": [
-            "Calçados e moda — lifestyle fashion",
-            "Completa o mix sem ser maternidade",
-            "Looks no feed"
+            "Loja kids RN a 10 anos",
+            "Comércio de bairro no Rio",
+            "Looks e acessórios"
           ],
-          "dm": "Oi, Arezzo! 👠 Sou a Duda Vitti (@eduarda.vitti) — moda e lifestyle (~134,6 mil). Sou da Região dos Lagos e queria parceria de looks. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar ideias?"
+          "dm": "Oi, Baby Sweet Baby! 🍼 Sou a Duda (@eduarda.vitti), mamãe do Ravi (~134,6 mil). Queria parceria de moda infantil. Cases: Montreal Hyundai e NINHO Fases 1+."
         },
         {
-          "id": "riachuelo",
-          "handle": "riachuelo",
-          "name": "Riachuelo",
-          "niche": "Moda varejo · Brasil",
-          "instagramUrl": "https://www.instagram.com/riachuelo/",
-          "source": "Apify verified ~8,1 mi",
-          "followersNote": "~8,1 mi · verificado",
+          "id": "afetobeauty",
+          "handle": "afetobeauty",
+          "name": "Afeto Beauty",
+          "niche": "Beleza orgânica família · SP",
+          "instagramUrl": "https://www.instagram.com/afetobeauty/",
+          "source": "Apify verified ~1,9 mil",
+          "followersNote": "~1,9 mil · verificado",
           "reasons": [
-            "Varejo moda grande — patamar Havan/Renner",
-            "Família e lifestyle",
-            "Campanhas de look do dia"
+            "Beleza orgânica para família/neurosensíveis",
+            "Marca pequena (não varejo gigante)",
+            "Encaixa lifestyle + kids"
           ],
-          "dm": "Oi, Riachuelo! 👗 Sou a Duda (@eduarda.vitti), mamãe do Ravi (~134,6 mil). Queria parceria de moda/lifestyle. Cases: Montreal Hyundai e NINHO Fases 1+. Podemos falar?"
+          "dm": "Oi, Afeto! 🤍 Sou a Duda (@eduarda.vitti) (~134,6 mil), mamãe do Ravi. Queria parceria de cuidado consciente. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar ideias?"
+        },
+        {
+          "id": "ecoarbaby",
+          "handle": "ecoarbaby",
+          "name": "Ecoar Baby",
+          "niche": "Kids sustentável · online/SP",
+          "instagramUrl": "https://www.instagram.com/ecoarbaby/",
+          "source": "Apify ~4,2 mil",
+          "followersNote": "~4,2 mil",
+          "reasons": [
+            "Kids com pegada sustentável",
+            "Marca pequena acessível",
+            "Fatia kids consciente"
+          ],
+          "dm": "Oi, Ecoar Baby! 🌱 Sou a Duda (@eduarda.vitti), mamãe do Ravi (~134,6 mil). Queria parceria leve de moda infantil. Cases: Montreal Hyundai e NINHO Fases 1+."
         }
       ]
     }
