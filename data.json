@@ -1,7 +1,7 @@
 {
   "daily": {
     "date": "2026-11-05",
-    "seenVersion": "v4",
+    "seenVersion": "v5",
     "devotional": {
       "titulo": "Asas novas para o seu dia",
       "ref": "Isaías 40:31",
@@ -100,19 +100,19 @@
           "dm": "Oi, Maria Maria! 🏖️ Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Sou da Região dos Lagos. Queria parceria leve de pousada em Búzios. Cases: Montreal Hyundai e NINHO Fases 1+. Topam?"
         },
         {
-          "id": "spin_educacional",
-          "handle": "spin_educacional",
-          "name": "Spin Educacional",
-          "niche": "Escola · Unamar/Cabo Frio",
-          "instagramUrl": "https://www.instagram.com/spin_educacional/",
-          "source": "Apify ~8,3 mil",
-          "followersNote": "~8,3 mil",
+          "id": "escolacabofrio",
+          "handle": "escolacabofrio",
+          "name": "Escola Visconde de Cabo Frio",
+          "niche": "Escola infantil · Cabo Frio",
+          "instagramUrl": "https://www.instagram.com/escolacabofrio/",
+          "source": "Apify ~4 mil · 4 meses a 5 anos · +40 anos",
+          "followersNote": "~4 mil",
           "reasons": [
-            "Escola local (infantil ao médio) — fase do Ravi (~3 anos)",
-            "Networking forte na comunidade",
-            "Conteúdo de rotina escolar/família"
+            "Escola local de Cabo Frio (4 meses a 5 anos) — fase próxima do Ravi",
+            "Negócio com dono/marketing acessível por DM (não rede corporativa)",
+            "Conteúdo de rotina escolar, família e comunidade na Lagos"
           ],
-          "dm": "Oi, Spin Educacional! 📚 Sou a Duda (@eduarda.vitti), mamãe do Ravi (~134,6 mil). Sou da Região dos Lagos e valorizo educação com carinho. Queria conversar sobre parceria/conteúdo com famílias. Cases: Montreal Hyundai e NINHO Fases 1+."
+          "dm": "Oi, Escola Visconde! 📚 Sou a Duda (@eduarda.vitti), mamãe do Ravi (~134,6 mil). Sou da Região dos Lagos e valorizo educação com carinho. Queria conversar sobre parceria/conteúdo com famílias. Cases: Montreal Hyundai e NINHO Fases 1+. Podemos falar?"
         },
         {
           "id": "ultra_academias_cabofrio",
