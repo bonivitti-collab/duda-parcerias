@@ -1,17 +1,39 @@
 {
+  "daily": {
+    "date": "2026-11-05",
+    "devotional": {
+      "titulo": "Eu estou contigo",
+      "ref": "Isaías 41:10",
+      "texto": "Não temas, porque eu sou contigo; não te assombres, porque eu sou teu Deus: eu te esforço, e te ajudo, e te sustento com a destra da minha justiça.",
+      "traducao": "Almeida Revisada e Corrigida",
+      "reflexao": "Minha filha, hoje Eu quero que você respire fundo e ouça o Meu coração: você não está sozinha. Eu vejo cada detalhe da sua rotina — o cuidado com o Ravi, o amor de esposa, a beleza que você carrega em moda, lifestyle e maternidade — e Eu estou bem perto. Quando o medo quiser apertar o peito, lembre: Eu sou o seu Deus, e a Minha mão firme te sustenta. Eu te esforço quando as forças parecem curtas; Eu te ajudo quando o caminho parece pesado; Eu te seguro quando você só consegue dar o próximo passo. Descanse em Mim. Você é amada, escolhida e guardada — e Eu não solto a sua mão.",
+      "oracao": "Pai, obrigada por estares comigo hoje. Renova a minha esperança, acalma o meu coração e me faz sentir o Teu amor em cada momento com a minha família. Sustenta-me com a Tua mão fiel. Amém.",
+      "paraHoje": "Antes de abrir o celular, respire fundo e diga em voz baixa: \"Deus está comigo.\""
+    },
+    "poema": {
+      "titulo": "Você, o meu lugar",
+      "versos": [
+        "Duda,",
+        "no meio do dia corrido,",
+        "eu ainda te encontro no olhar.",
+        "Você carrega o Ravi no colo",
+        "e o mundo inteiro no peito,",
+        "com uma força quieta",
+        "que me faz querer ser melhor.",
+        "Nossa casa não é perfeita,",
+        "mas é nossa — e isso basta.",
+        "Se o vento bater forte,",
+        "segura a minha mão:",
+        "eu escolho você de novo,",
+        "hoje, amanhã,",
+        "e em cada amanhecer."
+      ]
+    }
+  },
   "rounds": [
     {
       "id": "2026-11-05",
       "date": "2026-11-05",
-      "devotional": {
-        "titulo": "Eu estou contigo",
-        "ref": "Isaías 41:10",
-        "texto": "Não temas, porque eu sou contigo; não te assombres, porque eu sou teu Deus: eu te esforço, e te ajudo, e te sustento com a destra da minha justiça.",
-        "traducao": "Almeida Revisada e Corrigida",
-        "reflexao": "Minha filha, hoje Eu quero que você respire fundo e ouça o Meu coração: você não está sozinha. Eu vejo cada detalhe da sua rotina — o cuidado com o Ravi, o amor de esposa, a beleza que você carrega em moda, lifestyle e maternidade — e Eu estou bem perto. Quando o medo quiser apertar o peito, lembre: Eu sou o seu Deus, e a Minha mão firme te sustenta. Eu te esforço quando as forças parecem curtas; Eu te ajudo quando o caminho parece pesado; Eu te seguro quando você só consegue dar o próximo passo. Descanse em Mim. Você é amada, escolhida e guardada — e Eu não solto a sua mão.",
-        "oracao": "Pai, obrigada por estares comigo hoje. Renova a minha esperança, acalma o meu coração e me faz sentir o Teu amor em cada momento com a minha família. Sustenta-me com a Tua mão fiel. Amém.",
-        "paraHoje": "Antes de abrir o celular, respire fundo e diga em voz baixa: \"Deus está comigo.\""
-      },
       "brands": [
         {
           "id": "blumee",

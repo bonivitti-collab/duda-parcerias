@@ -15,8 +15,6 @@
       --line: #eadfd6;
       --rose: #c97b7b;
       --rose-soft: #f3ddd8;
-      --nude: #e8d5c4;
-      --beige: #f0e6dc;
       --accent: #c56b5c;
       --accent-soft: #f3d6cf;
       --ok: #3d7a5c;
@@ -26,6 +24,8 @@
       --sent: #b8aea6;
       --coffee: #8b5e3c;
       --coffee-soft: #f3e8dc;
+      --love: #b85c6e;
+      --love-soft: #f7e2e7;
       --shadow: 0 6px 20px rgba(43, 36, 32, 0.06);
       --radius: 16px;
       --tap: 48px;
@@ -78,61 +78,89 @@
       box-shadow: 0 0 0 3px #fff8f4;
     }
     .hello-text { min-width: 0; }
-    .hello-hi { margin: 0; font-weight: 800; font-size: 1.12rem; letter-spacing: -0.02em; color: var(--ink); }
+    .hello-hi { margin: 0; font-weight: 800; font-size: 1.12rem; letter-spacing: -0.02em; }
     .hello-sub { margin: 3px 0 0; font-size: 0.86rem; color: var(--muted); font-weight: 500; }
-
     .hint {
       font-size: 0.88rem; color: var(--muted); margin: 0 0 14px;
       background: #fff; border: 1px dashed var(--line); border-radius: 12px; padding: 10px 12px;
     }
 
-    .cafe-card {
+    .special-card {
       width: 100%; text-align: left; cursor: pointer; color: inherit;
+      border-radius: 18px; box-shadow: var(--shadow); margin-bottom: 10px; overflow: hidden;
+      padding: 0; display: block; border: 1px solid #e6d5c4;
       background: linear-gradient(160deg, #fff9f2 0%, #f4e6d8 100%);
-      border: 1px solid #e6d5c4; border-radius: 18px;
-      box-shadow: var(--shadow); margin-bottom: 12px; overflow: hidden;
-      padding: 0; display: block;
+      position: relative;
     }
-    .cafe-card-head {
-      display: flex; align-items: center; gap: 12px; padding: 14px 14px 10px;
+    .special-card.love {
+      border-color: #ebcfd6;
+      background: linear-gradient(160deg, #fff7f8 0%, #f8e6ea 100%);
     }
-    .cafe-icon {
+    .special-card-head {
+      display: flex; align-items: center; gap: 12px; padding: 14px 14px 12px;
+    }
+    .special-icon {
       width: 42px; height: 42px; border-radius: 12px; flex-shrink: 0;
       background: var(--coffee-soft); color: var(--coffee);
-      display: grid; place-items: center; font-size: 1.35rem;
+      display: grid; place-items: center; font-size: 1.3rem;
     }
-    .cafe-meta { flex: 1; min-width: 0; }
-    .cafe-kicker {
+    .special-card.love .special-icon { background: var(--love-soft); color: var(--love); }
+    .special-meta { flex: 1; min-width: 0; }
+    .special-kicker {
       margin: 0; font-size: 11px; font-weight: 800; letter-spacing: 0.06em;
       text-transform: uppercase; color: var(--coffee);
     }
-    .cafe-title { margin: 2px 0 0; font-weight: 800; font-size: 1.02rem; letter-spacing: -0.02em; }
-    .cafe-date { margin: 2px 0 0; font-size: 0.8rem; color: var(--muted); font-weight: 600; }
-    .cafe-chev { color: var(--muted); font-size: 1.15rem; padding-right: 6px; transition: transform .18s ease; }
-    .cafe-card.open .cafe-chev { transform: rotate(90deg); }
-    .cafe-body {
-      display: none; padding: 0 14px 16px; border-top: 1px solid #ead9c8;
+    .special-card.love .special-kicker { color: var(--love); }
+    .special-title { margin: 2px 0 0; font-weight: 800; font-size: 1.02rem; letter-spacing: -0.02em; }
+    .special-date { margin: 2px 0 0; font-size: 0.8rem; color: var(--muted); font-weight: 600; }
+    .special-chev { color: var(--muted); font-size: 1.15rem; padding-right: 4px; transition: transform .18s ease; }
+    .special-card.open .special-chev { transform: rotate(90deg); }
+    .special-body { display: none; padding: 0 14px 16px; border-top: 1px solid #ead9c8; }
+    .special-card.love .special-body { border-top-color: #ebcfd6; }
+    .special-card.open .special-body { display: block; }
+
+    .pulse-dot {
+      position: absolute; top: 12px; right: 12px;
+      width: 10px; height: 10px; border-radius: 50%;
+      background: var(--rose);
+      box-shadow: 0 0 0 0 rgba(201, 123, 123, 0.55);
+      animation: softPulse 1.8s ease-out infinite;
+      pointer-events: none;
     }
-    .cafe-card.open .cafe-body { display: block; }
+    .special-card.love .pulse-dot {
+      background: var(--love);
+      box-shadow: 0 0 0 0 rgba(184, 92, 110, 0.5);
+    }
+    .pulse-dot.hidden-dot { display: none; }
+    @keyframes softPulse {
+      0% { transform: scale(0.92); box-shadow: 0 0 0 0 rgba(201, 123, 123, 0.45); }
+      70% { transform: scale(1); box-shadow: 0 0 0 10px rgba(201, 123, 123, 0); }
+      100% { transform: scale(0.92); box-shadow: 0 0 0 0 rgba(201, 123, 123, 0); }
+    }
+
     .cafe-verse-box {
       margin-top: 12px; background: #fffaf6; border: 1px solid #ead9c8;
       border-radius: 14px; padding: 12px 14px;
     }
-    .cafe-ref { margin: 0 0 6px; font-size: 0.8rem; font-weight: 800; color: var(--coffee); letter-spacing: 0.02em; }
-    .cafe-verse {
-      margin: 0; font-size: 0.95rem; font-style: italic; color: var(--ink); line-height: 1.5;
-    }
+    .cafe-ref { margin: 0 0 6px; font-size: 0.8rem; font-weight: 800; color: var(--coffee); }
+    .cafe-verse { margin: 0; font-size: 0.95rem; font-style: italic; line-height: 1.5; }
     .cafe-trad { margin: 8px 0 0; font-size: 0.72rem; color: var(--muted); }
     .cafe-block-label {
       margin: 14px 0 6px; font-size: 11px; font-weight: 800; letter-spacing: 0.05em;
       text-transform: uppercase; color: var(--rose);
     }
-    .cafe-reflexao, .cafe-oracao, .cafe-hoje {
-      margin: 0; font-size: 0.92rem; color: var(--ink); line-height: 1.55;
-    }
+    .special-card.love .cafe-block-label { color: var(--love); }
+    .cafe-reflexao, .cafe-oracao, .cafe-hoje { margin: 0; font-size: 0.92rem; line-height: 1.55; }
     .cafe-hoje {
-      background: var(--rose-soft); border-radius: 12px; padding: 10px 12px;
-      font-weight: 600;
+      background: var(--rose-soft); border-radius: 12px; padding: 10px 12px; font-weight: 600;
+    }
+    .poem-lines {
+      margin: 12px 0 0; padding: 0; list-style: none;
+      font-size: 0.98rem; line-height: 1.65; color: var(--ink);
+    }
+    .poem-lines li { margin: 0 0 2px; }
+    .poem-sign {
+      margin: 14px 0 0; font-size: 0.85rem; color: var(--love); font-weight: 700; text-align: right;
     }
 
     .day-card, .brand-row {
@@ -226,28 +254,40 @@
     .drawer h2 { margin: 0 16px 8px; font-size: 1.05rem; }
     .drawer-note { margin: 0 16px 12px; font-size: 0.8rem; color: var(--muted); }
     .drawer-section { padding: 8px 8px 4px; }
-    .drawer-day, .drawer-brand, .drawer-cafe {
+    .drawer-day, .drawer-brand, .drawer-special {
       width: 100%; text-align: left; border: none; background: transparent;
       min-height: 46px; padding: 10px 16px; font-weight: 700; color: var(--ink); cursor: pointer; border-radius: 10px;
+      display: flex; align-items: center; gap: 8px;
     }
-    .drawer-day:active, .drawer-brand:active, .drawer-cafe:active { background: var(--accent-soft); }
+    .drawer-day:active, .drawer-brand:active, .drawer-special:active { background: var(--accent-soft); }
     .drawer-brand { font-weight: 600; color: var(--muted); padding-left: 28px; font-size: 0.92rem; }
-    .drawer-cafe { color: var(--coffee); }
+    .drawer-special.cafe { color: var(--coffee); }
+    .drawer-special.love { color: var(--love); }
+    .drawer-pulse {
+      width: 8px; height: 8px; border-radius: 50%; background: var(--rose);
+      animation: softPulse 1.8s ease-out infinite; flex-shrink: 0;
+    }
+    .drawer-special.love .drawer-pulse { background: var(--love); }
     .hidden { display: none !important; }
-    #view-brands.hidden, #view-days.hidden, #view-cafe.hidden { display: none !important; }
+    #view-brands.hidden, #view-days.hidden, #view-special.hidden { display: none !important; }
 
-    .cafe-page {
+    .special-page {
       background: linear-gradient(180deg, #fff9f2 0%, #f6efe8 40%);
       border: 1px solid #e6d5c4; border-radius: 18px; padding: 16px 16px 20px;
       box-shadow: var(--shadow);
     }
-    .cafe-page-top { display: flex; align-items: center; gap: 12px; margin-bottom: 10px; }
-    .cafe-page-kicker {
+    .special-page.love {
+      background: linear-gradient(180deg, #fff7f8 0%, #f6efe8 40%);
+      border-color: #ebcfd6;
+    }
+    .special-page-top { display: flex; align-items: center; gap: 12px; margin-bottom: 10px; }
+    .special-page-kicker {
       margin: 0; font-size: 11px; font-weight: 800; letter-spacing: 0.06em;
       text-transform: uppercase; color: var(--coffee);
     }
-    .cafe-page-title { margin: 2px 0 0; font-size: 1.2rem; font-weight: 800; letter-spacing: -0.02em; }
-    .cafe-page-date { margin: 4px 0 0; font-size: 0.85rem; color: var(--muted); font-weight: 600; }
+    .special-page.love .special-page-kicker { color: var(--love); }
+    .special-page-title { margin: 2px 0 0; font-size: 1.2rem; font-weight: 800; letter-spacing: -0.02em; }
+    .special-page-date { margin: 4px 0 0; font-size: 0.85rem; color: var(--muted); font-weight: 600; }
   </style>
 </head>
 <body>
@@ -273,7 +313,7 @@
 
     <section id="view-days"></section>
     <section id="view-brands" class="hidden"></section>
-    <section id="view-cafe" class="hidden"></section>
+    <section id="view-special" class="hidden"></section>
   </main>
 
   <div class="drawer-overlay" id="drawerOverlay"></div>
@@ -287,17 +327,17 @@
   (function () {
     var LS_SENT = "duda-parcerias-sent-v1";
     var LS_NAV = "duda-parcerias-nav-v1";
+    var LS_SEEN = "duda-parcerias-seen-v1";
     var data = null;
     var currentDayId = null;
     var openBrandId = null;
-    var cafeOpen = false; // cafe full page mode
+    var specialOpen = null; // 'cafe' | 'poema' | null
     var applyingHistory = false;
-    var pendingScrollBrand = null;
-    var cafeExpandedOnHome = true;
+    var homeOpen = { cafe: false, poema: false };
 
     var elDays = document.getElementById("view-days");
     var elBrands = document.getElementById("view-brands");
-    var elCafe = document.getElementById("view-cafe");
+    var elSpecial = document.getElementById("view-special");
     var barTitle = document.getElementById("barTitle");
     var barSub = document.getElementById("barSub");
     var btnBack = document.getElementById("btnBack");
@@ -320,11 +360,37 @@
       saveSent(m);
     }
 
+    function loadSeen() {
+      try { return JSON.parse(localStorage.getItem(LS_SEEN) || "{}") || {}; }
+      catch (e) { return {}; }
+    }
+    function seenKey(type, date) { return type + ":" + date; }
+    function hasSeen(type, date) {
+      if (!date) return true;
+      return !!loadSeen()[seenKey(type, date)];
+    }
+    function markSeen(type, date) {
+      if (!date) return;
+      var m = loadSeen();
+      m[seenKey(type, date)] = true;
+      localStorage.setItem(LS_SEEN, JSON.stringify(m));
+    }
+
+    function dailyDate() {
+      return (data && data.daily && data.daily.date) || null;
+    }
+    function dailyDev() {
+      return (data && data.daily && data.daily.devotional) || null;
+    }
+    function dailyPoem() {
+      return (data && data.daily && data.daily.poema) || null;
+    }
+
     function navState() {
       return {
         dayId: currentDayId || null,
         brandId: openBrandId || null,
-        cafe: cafeOpen ? true : null
+        special: specialOpen || null
       };
     }
     function persistNavSilent() {
@@ -342,43 +408,45 @@
         var v = decodeURIComponent(kv[1] || "");
         if (k === "dia") out.dayId = v;
         if (k === "marca") out.brandId = v;
-        if (k === "cafe" && (v === "1" || v === "true")) out.cafe = true;
+        if (k === "msg" && (v === "cafe" || v === "poema")) out.special = v;
+        if (k === "cafe" && (v === "1" || v === "true")) out.special = "cafe";
+        if (k === "poema" && (v === "1" || v === "true")) out.special = "poema";
       });
       return out;
     }
     function readStoredNav() {
       var fromHash = parseHash();
-      if (fromHash.dayId || fromHash.cafe) return fromHash;
+      if (fromHash.dayId || fromHash.special) return fromHash;
       try {
         var s = sessionStorage.getItem(LS_NAV) || localStorage.getItem(LS_NAV);
         if (s) return JSON.parse(s) || {};
       } catch (e) {}
       return {};
     }
-    function urlFor(dayId, brandId, cafe) {
+    function urlFor(dayId, brandId, special) {
       var base = location.pathname + location.search;
-      if (cafe) return base + "#cafe=1";
+      if (special) return base + "#msg=" + encodeURIComponent(special);
       if (!dayId) return base;
       var hash = "#dia=" + encodeURIComponent(dayId);
       if (brandId) hash += "&marca=" + encodeURIComponent(brandId);
       return base + hash;
     }
     function levelOf(st) {
-      if (st && st.cafe) return 1;
+      if (st && st.special) return 1;
       if (st && st.brandId && st.dayId) return 2;
       if (st && st.dayId) return 1;
       return 0;
     }
-    function pushNav(dayId, brandId, cafe) {
+    function pushNav(dayId, brandId, special) {
       if (applyingHistory) return;
-      var st = { dayId: dayId || null, brandId: brandId || null, cafe: cafe ? true : null };
-      history.pushState(st, "", urlFor(st.dayId, st.brandId, st.cafe));
+      var st = { dayId: dayId || null, brandId: brandId || null, special: special || null };
+      history.pushState(st, "", urlFor(st.dayId, st.brandId, st.special));
       try { sessionStorage.setItem(LS_NAV, JSON.stringify(st)); } catch (e) {}
       try { localStorage.setItem(LS_NAV, JSON.stringify(st)); } catch (e) {}
     }
-    function replaceNav(dayId, brandId, cafe) {
-      var st = { dayId: dayId || null, brandId: brandId || null, cafe: cafe ? true : null };
-      history.replaceState(st, "", urlFor(st.dayId, st.brandId, st.cafe));
+    function replaceNav(dayId, brandId, special) {
+      var st = { dayId: dayId || null, brandId: brandId || null, special: special || null };
+      history.replaceState(st, "", urlFor(st.dayId, st.brandId, st.special));
       try { sessionStorage.setItem(LS_NAV, JSON.stringify(st)); } catch (e) {}
       try { localStorage.setItem(LS_NAV, JSON.stringify(st)); } catch (e) {}
     }
@@ -399,12 +467,11 @@
       if (same) return "Hoje · " + w + " " + dd + "/" + mm;
       return w.charAt(0).toUpperCase() + w.slice(1) + " " + dd + "/" + mm;
     }
-    function cafeDateLabel(iso) {
+    function fullDateLabel(iso) {
       var d = parseDate(iso);
       var dd = String(d.getDate()).padStart(2, "0");
       var mm = String(d.getMonth() + 1).padStart(2, "0");
-      var yyyy = d.getFullYear();
-      return WEEKDAYS_FULL[d.getDay()] + ", " + dd + "/" + mm + "/" + yyyy;
+      return WEEKDAYS_FULL[d.getDay()] + ", " + dd + "/" + mm + "/" + d.getFullYear();
     }
 
     function allBrands() {
@@ -420,10 +487,8 @@
       return n;
     }
     function updateCounter() {
-      if (cafeOpen) {
-        barSub.textContent = "Mensagem do dia";
-        return;
-      }
+      if (specialOpen === "cafe") { barSub.textContent = "Um café com o Pai"; return; }
+      if (specialOpen === "poema") { barSub.textContent = "Mensagem do Danillo"; return; }
       var brands = currentDayId
         ? ((data.rounds.find(function (r) { return r.id === currentDayId; }) || {}).brands || [])
         : allBrands();
@@ -441,17 +506,6 @@
     function findRound(dayId) {
       return (data.rounds || []).find(function (r) { return r.id === dayId; });
     }
-    function todaysRound() {
-      var today = new Date();
-      var iso = today.getFullYear() + "-" + String(today.getMonth() + 1).padStart(2, "0") + "-" + String(today.getDate()).padStart(2, "0");
-      var hit = findRound(iso);
-      if (hit && hit.devotional) return hit;
-      var rounds = sortedRounds();
-      for (var i = 0; i < rounds.length; i++) {
-        if (rounds[i].devotional) return rounds[i];
-      }
-      return null;
-    }
 
     function setChromeHome() {
       helloCard.classList.remove("hidden");
@@ -465,60 +519,83 @@
       btnBack.classList.remove("hidden");
     }
 
-    function buildCafeInnerHtml(dev, dateIso, expandedClass) {
+    function cafeBodyHtml(dev) {
       return (
-        '<div class="cafe-card-head">' +
-          '<div class="cafe-icon" aria-hidden="true">☕</div>' +
-          '<div class="cafe-meta">' +
-            '<p class="cafe-kicker">Café da manhã com Deus</p>' +
-            '<p class="cafe-title">' + escapeHtml(dev.titulo || "Mensagem do dia") + "</p>" +
-            '<p class="cafe-date">' + escapeHtml(cafeDateLabel(dateIso)) + "</p>" +
-          "</div>" +
-          '<span class="cafe-chev">›</span>' +
+        '<div class="cafe-verse-box">' +
+          '<p class="cafe-ref">' + escapeHtml(dev.ref || "") + "</p>" +
+          '<p class="cafe-verse">“' + escapeHtml(dev.texto || "") + '”</p>' +
+          (dev.traducao ? '<p class="cafe-trad">' + escapeHtml(dev.traducao) + "</p>" : "") +
         "</div>" +
-        '<div class="cafe-body">' +
-          '<div class="cafe-verse-box">' +
-            '<p class="cafe-ref">' + escapeHtml(dev.ref || "") + "</p>" +
-            '<p class="cafe-verse">“' + escapeHtml(dev.texto || "") + '”</p>' +
-            (dev.traducao ? '<p class="cafe-trad">' + escapeHtml(dev.traducao) + "</p>" : "") +
-          "</div>" +
-          '<p class="cafe-block-label">Reflexão</p>' +
-          '<p class="cafe-reflexao">' + escapeHtml(dev.reflexao || "") + "</p>" +
-          '<p class="cafe-block-label">Oração do dia</p>' +
-          '<p class="cafe-oracao">' + escapeHtml(dev.oracao || "") + "</p>" +
-          (dev.paraHoje
-            ? '<p class="cafe-block-label">Para hoje</p><p class="cafe-hoje">' + escapeHtml(dev.paraHoje) + "</p>"
-            : "") +
-        "</div>"
+        '<p class="cafe-block-label">Reflexão</p>' +
+        '<p class="cafe-reflexao">' + escapeHtml(dev.reflexao || "") + "</p>" +
+        '<p class="cafe-block-label">Oração do dia</p>' +
+        '<p class="cafe-oracao">' + escapeHtml(dev.oracao || "") + "</p>" +
+        (dev.paraHoje
+          ? '<p class="cafe-block-label">Para hoje</p><p class="cafe-hoje">' + escapeHtml(dev.paraHoje) + "</p>"
+          : "")
       );
+    }
+    function poemBodyHtml(poem) {
+      var lines = (poem.versos || []).map(function (l) {
+        return "<li>" + (l ? escapeHtml(l) : "&nbsp;") + "</li>";
+      }).join("");
+      return '<ul class="poem-lines">' + lines + '</ul><p class="poem-sign">— Danillo 💌</p>';
+    }
+
+    function makeHomeSpecialCard(type) {
+      var date = dailyDate();
+      var isCafe = type === "cafe";
+      var btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "special-card" + (isCafe ? "" : " love") + (homeOpen[type] ? " open" : "");
+      btn.dataset.special = type;
+      var unread = !hasSeen(type, date);
+      var icon = isCafe ? "☕" : "💌";
+      var kicker = isCafe ? "Um café com o Pai" : "Mensagem do Danillo";
+      var title = isCafe
+        ? ((dailyDev() || {}).titulo || "Mensagem do dia")
+        : ((dailyPoem() || {}).titulo || "Poesia de hoje");
+      var body = isCafe ? cafeBodyHtml(dailyDev() || {}) : poemBodyHtml(dailyPoem() || {});
+      btn.innerHTML =
+        (unread ? '<span class="pulse-dot" aria-hidden="true"></span>' : '<span class="pulse-dot hidden-dot" aria-hidden="true"></span>') +
+        '<div class="special-card-head">' +
+          '<div class="special-icon" aria-hidden="true">' + icon + "</div>" +
+          '<div class="special-meta">' +
+            '<p class="special-kicker">' + kicker + "</p>" +
+            '<p class="special-title">' + escapeHtml(title) + "</p>" +
+            '<p class="special-date">' + escapeHtml(fullDateLabel(date)) + "</p>" +
+          "</div>" +
+          '<span class="special-chev">›</span>' +
+        "</div>" +
+        '<div class="special-body">' + body + "</div>";
+      btn.addEventListener("click", function () {
+        var opening = !btn.classList.contains("open");
+        homeOpen[type] = opening;
+        btn.classList.toggle("open", opening);
+        if (opening) {
+          markSeen(type, date);
+          var dot = btn.querySelector(".pulse-dot");
+          if (dot) dot.classList.add("hidden-dot");
+          renderDrawer();
+        }
+      });
+      return btn;
     }
 
     function showDaysView(opts) {
       opts = opts || {};
       currentDayId = null;
       openBrandId = null;
-      cafeOpen = false;
+      specialOpen = null;
       elDays.classList.remove("hidden");
       elBrands.classList.add("hidden");
-      elCafe.classList.add("hidden");
+      elSpecial.classList.add("hidden");
       setChromeHome();
       barTitle.textContent = "Parcerias da semana — TESTE";
       elDays.innerHTML = "";
 
-      var todayR = todaysRound();
-      if (todayR && todayR.devotional) {
-        var card = document.createElement("button");
-        card.type = "button";
-        card.className = "cafe-card" + (cafeExpandedOnHome ? " open" : "");
-        card.id = "cafeHomeCard";
-        card.innerHTML = buildCafeInnerHtml(todayR.devotional, todayR.date);
-        card.addEventListener("click", function (e) {
-          // toggle expand on home; long content stays readable
-          cafeExpandedOnHome = !card.classList.contains("open");
-          card.classList.toggle("open", cafeExpandedOnHome);
-        });
-        elDays.appendChild(card);
-      }
+      if (dailyDev()) elDays.appendChild(makeHomeSpecialCard("cafe"));
+      if (dailyPoem()) elDays.appendChild(makeHomeSpecialCard("poema"));
 
       var rounds = sortedRounds();
       if (!rounds.length) {
@@ -530,73 +607,70 @@
         rounds.forEach(function (r) {
           var brands = r.brands || [];
           var sent = countSentIn(brands);
-          var btn = document.createElement("button");
-          btn.type = "button";
-          btn.className = "day-card";
-          btn.innerHTML =
+          var dayBtn = document.createElement("button");
+          dayBtn.type = "button";
+          dayBtn.className = "day-card";
+          dayBtn.innerHTML =
             '<div class="day-meta"><p class="day-title">' + escapeHtml(dayLabel(r.date)) + '</p>' +
             '<p class="day-count">' + brands.length + " marca" + (brands.length === 1 ? "" : "s") +
             " · " + sent + " enviada" + (sent === 1 ? "" : "s") + "</p></div>" +
             '<span class="chev">›</span>';
-          btn.addEventListener("click", function () { goToDay(r.id); });
-          elDays.appendChild(btn);
+          dayBtn.addEventListener("click", function () { goToDay(r.id); });
+          elDays.appendChild(dayBtn);
         });
       }
       updateCounter();
       renderDrawer();
       if (!opts.skipHistory) {
-        if (opts.replace) replaceNav(null, null, false);
-        else pushNav(null, null, false);
+        if (opts.replace) replaceNav(null, null, null);
+        else pushNav(null, null, null);
       } else {
         persistNavSilent();
       }
     }
 
-    function showCafeView(opts) {
+    function showSpecialView(type, opts) {
       opts = opts || {};
-      var r = todaysRound();
-      if (!r || !r.devotional) {
+      var date = dailyDate();
+      if (type === "cafe" && !dailyDev()) {
+        showDaysView({ replace: true, skipHistory: opts.skipHistory });
+        return;
+      }
+      if (type === "poema" && !dailyPoem()) {
         showDaysView({ replace: true, skipHistory: opts.skipHistory });
         return;
       }
       currentDayId = null;
       openBrandId = null;
-      cafeOpen = true;
+      specialOpen = type;
+      markSeen(type, date);
       elDays.classList.add("hidden");
       elBrands.classList.add("hidden");
-      elCafe.classList.remove("hidden");
+      elSpecial.classList.remove("hidden");
       setChromeInner();
-      barTitle.textContent = "Café da manhã com Deus";
+      var isCafe = type === "cafe";
+      barTitle.textContent = isCafe ? "Um café com o Pai" : "Mensagem do Danillo";
       var page = document.createElement("div");
-      page.className = "cafe-page";
+      page.className = "special-page" + (isCafe ? "" : " love");
+      var title = isCafe ? (dailyDev().titulo || "") : (dailyPoem().titulo || "");
       page.innerHTML =
-        '<div class="cafe-page-top">' +
-          '<div class="cafe-icon" aria-hidden="true">☕</div>' +
+        '<div class="special-page-top">' +
+          '<div class="special-icon" aria-hidden="true">' + (isCafe ? "☕" : "💌") + "</div>" +
           '<div>' +
-            '<p class="cafe-page-kicker">Mensagem do dia</p>' +
-            '<p class="cafe-page-title">' + escapeHtml(r.devotional.titulo || "") + "</p>" +
-            '<p class="cafe-page-date">' + escapeHtml(cafeDateLabel(r.date)) + "</p>" +
+            '<p class="special-page-kicker">' + (isCafe ? "Mensagem do dia" : "Do Danillo, com amor") + "</p>" +
+            '<p class="special-page-title">' + escapeHtml(title) + "</p>" +
+            '<p class="special-page-date">' + escapeHtml(fullDateLabel(date)) + "</p>" +
           "</div>" +
         "</div>" +
-        '<div class="cafe-verse-box">' +
-          '<p class="cafe-ref">' + escapeHtml(r.devotional.ref || "") + "</p>" +
-          '<p class="cafe-verse">“' + escapeHtml(r.devotional.texto || "") + '”</p>' +
-          (r.devotional.traducao ? '<p class="cafe-trad">' + escapeHtml(r.devotional.traducao) + "</p>" : "") +
-        "</div>" +
-        '<p class="cafe-block-label">Reflexão</p>' +
-        '<p class="cafe-reflexao">' + escapeHtml(r.devotional.reflexao || "") + "</p>" +
-        '<p class="cafe-block-label">Oração do dia</p>' +
-        '<p class="cafe-oracao">' + escapeHtml(r.devotional.oracao || "") + "</p>" +
-        (r.devotional.paraHoje
-          ? '<p class="cafe-block-label">Para hoje</p><p class="cafe-hoje">' + escapeHtml(r.devotional.paraHoje) + "</p>"
-          : "");
-      elCafe.innerHTML = "";
-      elCafe.appendChild(page);
+        (isCafe ? cafeBodyHtml(dailyDev()) : poemBodyHtml(dailyPoem()));
+      elSpecial.innerHTML = "";
+      elSpecial.appendChild(page);
       updateCounter();
       closeDrawer();
+      renderDrawer();
       if (!opts.skipHistory) {
-        if (opts.replace) replaceNav(null, null, true);
-        else pushNav(null, null, true);
+        if (opts.replace) replaceNav(null, null, type);
+        else pushNav(null, null, type);
       } else {
         persistNavSilent();
       }
@@ -611,19 +685,18 @@
       }
       currentDayId = dayId;
       openBrandId = brandId || null;
-      cafeOpen = false;
+      specialOpen = null;
       elDays.classList.add("hidden");
-      elCafe.classList.add("hidden");
+      elSpecial.classList.add("hidden");
       elBrands.classList.remove("hidden");
       setChromeInner();
       barTitle.textContent = dayLabel(round.date);
-      if (brandId) pendingScrollBrand = brandId;
       renderBrands(round);
       updateCounter();
       closeDrawer();
       if (!opts.skipHistory) {
-        if (opts.replace) replaceNav(dayId, brandId || null, false);
-        else pushNav(dayId, brandId || null, false);
+        if (opts.replace) replaceNav(dayId, brandId || null, null);
+        else pushNav(dayId, brandId || null, null);
       } else {
         persistNavSilent();
       }
@@ -635,9 +708,7 @@
       }
     }
 
-    function goToDay(dayId) {
-      showDayView(dayId, null, { replace: false });
-    }
+    function goToDay(dayId) { showDayView(dayId, null, { replace: false }); }
 
     function ensureDayThenBrand(dayId, brandId) {
       if (currentDayId === dayId && openBrandId === brandId) return;
@@ -650,23 +721,15 @@
         return;
       }
       if (currentDayId !== dayId) {
-        showDayView(dayId, null, { replace: !!currentDayId || cafeOpen });
+        showDayView(dayId, null, { replace: !!currentDayId || !!specialOpen });
       }
       showDayView(dayId, brandId, { replace: false });
     }
 
     function oneLevelUp() {
-      if (cafeOpen) {
-        showDaysView({ replace: true });
-        return;
-      }
-      if (openBrandId && currentDayId) {
-        showDayView(currentDayId, null, { replace: true });
-        return;
-      }
-      if (currentDayId) {
-        showDaysView({ replace: true });
-      }
+      if (specialOpen) { showDaysView({ replace: true }); return; }
+      if (openBrandId && currentDayId) { showDayView(currentDayId, null, { replace: true }); return; }
+      if (currentDayId) showDaysView({ replace: true });
     }
 
     function backButtonHandler() {
@@ -693,8 +756,8 @@
       applyingHistory = true;
       try {
         st = st || {};
-        if (st.cafe) {
-          showCafeView({ skipHistory: true });
+        if (st.special === "cafe" || st.special === "poema") {
+          showSpecialView(st.special, { skipHistory: true });
         } else if (st.dayId && findRound(st.dayId)) {
           showDayView(st.dayId, st.brandId || null, { skipHistory: true });
         } else {
@@ -708,9 +771,7 @@
 
     function sortBrands(brands) {
       return brands.slice().sort(function (a, b) {
-        var sa = isSent(a.id) ? 1 : 0;
-        var sb = isSent(b.id) ? 1 : 0;
-        return sa - sb;
+        return (isSent(a.id) ? 1 : 0) - (isSent(b.id) ? 1 : 0);
       });
     }
     function cssEscape(id) {
@@ -720,12 +781,10 @@
 
     function renderBrands(round) {
       elBrands.innerHTML = "";
-      var brands = sortBrands(round.brands || []);
-      brands.forEach(function (b) {
+      sortBrands(round.brands || []).forEach(function (b) {
         var row = document.createElement("article");
         row.className = "brand-row" + (isSent(b.id) ? " sent-row" : "") + (openBrandId === b.id ? " open" : "");
         row.dataset.id = b.id;
-
         var head = document.createElement("button");
         head.type = "button";
         head.className = "brand-head";
@@ -748,7 +807,6 @@
             showDayView(round.id, b.id, { replace: false });
           }
         });
-
         var body = document.createElement("div");
         body.className = "brand-body";
         var reasons = (b.reasons || []).map(function (r) { return "<li>" + escapeHtml(r) + "</li>"; }).join("");
@@ -770,7 +828,6 @@
           "</div>" +
           '<p class="copy-hint">Copie, abra o perfil, toque em Mensagem e cole</p>' +
           '<div class="fallback" id="fb-' + escapeAttr(b.id) + '"><textarea readonly></textarea></div>';
-
         row.appendChild(head);
         row.appendChild(body);
         elBrands.appendChild(row);
@@ -798,7 +855,7 @@
           var brand = (round.brands || []).find(function (x) { return x.id === id; });
           if (!brand) return;
           persistNavSilent();
-          replaceNav(round.id, openBrandId || id, false);
+          replaceNav(round.id, openBrandId || id, null);
           copyText(brand.dm, btn, id);
         });
       });
@@ -814,7 +871,7 @@
       elBrands.querySelectorAll("a.btn-ig").forEach(function (a) {
         a.addEventListener("click", function () {
           persistNavSilent();
-          replaceNav(currentDayId, openBrandId, false);
+          replaceNav(currentDayId, openBrandId, null);
         });
       });
     }
@@ -842,16 +899,23 @@
 
     function renderDrawer() {
       drawerContent.innerHTML = "";
-      var cafeBtn = document.createElement("button");
-      cafeBtn.type = "button";
-      cafeBtn.className = "drawer-cafe";
-      cafeBtn.textContent = "☕ Café da manhã com Deus";
-      cafeBtn.addEventListener("click", function () {
-        closeDrawer();
-        if (cafeOpen) return;
-        showCafeView({ replace: false });
-      });
-      drawerContent.appendChild(cafeBtn);
+      var date = dailyDate();
+
+      function addSpecial(type, label, cls) {
+        var b = document.createElement("button");
+        b.type = "button";
+        b.className = "drawer-special " + cls;
+        var unread = !hasSeen(type, date);
+        b.innerHTML = (unread ? '<span class="drawer-pulse" aria-hidden="true"></span>' : "") + "<span>" + label + "</span>";
+        b.addEventListener("click", function () {
+          closeDrawer();
+          if (specialOpen === type) return;
+          showSpecialView(type, { replace: false });
+        });
+        drawerContent.appendChild(b);
+      }
+      if (dailyDev()) addSpecial("cafe", "☕ Um café com o Pai", "cafe");
+      if (dailyPoem()) addSpecial("poema", "💌 Mensagem do Danillo", "love");
 
       var secLabel = document.createElement("div");
       secLabel.className = "drawer-section";
@@ -876,8 +940,8 @@
         dayBtn.textContent = dayLabel(r.date) + " (" + (r.brands || []).length + ")";
         dayBtn.addEventListener("click", function () {
           closeDrawer();
-          if (currentDayId === r.id && !openBrandId && !cafeOpen) return;
-          if (!currentDayId && !cafeOpen) goToDay(r.id);
+          if (currentDayId === r.id && !openBrandId && !specialOpen) return;
+          if (!currentDayId && !specialOpen) goToDay(r.id);
           else showDayView(r.id, null, { replace: true });
         });
         sec.appendChild(dayBtn);
@@ -915,7 +979,7 @@
 
     function restoreFromStorageOrHash() {
       var st = parseHash();
-      if (!st.dayId && !st.cafe) st = readStoredNav();
+      if (!st.dayId && !st.special) st = readStoredNav();
       applyState(st);
     }
 
@@ -925,7 +989,6 @@
       e.preventDefault();
       backButtonHandler();
     });
-
     window.addEventListener("popstate", function (ev) {
       var st = ev.state;
       if (!st || typeof st !== "object") st = parseHash();
@@ -942,7 +1005,7 @@
     document.addEventListener("visibilitychange", function () {
       if (document.visibilityState === "visible" && data) {
         var st = readStoredNav();
-        if (st.cafe && !cafeOpen) applyState(st);
+        if (st.special && st.special !== specialOpen) applyState(st);
         else if (st.dayId && st.dayId !== currentDayId) applyState(st);
         else if (st.dayId && st.brandId && st.brandId !== openBrandId) applyState(st);
         else persistNavSilent();
@@ -957,22 +1020,22 @@
       .then(function (json) {
         data = json;
         var st = parseHash();
-        if (!st.dayId && !st.cafe) st = readStoredNav();
-        if (st.cafe) {
-          replaceNav(null, null, false);
-          history.pushState({ dayId: null, brandId: null, cafe: true }, "", urlFor(null, null, true));
+        if (!st.dayId && !st.special) st = readStoredNav();
+        if (st.special === "cafe" || st.special === "poema") {
+          replaceNav(null, null, null);
+          history.pushState({ dayId: null, brandId: null, special: st.special }, "", urlFor(null, null, st.special));
           applyState(st);
         } else if (st.dayId && findRound(st.dayId)) {
-          replaceNav(null, null, false);
+          replaceNav(null, null, null);
           if (st.brandId) {
-            history.pushState({ dayId: st.dayId, brandId: null, cafe: null }, "", urlFor(st.dayId, null, false));
-            history.pushState({ dayId: st.dayId, brandId: st.brandId, cafe: null }, "", urlFor(st.dayId, st.brandId, false));
+            history.pushState({ dayId: st.dayId, brandId: null, special: null }, "", urlFor(st.dayId, null, null));
+            history.pushState({ dayId: st.dayId, brandId: st.brandId, special: null }, "", urlFor(st.dayId, st.brandId, null));
           } else {
-            history.pushState({ dayId: st.dayId, brandId: null, cafe: null }, "", urlFor(st.dayId, null, false));
+            history.pushState({ dayId: st.dayId, brandId: null, special: null }, "", urlFor(st.dayId, null, null));
           }
           applyState(st);
         } else {
-          replaceNav(null, null, false);
+          replaceNav(null, null, null);
           showDaysView({ skipHistory: true });
         }
       })
