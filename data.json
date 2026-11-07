@@ -1,36 +1,36 @@
 {
   "daily": {
-    "date": "2026-11-06",
-    "seenVersion": "v6",
+    "date": "2026-11-07",
+    "seenVersion": "v7",
     "devotional": {
-      "titulo": "Confiança que endireita o caminho",
-      "ref": "Provérbios 3:5-6",
-      "texto": "Confia no Senhor de todo o teu coração e não te estribes no teu próprio entendimento. Reconhece-o em todos os teus caminhos, e ele endireitará as tuas veredas.",
+      "titulo": "Forças renovadas",
+      "ref": "Isaías 40:31",
+      "texto": "Mas os que esperam no Senhor renovarão as suas forças, subirão com asas como águias; correrão, e não se cansarão; caminharão, e não se fatigarão.",
       "traducao": "Almeida Revisada e Corrigida",
-      "reflexao": "Minha filha querida, Eu vejo cada decisão pequenina do seu dia — o café ainda quente, o colo do Ravi, o olhar de esposa, a lista que parece não acabar. Hoje Eu te convido a confiar em Mim com o coração inteiro, sem precisar ter todas as respostas. Quando você Me reconhece no banho do bebê, no deslocamento pela Lagos, no silêncio cansado da noite, Eu endireito as suas veredas. Não é sobre controlar tudo; é sobre Me deixar guiar o passo seguinte. Eu cuido de você, da sua casa e da sua família. Descanse em Mim: o caminho se abre quando você confia.",
-      "oracao": "Pai, eu confio em Ti de todo o coração. Guia os meus passos, acalma a minha mente e guarda a minha família. Endireita as minhas veredas hoje. Amém.",
-      "paraHoje": "Antes de uma decisão pequena do dia, respire fundo e diga: \"Senhor, eu confio em Ti — endireita o meu caminho.\""
+      "reflexao": "Minha filha, Eu sei que tem dias em que o cansaço chega antes do café esfriar. O sábado começa, o Ravi acorda cheio de energia, a casa pede atenção e o coração também. Eu não te peço que seja forte sozinha: Eu te convido a esperar em Mim. Esperar não é ficar parada; é caminhar sabendo que a força vem de cima. Quando você Me entrega o seu cansaço, Eu devolvo fôlego novo — para brincar no chão da sala, para sorrir sem pressa, para amar com leveza. Hoje, descanse em Mim. Eu renovo você por dentro, como as águias que sobem sem bater as asas com esforço, sustentadas pelo vento que Eu mesmo envio.",
+      "oracao": "Senhor, eu entrego a Ti o meu cansaço. Renova as minhas forças, enche a minha casa de paz e me ensina a esperar em Ti com alegria. Amém.",
+      "paraHoje": "Em algum momento de hoje, pare por um minuto, respire fundo e diga: \"Senhor, eu espero em Ti — renova as minhas forças.\""
     },
     "poema": {
-      "titulo": "O mapa do meu peito",
+      "titulo": "Sábado com você",
       "versos": [
         "Duda,",
-        "se me pedissem um mapa",
-        "do lugar onde eu volto,",
-        "eu desenharia o seu rosto.",
-        "Você é a manhã que não precisa de pressa,",
-        "a mão que ajeita o cobertor do Ravi,",
-        "o riso curto que desarma",
-        "qualquer tempestade dentro de mim.",
-        "Eu te amo no detalhe:",
-        "no perfume que fica no ombro,",
-        "no silêncio que a gente divide,",
-        "no jeito de ser casa um para o outro.",
-        "Não prometo milagres grandes —",
-        "prometo presença.",
-        "E enquanto o mundo girar,",
-        "eu escolho o seu nome",
-        "como bússola e porto."
+        "o sábado só começa de verdade",
+        "quando você abre os olhos",
+        "e o quarto inteiro acorda junto.",
+        "Tem cheiro de café,",
+        "tem o Ravi pulando na cama,",
+        "tem o seu cabelo bagunçado",
+        "que eu acho a coisa mais linda do mundo.",
+        "Eu não preciso de viagem longe",
+        "nem de grandes planos —",
+        "me basta a varanda,",
+        "o vento da Lagos",
+        "e a sua mão procurando a minha.",
+        "Se o amor tivesse endereço,",
+        "seria este: você, num sábado qualquer,",
+        "me ensinando de novo",
+        "que casa é onde você ri."
       ]
     }
   },
@@ -944,6 +944,462 @@
             "Conteúdo de cabelo e rotina"
           ],
           "dm": "Oi, Image Hair! ✂️ Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Queria conversar sobre parceria de conteúdo de beleza. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar ideias?"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-07",
+      "date": "2026-11-07",
+      "brands": [
+        {
+          "id": "mbkids_",
+          "handle": "mbkids_",
+          "name": "MBkids",
+          "niche": "Moda infantil · Rio das Ostras",
+          "instagramUrl": "https://www.instagram.com/mbkids_/",
+          "source": "Viralist · Rio das Ostras ~13,1 mil",
+          "followersNote": "~13,1 mil",
+          "reasons": [
+            "Loja kids local com calçados e looks infantis",
+            "Encaixa o dia a dia do Ravi",
+            "Público de mamães da Lagos"
+          ],
+          "dm": "Oi, MBkids! 👟💛 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Sou da Região dos Lagos e amei o mix de vocês para os pequenos. Adoraria criar conteúdo com o Ravi usando as peças da loja. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar ideias?"
+        },
+        {
+          "id": "jomodasinfantilejuvenil",
+          "handle": "jomodasinfantilejuvenil",
+          "name": "Jocelaine Moda Infantil",
+          "niche": "Moda infantil e juvenil · Rio das Ostras",
+          "instagramUrl": "https://www.instagram.com/jomodasinfantilejuvenil/",
+          "source": "Viralist · Cidade Praiana ~11,6 mil",
+          "followersNote": "~11,6 mil",
+          "reasons": [
+            "Loja de bairro com delivery na cidade",
+            "Peças de 1 a 16 anos",
+            "Dona à frente do perfil"
+          ],
+          "dm": "Oi, Jocelaine! 👫 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Sou da Lagos e achei a loja de vocês um amor. Queria propor uma parceria carinhosa de conteúdo com looks do meu filho. Cases: Montreal Hyundai e NINHO Fases 1+. Posso te mandar ideias?"
+        },
+        {
+          "id": "modakidsriodasostras",
+          "handle": "modakidsriodasostras",
+          "name": "Moda Kids Rio das Ostras",
+          "niche": "Moda infantil · Rio das Ostras (Centro)",
+          "instagramUrl": "https://www.instagram.com/modakidsriodasostras/",
+          "source": "Google Maps · Centro RO, nota 5,0",
+          "followersNote": "",
+          "reasons": [
+            "Loja kids com roupas, tênis e brinquedos",
+            "Fama de bom preço e atendimento",
+            "Conteúdo prático de mãe"
+          ],
+          "dm": "Oi, Moda Kids! 🧸 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Moro na Região dos Lagos e vi que as mamães amam o atendimento de vocês. Bora fazer um conteúdo juntinhas com o Ravi? Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar ideias?"
+        },
+        {
+          "id": "shop15_riodasostras",
+          "handle": "shop15_riodasostras",
+          "name": "Shop 15",
+          "niche": "Moda família · Rio das Ostras",
+          "instagramUrl": "https://www.instagram.com/shop15_riodasostras/",
+          "source": "Viralist · Rio das Ostras ~8,8 mil",
+          "followersNote": "~8,8 mil",
+          "reasons": [
+            "A loja da família: looks pra todos",
+            "Encaixa conteúdo mãe, pai e filho",
+            "Atendimento exclusivo"
+          ],
+          "dm": "Oi, Shop 15! 🧡 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Amei a proposta de loja da família — combina muito com a minha rotina com o Danillo e o Ravi. Topam uma parceria de conteúdo? Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar ideias?"
+        },
+        {
+          "id": "estreladosaber",
+          "handle": "estreladosaber",
+          "name": "Estrela do Saber",
+          "niche": "Escola infantil · Rio das Ostras",
+          "instagramUrl": "https://www.instagram.com/estreladosaber/",
+          "source": "Viralist · Rio das Ostras ~6,7 mil",
+          "followersNote": "~6,7 mil",
+          "reasons": [
+            "28 anos de escola, do berçário ao fundamental",
+            "Programa bilíngue e integral",
+            "Conteúdo de rotina escolar para mamães"
+          ],
+          "dm": "Oi, Estrela do Saber! ⭐ Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil), mãe do Ravi e daqui da Lagos. Queria conversar sobre uma parceria de conteúdo mostrando o carinho de vocês com a educação infantil. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar ideias?"
+        },
+        {
+          "id": "ceeb_ebenezinho",
+          "handle": "ceeb_ebenezinho",
+          "name": "Creche Escola Ebenezinho",
+          "niche": "Creche escola cristã · Rio das Ostras",
+          "instagramUrl": "https://www.instagram.com/ceeb_ebenezinho/",
+          "source": "Google Maps · Rio das Ostras",
+          "followersNote": "",
+          "reasons": [
+            "Creche cristã com período até 19h",
+            "Valores que combinam com a família",
+            "Encaixa conteúdo de rotina de mãe"
+          ],
+          "dm": "Oi, Ebenezinho! 🙏💛 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Sou mãe do Ravi e amo escolas que cuidam com fé e carinho. Adoraria fazer uma parceria de conteúdo com vocês. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar ideias?"
+        },
+        {
+          "id": "inmooveoficial",
+          "handle": "inmooveoficial",
+          "name": "In Moove Academia",
+          "niche": "Academia · Rio das Ostras (Mariléa)",
+          "instagramUrl": "https://www.instagram.com/inmooveoficial/",
+          "source": "Wellhub · nota 4,9 (832 avaliações)",
+          "followersNote": "",
+          "reasons": [
+            "Academia de bairro super bem avaliada",
+            "Treino de mãe que trabalha",
+            "Conteúdo de bem-estar leve"
+          ],
+          "dm": "Oi, In Moove! 💪 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Sou da Lagos e queria mostrar minha rotina de treino de mãe num lugar com tanta avaliação boa. Topam uma parceria? Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar ideias?"
+        },
+        {
+          "id": "objetivafitness_village",
+          "handle": "objetivafitness_village",
+          "name": "Objetiva Fitness Village",
+          "niche": "Academia · Rio das Ostras (Village)",
+          "instagramUrl": "https://www.instagram.com/objetivafitness_village/",
+          "source": "Wellhub + imprensa local · 11 anos",
+          "followersNote": "",
+          "reasons": [
+            "Academia local aberta todos os dias",
+            "Gestão próxima da dona",
+            "Conteúdo de constância e saúde"
+          ],
+          "dm": "Oi, Objetiva Village! 🏋️‍♀️ Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Parabéns pelos 11 anos! Queria propor uma parceria de conteúdo sobre treinar mesmo na correria de mãe. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar ideias?"
+        },
+        {
+          "id": "sagaacademia",
+          "handle": "sagaacademia",
+          "name": "Saga Academia",
+          "niche": "Academia · Rio das Ostras (Enseada das Gaivotas)",
+          "instagramUrl": "https://www.instagram.com/sagaacademia/",
+          "source": "Wellhub · nota 4,7",
+          "followersNote": "",
+          "reasons": [
+            "Musculação, funcional e dança",
+            "Academia de bairro acolhedora",
+            "Rende reels divertidos de treino"
+          ],
+          "dm": "Oi, Saga! 💃 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Vi que vocês têm funcional e dança — amo! Queria fazer uma parceria de conteúdo leve sobre movimento e rotina de mãe. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar ideias?"
+        },
+        {
+          "id": "studio.elainealves",
+          "handle": "studio.elainealves",
+          "name": "Studio Elaine Alves",
+          "niche": "Salão de beleza · Rio das Ostras",
+          "instagramUrl": "https://www.instagram.com/studio.elainealves/",
+          "source": "Viralist · Rio das Ostras ~9,1 mil",
+          "followersNote": "~9,1 mil",
+          "reasons": [
+            "Primeiro Head Spa da região",
+            "Dona à frente há quase 20 anos",
+            "Conteúdo de autocuidado de mãe"
+          ],
+          "dm": "Oi, Elaine! 💆‍♀️ Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Fiquei encantada com o Head Spa — é exatamente o autocuidado que mãe precisa. Bora fazer um conteúdo juntas? Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar ideias?"
+        },
+        {
+          "id": "estudioglam_sg",
+          "handle": "estudioglam_sg",
+          "name": "Estúdio Glam",
+          "niche": "Salão e estética · Rio das Ostras",
+          "instagramUrl": "https://www.instagram.com/estudioglam_sg/",
+          "source": "Viralist · Rio das Ostras ~3,1 mil",
+          "followersNote": "~3,1 mil",
+          "reasons": [
+            "Cabelo, estética e bem-estar",
+            "Salão local que responde DM",
+            "Conteúdo de antes e depois"
+          ],
+          "dm": "Oi, Estúdio Glam! ✨ Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Sou da Lagos e queria propor uma parceria de conteúdo de beleza com vocês — um dia de cuidado de mãe. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar ideias?"
+        },
+        {
+          "id": "compulsivasaquarema",
+          "handle": "compulsivasaquarema",
+          "name": "Compulsiva",
+          "niche": "Moda feminina · Saquarema (Bacaxá)",
+          "instagramUrl": "https://www.instagram.com/compulsivasaquarema/",
+          "source": "StarNgage · Bacaxá ~14,1 mil",
+          "followersNote": "~14,1 mil",
+          "reasons": [
+            "Loja física em Bacaxá desde 2015",
+            "Delivery local na cidade",
+            "Looks do dia a dia que rendem provador"
+          ],
+          "dm": "Oi, Compulsiva! 🛍️ Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Sou da Região dos Lagos e amei os looks de vocês. Queria fazer um provador lindo pra minhas seguidoras. Topam? Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar ideias?"
+        },
+        {
+          "id": "lojabelamar",
+          "handle": "lojabelamar",
+          "name": "Belamar Moda Feminina",
+          "niche": "Moda feminina · Saquarema (Bacaxá)",
+          "instagramUrl": "https://www.instagram.com/lojabelamar/",
+          "source": "Viralist · Bacaxá ~5,5 mil",
+          "followersNote": "~5,5 mil",
+          "reasons": [
+            "Lojinha local com loja física e online",
+            "Peças delicadas e femininas",
+            "Provador combina com o perfil dela"
+          ],
+          "dm": "Oi, Belamar! 💖 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Achei as peças de vocês delicadas do jeitinho que eu amo. Queria propor uma parceria de conteúdo com looks da loja. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar ideias?"
+        },
+        {
+          "id": "useleidylopes",
+          "handle": "useleidylopes",
+          "name": "Leidy Lopes Moda Feminina",
+          "niche": "Moda feminina · Saquarema (Bacaxá)",
+          "instagramUrl": "https://www.instagram.com/useleidylopes/",
+          "source": "Viralist · Bacaxá",
+          "followersNote": "",
+          "reasons": [
+            "Roupas, cosméticos e acessórios",
+            "Dona à frente da loja",
+            "Encaixa look + beleza num conteúdo só"
+          ],
+          "dm": "Oi, Leidy! 🌸 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Amei que a loja junta moda, acessórios e cosméticos. Queria fazer um conteúdo completinho com vocês. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar ideias?"
+        },
+        {
+          "id": "jessybragancaa",
+          "handle": "jessybragancaa",
+          "name": "Jessy Bragança Moda",
+          "niche": "Moda feminina e plus · Iguaba Grande",
+          "instagramUrl": "https://www.instagram.com/jessybragancaa/",
+          "source": "Viralist · Iguaba Grande ~5,1 mil",
+          "followersNote": "~5,1 mil",
+          "reasons": [
+            "Moda padrão e plus size",
+            "Venda direta pelo WhatsApp",
+            "Lojinha local que precisa de alcance"
+          ],
+          "dm": "Oi, Jessy! 👗 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Sou daqui da Lagos e amei que você veste todos os corpos. Queria propor uma parceria de conteúdo com looks da loja. Cases: Montreal Hyundai e NINHO Fases 1+. Posso te mandar ideias?"
+        },
+        {
+          "id": "studiodebelezapaulasouza",
+          "handle": "studiodebelezapaulasouza",
+          "name": "Studio Paula Souza",
+          "niche": "Cabelo · Saquarema",
+          "instagramUrl": "https://www.instagram.com/studiodebelezapaulasouza/",
+          "source": "Viralist · Saquarema ~6,7 mil",
+          "followersNote": "~6,7 mil",
+          "reasons": [
+            "Especialista em loiros e mechas",
+            "Profissional dona do perfil",
+            "Transformação rende ótimo reel"
+          ],
+          "dm": "Oi, Paula! 💛 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Seus loiros são lindos demais! Queria fazer um conteúdo de transformação com você aqui na Lagos. Cases: Montreal Hyundai e NINHO Fases 1+. Posso te mandar ideias?"
+        },
+        {
+          "id": "jpbeauty.esmalteria",
+          "handle": "jpbeauty.esmalteria",
+          "name": "JP Beauty",
+          "niche": "Esmalteria e estética · Saquarema",
+          "instagramUrl": "https://www.instagram.com/jpbeauty.esmalteria/",
+          "source": "Viralist · Saquarema ~1,7 mil",
+          "followersNote": "~1,7 mil",
+          "reasons": [
+            "Unhas, cílios, massagem e limpeza de pele",
+            "Espaço novo que quer crescer",
+            "Conteúdo de dia de autocuidado"
+          ],
+          "dm": "Oi, JP Beauty! 💅 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Amei o conceito de cuidado de vocês. Queria propor um conteúdo de dia de mimo pra mãe. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar ideias?"
+        },
+        {
+          "id": "pousadacatavento",
+          "handle": "pousadacatavento",
+          "name": "Pousada Catavento",
+          "niche": "Pousada · Saquarema (Itaúna)",
+          "instagramUrl": "https://www.instagram.com/pousadacatavento/",
+          "source": "Site oficial · Itaúna",
+          "followersNote": "",
+          "reasons": [
+            "Pousada familiar perto da praia de Itaúna",
+            "Ótima para fim de semana com criança",
+            "Conteúdo de viagem curtinha na Lagos"
+          ],
+          "dm": "Oi, Pousada Catavento! 🌬️🌊 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Queria mostrar um fim de semana em família em Itaúna com vocês. Topam uma parceria de hospedagem e conteúdo? Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar ideias?"
+        },
+        {
+          "id": "pousadasobreasondas",
+          "handle": "pousadasobreasondas",
+          "name": "Pousada Sobre as Ondas",
+          "niche": "Pousada · Saquarema (Itaúna)",
+          "instagramUrl": "https://www.instagram.com/pousadasobreasondas/",
+          "source": "Google Maps · nota 4,8",
+          "followersNote": "",
+          "reasons": [
+            "Piscina, salão de jogos e quartos novos",
+            "Pertinho da praia de Itaúna",
+            "Encaixa conteúdo família com o Ravi"
+          ],
+          "dm": "Oi, Sobre as Ondas! 🏄‍♀️ Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Vi que a pousada tem piscina e salão de jogos — o Ravi ia amar! Topam uma parceria de conteúdo em família? Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar ideias?"
+        },
+        {
+          "id": "garotadeitaunaoficial",
+          "handle": "garotadeitaunaoficial",
+          "name": "Pousada Garota de Itaúna",
+          "niche": "Pousada e restaurante · Saquarema",
+          "instagramUrl": "https://www.instagram.com/garotadeitaunaoficial/",
+          "source": "Site Aloha Spirit · frente à praia",
+          "followersNote": "",
+          "reasons": [
+            "Frente à praia de Itaúna",
+            "Restaurante de frutos do mar",
+            "Rende conteúdo de vista + comida"
+          ],
+          "dm": "Oi, Garota de Itaúna! 🐟🌅 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Essa vista de frente pro mar é um sonho. Queria propor uma parceria de conteúdo de escapadinha na Lagos. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar ideias?"
+        },
+        {
+          "id": "pousadacostadomeio",
+          "handle": "pousadacostadomeio",
+          "name": "Pousada Costa do Meio",
+          "niche": "Pousada · Saquarema (Itaúna)",
+          "instagramUrl": "https://www.instagram.com/pousadacostadomeio/",
+          "source": "Google Maps · vista de Itaúna",
+          "followersNote": "",
+          "reasons": [
+            "Vista panorâmica da praia de Itaúna",
+            "Pousada local com restaurante e bar",
+            "Ótima para conteúdo de casal"
+          ],
+          "dm": "Oi, Costa do Meio! 🌊 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Queria mostrar um passeio de casal com essa vista linda de Itaúna. Topam uma parceria de conteúdo? Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar ideias?"
+        },
+        {
+          "id": "ocacareco",
+          "handle": "ocacareco",
+          "name": "Brechó O Cacareco",
+          "niche": "Brechó · Botafogo",
+          "instagramUrl": "https://www.instagram.com/ocacareco/",
+          "source": "Viralist · Botafogo ~42,4 mil",
+          "followersNote": "~42,4 mil",
+          "reasons": [
+            "Brechó querido com área kids (@ocacarequinhobrecho)",
+            "Moda circular para mãe e filho",
+            "Garimpo rende conteúdo divertido"
+          ],
+          "dm": "Oi, Cacareco! 🧸♻️ Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Amo garimpo e vi que vocês têm o Cacarequinho pros pequenos. Queria fazer um conteúdo de garimpo mãe e filho. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar ideias?"
+        },
+        {
+          "id": "pipoca.brechorj",
+          "handle": "pipoca.brechorj",
+          "name": "Pipoca Brechó",
+          "niche": "Brechó luxo acessível · Laranjeiras",
+          "instagramUrl": "https://www.instagram.com/pipoca.brechorj/",
+          "source": "Viralist · Laranjeiras ~12,7 mil",
+          "followersNote": "~12,7 mil",
+          "reasons": [
+            "Peças novas e seminovas de marca",
+            "Luxo acessível que conversa com moda",
+            "Garimpo rende reels"
+          ],
+          "dm": "Oi, Pipoca! 🍿 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Amei a proposta de luxo acessível. Queria fazer um garimpo com vocês pra mostrar pras minhas seguidoras. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar ideias?"
+        },
+        {
+          "id": "lacosdeamorj",
+          "handle": "lacosdeamorj",
+          "name": "Laços de Amor",
+          "niche": "Boutique e brechó infantil · Botafogo",
+          "instagramUrl": "https://www.instagram.com/lacosdeamorj/",
+          "source": "Viralist · Botafogo",
+          "followersNote": "",
+          "reasons": [
+            "Boutique e brechó kids",
+            "Moda infantil consciente",
+            "Encaixa looks do Ravi"
+          ],
+          "dm": "Oi, Laços de Amor! 🎀 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Amei a boutique e o brechó infantil de vocês. Queria propor uma parceria de conteúdo com o meu filho. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar ideias?"
+        },
+        {
+          "id": "so.nenem",
+          "handle": "so.nenem",
+          "name": "Só Neném",
+          "niche": "Moda infantil · Vila Isabel / Méier / Andaraí",
+          "instagramUrl": "https://www.instagram.com/so.nenem/",
+          "source": "Viralist · Zona Norte ~23,4 mil",
+          "followersNote": "~23,4 mil",
+          "reasons": [
+            "Do prematuro aos 16 anos",
+            "Lojas de bairro na Zona Norte",
+            "Público de mamães cariocas"
+          ],
+          "dm": "Oi, Só Neném! 👶💛 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Amei que vocês vestem desde o prematuro até os maiores. Queria fazer uma parceria de conteúdo com looks do Ravi. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar ideias?"
+        },
+        {
+          "id": "peticole",
+          "handle": "peticole",
+          "name": "Peticolé",
+          "niche": "Moda infantil estampada · Recreio",
+          "instagramUrl": "https://www.instagram.com/peticole/",
+          "source": "Site oficial · loja no Recreio",
+          "followersNote": "",
+          "reasons": [
+            "Marca carioca de roupa estampada e colorida",
+            "Loja de rua no Recreio",
+            "Looks fofos que rendem foto"
+          ],
+          "dm": "Oi, Peticolé! 🌈 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Amo as estampas coloridas de vocês. Queria propor uma parceria de conteúdo com looks kids cheios de cor. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar ideias?"
+        },
+        {
+          "id": "usepipa",
+          "handle": "usepipa",
+          "name": "Pipa Moda Praia",
+          "niche": "Moda praia infantil e teen · Rio",
+          "instagramUrl": "https://www.instagram.com/usepipa/",
+          "source": "Viralist · Rio ~45,3 mil",
+          "followersNote": "~45,3 mil",
+          "reasons": [
+            "Marca carioca de produção própria",
+            "Moda praia kids combina com a Lagos",
+            "Fundadora ativa no perfil"
+          ],
+          "dm": "Oi, Pipa! ☀️ Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Moro na Região dos Lagos e o Ravi vive na praia — moda praia kids é a nossa cara! Topam uma parceria de conteúdo? Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar ideias?"
+        },
+        {
+          "id": "karinanigri",
+          "handle": "karinanigri",
+          "name": "Karina Nigri",
+          "niche": "Moda feminina · ateliê Barra da Tijuca",
+          "instagramUrl": "https://www.instagram.com/karinanigri/",
+          "source": "Viralist · Barra ~15,3 mil",
+          "followersNote": "~15,3 mil",
+          "reasons": [
+            "Ateliê autoral desde 1999",
+            "Atendimento com hora marcada",
+            "Looks elegantes para provador"
+          ],
+          "dm": "Oi, Karina! 🤍 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Amei a elegância das suas peças. Queria fazer um provador no ateliê e mostrar pras minhas seguidoras. Cases: Montreal Hyundai e NINHO Fases 1+. Posso te mandar ideias?"
+        },
+        {
+          "id": "areiacariocaoficial",
+          "handle": "areiacariocaoficial",
+          "name": "Areia Carioca",
+          "niche": "Moda praia · Copacabana / Tijuca / Recreio",
+          "instagramUrl": "https://www.instagram.com/areiacariocaoficial/",
+          "source": "Viralist · Rio ~15,6 mil",
+          "followersNote": "~15,6 mil",
+          "reasons": [
+            "Monte seu biquíni, 20 anos de marca",
+            "Lojas de bairro no Rio",
+            "Moda praia combina com o verão na Lagos"
+          ],
+          "dm": "Oi, Areia Carioca! 👙 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Amei o monte seu biquíni! Queria fazer um conteúdo de verão com vocês, entre o Rio e a Lagos. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar ideias?"
+        },
+        {
+          "id": "workouttijuca",
+          "handle": "workouttijuca",
+          "name": "Workout Tijuca",
+          "niche": "Academia · Tijuca",
+          "instagramUrl": "https://www.instagram.com/workouttijuca/",
+          "source": "Viralist · Tijuca ~19 mil",
+          "followersNote": "~19 mil",
+          "reasons": [
+            "Musculação, pilates e FitDance",
+            "Academia de bairro com muitas aulas",
+            "Conteúdo de treino leve e divertido"
+          ],
+          "dm": "Oi, Workout Tijuca! 💪 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Amei a variedade de aulas, de pilates a FitDance. Queria propor uma parceria de conteúdo de treino de mãe. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar ideias?"
         }
       ]
     }
