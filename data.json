@@ -1,36 +1,37 @@
 {
   "daily": {
-    "date": "2026-11-07",
-    "seenVersion": "v7",
+    "date": "2026-11-08",
+    "seenVersion": "v8",
     "devotional": {
-      "titulo": "Forças renovadas",
-      "ref": "Isaías 40:31",
-      "texto": "Mas os que esperam no Senhor renovarão as suas forças, subirão com asas como águias; correrão, e não se cansarão; caminharão, e não se fatigarão.",
+      "titulo": "O dia que o Senhor fez",
+      "ref": "Salmos 118:24",
+      "texto": "Este é o dia que fez o Senhor: regozijemo-nos, e alegremo-nos nele.",
       "traducao": "Almeida Revisada e Corrigida",
-      "reflexao": "Minha filha, Eu sei que tem dias em que o cansaço chega antes do café esfriar. O sábado começa, o Ravi acorda cheio de energia, a casa pede atenção e o coração também. Eu não te peço que seja forte sozinha: Eu te convido a esperar em Mim. Esperar não é ficar parada; é caminhar sabendo que a força vem de cima. Quando você Me entrega o seu cansaço, Eu devolvo fôlego novo — para brincar no chão da sala, para sorrir sem pressa, para amar com leveza. Hoje, descanse em Mim. Eu renovo você por dentro, como as águias que sobem sem bater as asas com esforço, sustentadas pelo vento que Eu mesmo envio.",
-      "oracao": "Senhor, eu entrego a Ti o meu cansaço. Renova as minhas forças, enche a minha casa de paz e me ensina a esperar em Ti com alegria. Amém.",
-      "paraHoje": "Em algum momento de hoje, pare por um minuto, respire fundo e diga: \"Senhor, eu espero em Ti — renova as minhas forças.\""
+      "reflexao": "Minha filha, acordar no domingo não precisa ser uma lista de tarefas. Eu mesmo preparei este dia para você — o sol entrando na janela, o Ravi rindo em algum canto da casa, o cheiro do café, o vento da Lagos soprando sem pressa. Alegria, para Mim, não é um desempenho: é um convite. Quando você escolhe se alegrar em Mim, o domingo deixa de ser só mais um intervalo entre as semanas e vira presente. Eu não te peço um domingo perfeito. Te peço um domingo comigo. Ri com o seu menino, descanse no sofá, dê a mão a quem você ama. Este é o dia que Eu fiz, e Eu o fiz pensando também em você.",
+      "oracao": "Senhor, obrigada por este dia que Tu fizeste. Ensina o meu coração a se alegrar em Ti, a descansar sem culpa e a enxergar bênção no que é simples. Amém.",
+      "paraHoje": "Em algum momento deste domingo, pare, respire e diga em voz alta: \"Este é o dia que o Senhor fez — eu me alegro nele.\""
     },
     "poema": {
-      "titulo": "Sábado com você",
+      "titulo": "Domingo na varanda",
       "versos": [
         "Duda,",
-        "o sábado só começa de verdade",
-        "quando você abre os olhos",
-        "e o quarto inteiro acorda junto.",
-        "Tem cheiro de café,",
-        "tem o Ravi pulando na cama,",
-        "tem o seu cabelo bagunçado",
-        "que eu acho a coisa mais linda do mundo.",
-        "Eu não preciso de viagem longe",
-        "nem de grandes planos —",
-        "me basta a varanda,",
+        "o domingo chega devagar",
+        "como quem não quer acordar a casa.",
+        "Você aparece na varanda",
+        "com o cabelo ainda úmido",
+        "e uma xícara entre as mãos,",
+        "e o mundo inteiro",
+        "cabe naquele pedaço de luz.",
+        "O Ravi desenha no chão",
+        "um oceano que só ele vê,",
+        "e eu vejo você",
+        "ensinando o dia a ser manso.",
+        "Se me perguntarem",
+        "onde mora a minha fé no amor,",
+        "eu aponto para este domingo:",
+        "você, o menino,",
         "o vento da Lagos",
-        "e a sua mão procurando a minha.",
-        "Se o amor tivesse endereço,",
-        "seria este: você, num sábado qualquer,",
-        "me ensinando de novo",
-        "que casa é onde você ri."
+        "e o tempo enfim do nosso lado."
       ]
     }
   },
@@ -1400,6 +1401,462 @@
             "Conteúdo de treino leve e divertido"
           ],
           "dm": "Oi, Workout Tijuca! 💪 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Amei a variedade de aulas, de pilates a FitDance. Queria propor uma parceria de conteúdo de treino de mãe. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar ideias?"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-08",
+      "date": "2026-11-08",
+      "brands": [
+        {
+          "id": "brbrand_spa",
+          "handle": "brbrand_spa",
+          "name": "Br Brand",
+          "niche": "Moda infantil · São Pedro da Aldeia",
+          "instagramUrl": "https://www.instagram.com/brbrand_spa/",
+          "source": "Google Maps · São Pedro da Aldeia",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Lojinha kids no Porto D'Aldeia",
+            "Looks do dia a dia para a idade do Ravi",
+            "Comércio local que responde quem mora na Lagos"
+          ],
+          "dm": "Oi, Br Brand! 👟💛 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Sou da Região dos Lagos e amei a lojinha de vocês em São Pedro. Adoraria criar conteúdo com o Ravi usando as peças. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar ideias?"
+        },
+        {
+          "id": "gabieleelamodainfatil",
+          "handle": "gabieleelamodainfatil",
+          "name": "Gabi Ele & Ela",
+          "niche": "Moda infantil · São Pedro da Aldeia",
+          "instagramUrl": "https://www.instagram.com/gabieleelamodainfatil/",
+          "source": "Fashyas · São Pedro da Aldeia",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Moda infantil perto da Estação",
+            "Mix para meninos e meninas",
+            "Encaixa o cotidiano do Ravi na Lagos"
+          ],
+          "dm": "Oi, Gabi Ele & Ela! 🌈 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Sou vizinha, da Região dos Lagos, e gostei muito da loja de vocês em São Pedro. Queria pensar um conteúdo fofo com o Ravi. Cases: Montreal Hyundai e NINHO Fases 1+. Faz sentido?"
+        },
+        {
+          "id": "ravannimodas",
+          "handle": "ravannimodas",
+          "name": "Ravanni",
+          "niche": "Moda plus size · São Pedro da Aldeia",
+          "instagramUrl": "https://www.instagram.com/ravannimodas/",
+          "source": "Viralist · São Pedro da Aldeia ~4,3 mil",
+          "followersNote": "~4,3 mil",
+          "reasons": [
+            "Marca local que veste plus com carinho",
+            "Loja no centro de São Pedro",
+            "Lifestyle real, longe de varejo gigante"
+          ],
+          "dm": "Oi, Ravanni! 🩷 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Sou da Região dos Lagos e amei o jeito de vocês exaltarem cada mulher. Adoraria criar um conteúdo leve na loja. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar ideias?"
+        },
+        {
+          "id": "padolymodas_",
+          "handle": "padolymodas_",
+          "name": "Padoly Modas",
+          "niche": "Moda feminina · São Pedro da Aldeia",
+          "instagramUrl": "https://www.instagram.com/padolymodas_/",
+          "source": "Google Maps · São Pedro da Aldeia",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Confecção própria em São Pedro",
+            "Peças e moda praia com atendimento próximo",
+            "Encaixa o lifestyle da Duda na Lagos"
+          ],
+          "dm": "Oi, Padoly! ✨ Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Sou da Região dos Lagos e me encantei com as peças de vocês. Queria pensar um conteúdo de look do dia. Cases: Montreal Hyundai e NINHO Fases 1+. Posso te contar as ideias?"
+        },
+        {
+          "id": "mj_estima",
+          "handle": "mj_estima",
+          "name": "Estima",
+          "niche": "Moda feminina · São Pedro da Aldeia",
+          "instagramUrl": "https://www.instagram.com/mj_estima/",
+          "source": "Google Maps · São Pedro da Aldeia",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Loja completa no centro de São Pedro",
+            "Atendimento de dono, perto de quem decide",
+            "Looks do dia a dia com bom gosto"
+          ],
+          "dm": "Oi, Estima! 💙 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Sou da Região dos Lagos e admiro a loja de vocês no Centro. Adoraria gravar um conteúdo de looks por aí. Cases: Montreal Hyundai e NINHO Fases 1+. Faz sentido conversarmos?"
+        },
+        {
+          "id": "espelhomeu_blz",
+          "handle": "espelhomeu_blz",
+          "name": "Espaço Espelho Meu",
+          "niche": "Salão de beleza · São Pedro da Aldeia",
+          "instagramUrl": "https://www.instagram.com/espelhomeu_blz/",
+          "source": "Google Maps · São Pedro da Aldeia",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Salão local no centro de São Pedro",
+            "Beleza do dia a dia, fácil de mostrar em Reels",
+            "Acesso direto a quem cuida da agenda"
+          ],
+          "dm": "Oi, Espelho Meu! 🪞💛 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Sou da Região dos Lagos e amei o carinho do espaço de vocês. Queria criar um conteúdo leve de beleza por aí. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar ideias?"
+        },
+        {
+          "id": "tatiana_souzas",
+          "handle": "tatiana_souzas",
+          "name": "Espaço Tatiana Souza",
+          "niche": "Salão de beleza · São Pedro da Aldeia",
+          "instagramUrl": "https://www.instagram.com/tatiana_souzas/",
+          "source": "Google Maps · São Pedro da Aldeia",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Estúdio local na Teixeira Brandão",
+            "Cuidado próximo, do tamanho certo para DM",
+            "Beleza que combina com a rotina da Duda"
+          ],
+          "dm": "Oi, Tatiana! 💇‍♀️ Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Sou da Região dos Lagos e gostei muito do seu espaço em São Pedro. Adoraria pensar um conteúdo de transformação leve. Cases: Montreal Hyundai e NINHO Fases 1+. Posso te contar?"
+        },
+        {
+          "id": "amorasconcept_",
+          "handle": "amorasconcept_",
+          "name": "Amoras Concept",
+          "niche": "Salão de beleza · São Pedro da Aldeia",
+          "instagramUrl": "https://www.instagram.com/amorasconcept_/",
+          "source": "Google Maps · São Pedro da Aldeia",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Salão concept no Parque Estoril",
+            "Visual moderno para conteúdo de beleza",
+            "Negócio local com dona no atendimento"
+          ],
+          "dm": "Oi, Amoras Concept! 🍇 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Sou da Região dos Lagos e o espaço de vocês parece um convite a um conteúdo lindo. Queria propor uma parceria carinhosa. Cases: Montreal Hyundai e NINHO Fases 1+. Podemos conversar?"
+        },
+        {
+          "id": "wa_cabeleireiro",
+          "handle": "wa_cabeleireiro",
+          "name": "WA Cabeleireiro",
+          "niche": "Salão de beleza · São Pedro da Aldeia",
+          "instagramUrl": "https://www.instagram.com/wa_cabeleireiro/",
+          "source": "Google Maps · São Pedro da Aldeia",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Cabeleireiro local no centro",
+            "Atendimento próximo, sem rede nacional",
+            "Cabe num Reel simples de rotina"
+          ],
+          "dm": "Oi, WA Cabeleireiro! ✂️ Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Sou da Região dos Lagos e queria criar um conteúdo gostoso de salão com vocês. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar ideias?"
+        },
+        {
+          "id": "wafitnes_s",
+          "handle": "wafitnes_s",
+          "name": "WA Fitness",
+          "niche": "Academia feminina · São Pedro da Aldeia",
+          "instagramUrl": "https://www.instagram.com/wafitnes_s/",
+          "source": "Wellhub · São Pedro da Aldeia",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Academia boutique só para mulheres",
+            "Aulas coletivas no Campo Redondo",
+            "Lifestyle fitness alinhado com a Duda"
+          ],
+          "dm": "Oi, WA Fitness! 💪🌸 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Sou da Região dos Lagos e amei a proposta de vocês, um espaço só para elas. Adoraria gravar um treino leve por aí. Cases: Montreal Hyundai e NINHO Fases 1+. Faz sentido?"
+        },
+        {
+          "id": "lagunafitness1",
+          "handle": "lagunafitness1",
+          "name": "Laguna Fitness",
+          "niche": "Academia · São Pedro da Aldeia",
+          "instagramUrl": "https://www.instagram.com/lagunafitness1/",
+          "source": "Wellhub · São Pedro da Aldeia",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Academia local no Porto D'Aldeia",
+            "Musculação e funcional sem ser rede grande",
+            "Fácil acesso a quem cuida do marketing"
+          ],
+          "dm": "Oi, Laguna Fitness! 🏋️ Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Sou da Região dos Lagos e gostei da energia da academia de vocês. Queria pensar um conteúdo de rotina e movimento. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar ideias?"
+        },
+        {
+          "id": "xododapraia",
+          "handle": "xododapraia",
+          "name": "Xodó da Praia",
+          "niche": "Pousada · São Pedro da Aldeia",
+          "instagramUrl": "https://www.instagram.com/xododapraia/",
+          "source": "Restaurant Guru · São Pedro da Aldeia",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Pousada e restaurante na Estrada do Boqueirão",
+            "Clima de família à beira da praia",
+            "Conteúdo gostoso de estadia na Lagos"
+          ],
+          "dm": "Oi, Xodó da Praia! 🌊🏡 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Sou da Região dos Lagos e o cantinho de vocês parece um abraço. Adoraria criar um conteúdo leve de pousada em família. Cases: Montreal Hyundai e NINHO Fases 1+. Podemos conversar?"
+        },
+        {
+          "id": "pontaldapraia",
+          "handle": "pontaldapraia",
+          "name": "Pousada Pontal da Praia",
+          "niche": "Pousada · São Pedro da Aldeia",
+          "instagramUrl": "https://www.instagram.com/pontaldapraia/",
+          "source": "LinkedIn / site · São Pedro da Aldeia",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Pousada menor em São Pedro da Aldeia",
+            "Hospitalidade local, dono perto da operação",
+            "Encaixa um vlog de fim de semana com o Ravi"
+          ],
+          "dm": "Oi, Pontal da Praia! 🏖️ Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Sou da Região dos Lagos e queria parceria carinhosa de pousada e rotina em família. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar ideias?"
+        },
+        {
+          "id": "gigikids_rj",
+          "handle": "gigikids_rj",
+          "name": "Gigi Kids",
+          "niche": "Moda infantil · Araruama",
+          "instagramUrl": "https://www.instagram.com/gigikids_rj/",
+          "source": "Fashyas · Araruama",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Loja kids de Araruama",
+            "Roupa de bebê, infantil e juvenil",
+            "Público de mamães da Lagos"
+          ],
+          "dm": "Oi, Gigi Kids! 🧸 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Sou da Região dos Lagos e amei o mix de vocês para os pequenos. Adoraria criar conteúdo com o Ravi. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar ideias?"
+        },
+        {
+          "id": "mahibabyararuama",
+          "handle": "mahibabyararuama",
+          "name": "Mahi Baby",
+          "niche": "Moda infantil · Araruama",
+          "instagramUrl": "https://www.instagram.com/mahibabyararuama/",
+          "source": "Google Maps · Araruama",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Loja afetiva de Araruama, com donos no atendimento",
+            "Veste do bebê ao menino mais crescidinho",
+            "Peças que cabem no dia a dia do Ravi"
+          ],
+          "dm": "Oi, Mahi Baby! 🍼💛 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Sou da Região dos Lagos e o carinho do Thi e da Luiza com as mamães me conquistou. Queria um conteúdo fofo com o Ravi. Cases: Montreal Hyundai e NINHO Fases 1+. Faz sentido?"
+        },
+        {
+          "id": "patty_araruama",
+          "handle": "patty_araruama",
+          "name": "Patty Modas",
+          "niche": "Moda infantil · Araruama",
+          "instagramUrl": "https://www.instagram.com/patty_araruama/",
+          "source": "Fashyas · Araruama",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Moda de 0 a 16 anos no centro de Araruama",
+            "Lojinha local, do tamanho certo para DM",
+            "Looks confortáveis para a idade do Ravi"
+          ],
+          "dm": "Oi, Patty Modas! 👕 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Sou da Região dos Lagos e gostei da variedade de vocês para os pequenos. Adoraria pensar um conteúdo juntos. Cases: Montreal Hyundai e NINHO Fases 1+. Posso te contar as ideias?"
+        },
+        {
+          "id": "centroeducacional_sementinhas",
+          "handle": "centroeducacional.sementinhas",
+          "name": "CES Sementinhas",
+          "niche": "Escola infantil · Araruama",
+          "instagramUrl": "https://www.instagram.com/centroeducacional.sementinhas/",
+          "source": "Solutudo · Araruama",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Creche e escola local desde 2013",
+            "Ambiente acolhedor no centro de Araruama",
+            "Combina com conteúdo de maternidade real"
+          ],
+          "dm": "Oi, Sementinhas! 🌱 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Sou da Região dos Lagos e amei o cuidado de vocês com as crianças. Queria pensar um conteúdo carinhoso sobre o dia a dia da escola. Cases: Montreal Hyundai e NINHO Fases 1+. Podemos conversar?"
+        },
+        {
+          "id": "mygirlsmodafeminina",
+          "handle": "mygirlsmodafeminina",
+          "name": "My Girl",
+          "niche": "Moda feminina · Araruama",
+          "instagramUrl": "https://www.instagram.com/mygirlsmodafeminina/",
+          "source": "Google Maps · Araruama",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Boutique local na Avenida Brasil",
+            "Moda feminina acessível de Araruama",
+            "Looks do cotidiano para parceria de conteúdo"
+          ],
+          "dm": "Oi, My Girl! 👗 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Sou da Região dos Lagos e a loja de vocês em Araruama combinou comigo. Adoraria gravar um conteúdo de looks. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar ideias?"
+        },
+        {
+          "id": "bellaa_boutiq",
+          "handle": "bellaa_boutiq",
+          "name": "Bella By",
+          "niche": "Moda feminina · Araruama",
+          "instagramUrl": "https://www.instagram.com/bellaa_boutiq/",
+          "source": "Google Maps · Araruama",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Boutique local em Mataruna",
+            "Peças femininas com atendimento próximo",
+            "Tamanho ideal para responder DM"
+          ],
+          "dm": "Oi, Bella By! 💐 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Sou da Região dos Lagos e me interessei pela boutique de vocês. Queria propor um conteúdo leve de moda. Cases: Montreal Hyundai e NINHO Fases 1+. Faz sentido?"
+        },
+        {
+          "id": "alfradique_modas",
+          "handle": "alfradique_modas",
+          "name": "Alfradique Modas",
+          "niche": "Moda feminina · Araruama",
+          "instagramUrl": "https://www.instagram.com/alfradique_modas/",
+          "source": "Google Maps · Araruama",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Loja local com peças elegantes e modestas",
+            "Atendimento elogiado e próximo da dona",
+            "Lifestyle clássico que veste bem a Duda"
+          ],
+          "dm": "Oi, Alfradique! 🌷 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Sou da Região dos Lagos e amei o cuidado de vocês com cada cliente. Adoraria criar um conteúdo de looks por aí. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar ideias?"
+        },
+        {
+          "id": "flaviaalvesstudiohair",
+          "handle": "flaviaalvesstudiohair",
+          "name": "Flávia Alves Studio Hair",
+          "niche": "Salão de beleza · Araruama",
+          "instagramUrl": "https://www.instagram.com/flaviaalvesstudiohair/",
+          "source": "Google Maps · Araruama",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Studio de cabelo no centro de Araruama",
+            "Luzes e tratamentos com atendimento próximo",
+            "Beleza local fácil de mostrar em vídeo"
+          ],
+          "dm": "Oi, Flávia! 💇‍♀️✨ Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Sou da Região dos Lagos e vi o carinho do seu studio em Araruama. Queria pensar um conteúdo de cabelo com você. Cases: Montreal Hyundai e NINHO Fases 1+. Podemos conversar?"
+        },
+        {
+          "id": "topfitnessararuama",
+          "handle": "topfitnessararuama",
+          "name": "Top Fitness",
+          "niche": "Academia · Araruama",
+          "instagramUrl": "https://www.instagram.com/topfitnessararuama/",
+          "source": "Wellhub · Araruama",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Academia independente no centro",
+            "Tem até funcional infantil",
+            "Longe das redes nacionais grandes"
+          ],
+          "dm": "Oi, Top Fitness! 🏋️ Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Sou da Região dos Lagos e a academia de vocês em Araruama tem uma energia boa para um conteúdo de rotina. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar ideias?"
+        },
+        {
+          "id": "ac_estacao_fitness",
+          "handle": "ac.estacao_fitness",
+          "name": "Estação Fitness",
+          "niche": "Academia · Araruama",
+          "instagramUrl": "https://www.instagram.com/ac.estacao_fitness/",
+          "source": "Wellhub · Araruama",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Academia local no Rio do Limão",
+            "Musculação, bike e funcional",
+            "Perfil independente, bom para DM"
+          ],
+          "dm": "Oi, Estação Fitness! 🚲 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Sou da Região dos Lagos e gostei da proposta de vocês em Araruama. Adoraria gravar um treino leve por aí. Cases: Montreal Hyundai e NINHO Fases 1+. Faz sentido?"
+        },
+        {
+          "id": "pousadaararuama",
+          "handle": "pousadaararuama",
+          "name": "Pousada Araruama",
+          "niche": "Pousada · Araruama",
+          "instagramUrl": "https://www.instagram.com/pousadaararuama/",
+          "source": "Araruama.net · Instagram oficial",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Pousada menor e acolhedora",
+            "Clima de família e casal",
+            "Conteúdo de descanso na Lagos"
+          ],
+          "dm": "Oi, Pousada Araruama! 🏡💛 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Sou da Região dos Lagos e o aconchego de vocês pediu um conteúdo em família. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar ideias?"
+        },
+        {
+          "id": "malukids_gardenia",
+          "handle": "malukids_gardenia",
+          "name": "Malu Kids",
+          "niche": "Moda infantil · Gardênia Azul",
+          "instagramUrl": "https://www.instagram.com/malukids_gardenia/",
+          "source": "Google Maps · Gardênia Azul",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Lojinha kids na Gardênia Azul",
+            "Atendimento personalizado também à distância",
+            "Looks para a idade do Ravi"
+          ],
+          "dm": "Oi, Malu Kids! 🎀 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Amei o carinho da loja de vocês na Gardênia Azul e queria criar conteúdo com o Ravi. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar ideias?"
+        },
+        {
+          "id": "pequeninostaquara",
+          "handle": "pequeninostaquara",
+          "name": "Pequeninos Taquara",
+          "niche": "Moda infantil · Taquara",
+          "instagramUrl": "https://www.instagram.com/pequeninostaquara/",
+          "source": "Viralist · Taquara ~3,6 mil",
+          "followersNote": "~3,6 mil",
+          "reasons": [
+            "Veste do recém-nascido aos 8 anos",
+            "Loja de bairro na Taquara",
+            "Cobre bem a fase do Ravi"
+          ],
+          "dm": "Oi, Pequeninos! 💙 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Gostei muito de vocês vestirem do RN aos 8 anos — encaixa perfeito com o Ravi. Adoraria criar um conteúdo juntos. Cases: Montreal Hyundai e NINHO Fases 1+. Faz sentido?"
+        },
+        {
+          "id": "closet_e_kids",
+          "handle": "closet_e_kids",
+          "name": "Closet Kids",
+          "niche": "Moda infantil · Jacarepaguá",
+          "instagramUrl": "https://www.instagram.com/closet_e_kids/",
+          "source": "Google Maps · Jacarepaguá",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Quiosque kids em Jacarepaguá",
+            "Peças que vestem criança como criança",
+            "Comércio local que responde no directo"
+          ],
+          "dm": "Oi, Closet Kids! 👟 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Achei um charme a lojinha de vocês em Jacarepaguá. Queria pensar um conteúdo com o Ravi. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar ideias?"
+        },
+        {
+          "id": "keridinhas",
+          "handle": "keridinhas",
+          "name": "Keridinhas",
+          "niche": "Moda praia · Copacabana",
+          "instagramUrl": "https://www.instagram.com/keridinhas/",
+          "source": "Instagram / Santa Clara 33 · Copacabana",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Moda praia no Santa Clara 33",
+            "Loja carioca independente",
+            "Lifestyle de verão alinhado com a Duda"
+          ],
+          "dm": "Oi, Keridinhas! 👙🌊 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Amei as peças de vocês no Santa Clara 33. Adoraria criar um conteúdo de moda praia. Cases: Montreal Hyundai e NINHO Fases 1+. Posso te contar as ideias?"
+        },
+        {
+          "id": "salaobeatriz_copacabana",
+          "handle": "salaobeatriz.copacabana",
+          "name": "Salão Beatriz",
+          "niche": "Salão de beleza · Copacabana",
+          "instagramUrl": "https://www.instagram.com/salaobeatriz.copacabana/",
+          "source": "Site oficial · Copacabana",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Salão clássico no coração de Copacabana",
+            "Cabelo, unhas e cuidados num só espaço",
+            "Atendimento próximo, longe de rede grande"
+          ],
+          "dm": "Oi, Salão Beatriz! 💇💛 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Admiro a história de vocês em Copacabana e queria um conteúdo leve de beleza por aí. Cases: Montreal Hyundai e NINHO Fases 1+. Podemos conversar?"
+        },
+        {
+          "id": "educostahair",
+          "handle": "educostahair",
+          "name": "Edu Costa Hair",
+          "niche": "Salão de beleza · Copacabana",
+          "instagramUrl": "https://www.instagram.com/educostahair/",
+          "source": "Google Maps · Copacabana",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Atendimento individual do próprio Edu",
+            "Studio intimista em Copacabana",
+            "Beleza personalizada, fácil de mostrar"
+          ],
+          "dm": "Oi, Edu! ✨ Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Vi o cuidado do seu studio em Copacabana e fiquei com vontade de criar um conteúdo de transformação leve. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar ideias?"
         }
       ]
     }
