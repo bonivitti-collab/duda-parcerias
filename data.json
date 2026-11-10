@@ -1,37 +1,36 @@
 {
   "daily": {
-    "date": "2026-11-09",
-    "seenVersion": "v9",
+    "date": "2026-11-10",
+    "seenVersion": "v10",
     "devotional": {
-      "titulo": "Novas a cada manhã",
-      "ref": "Lamentações 3:22-23",
-      "texto": "As misericórdias do Senhor são a causa de não sermos consumidos, porque as suas misericórdias não têm fim; novas são cada manhã; grande é a tua fidelidade.",
+      "titulo": "Descanso no meio da semana",
+      "ref": "Mateus 11:28",
+      "texto": "Vinde a mim, todos os que estais cansados e oprimidos, e eu vos aliviarei.",
       "traducao": "Almeida Revisada e Corrigida",
-      "reflexao": "Minha filha, segunda-feira chegou, e Eu sei como o seu coração às vezes acorda já correndo: a mochila do Ravi, as mensagens, a casa, os planos. Antes de tudo isso, quero que você saiba de uma coisa: a Minha misericórdia acordou antes de você. Ela não ficou presa em ontem, nos cansaços nem nas coisas que não saíram como você queria. Hoje ela é nova, fresquinha como o café que você coloca na xícara. Você não precisa começar a semana provando nada para Mim. Começa recebendo. Eu sou fiel quando você está forte e sou fiel quando você está cansada. Leve isso para cada cantinho do seu dia: o Meu cuidado não se gasta, ele se renova com você.",
-      "oracao": "Senhor, obrigada porque a Tua misericórdia é nova nesta manhã. Entrego a Ti esta semana, minha família e meu trabalho. Que eu viva cada dia descansando na Tua fidelidade. Amém.",
-      "paraHoje": "Antes de pegar o celular, respire fundo e diga: \"Grande é a Tua fidelidade.\" Depois escreva uma coisa nova pela qual você agradece hoje."
+      "reflexao": "Minha filha, é terça-feira, e Eu vejo o que ninguém vê: o cansaço que você esconde atrás do sorriso, as listas que não acabam, o colo que você dá mesmo quando também queria colo. Eu não te chamo para fazer mais. Eu te chamo para vir. Venha do jeito que está, com o cabelo preso de qualquer jeito e o coração meio bagunçado. O alívio que Eu ofereço não depende de você resolver tudo primeiro. Ele começa quando você entrega. Deixe aqui o peso de ser forte o tempo todo. Hoje você pode respirar mais devagar, porque Eu estou segurando o que você não consegue segurar sozinha.",
+      "oracao": "Senhor Jesus, eu venho a Ti cansada e Te entrego o que pesa no meu coração. Recebo o Teu descanso para mim, para o Ravi e para o meu dia. Ensina-me a parar em Ti. Amém.",
+      "paraHoje": "Escolha um momento do dia para ficar cinco minutos em silêncio, sem celular, e diga baixinho: \"Senhor, eu venho a Ti.\" Deixe Ele aliviar você."
     },
     "poema": {
-      "titulo": "Segunda de manhã",
+      "titulo": "Terça comum",
       "versos": [
         "Duda,",
-        "a semana ainda está de pijama",
-        "quando você acende a cozinha",
-        "com esse jeito de quem",
-        "acorda o sol sem fazer barulho.",
-        "O Ravi procura um sapato perdido,",
-        "eu procuro as chaves,",
-        "e você encontra tudo,",
-        "inclusive a gente.",
-        "Se a vida tem pressa,",
-        "você tem um abraço no caminho;",
-        "se o dia pesa,",
-        "você ri e ele fica leve.",
-        "Eu não sei de que são feitas as segundas,",
-        "mas sei que a minha",
-        "começa no seu olhar",
-        "e termina, toda noite,",
-        "voltando pra você."
+        "ninguém escreve poema pra terça,",
+        "dia sem festa, sem fim de semana,",
+        "só louça, mochila e recado na geladeira.",
+        "Mas foi numa terça qualquer",
+        "que eu entendi",
+        "que o amor não mora nos dias grandes,",
+        "mora no jeito que você",
+        "prende o cabelo com um lápis",
+        "e resolve o mundo assim mesmo.",
+        "Mora no seu riso no corredor",
+        "quando o Ravi inventa uma palavra nova.",
+        "Então que venham as terças,",
+        "todas elas,",
+        "porque nelas eu te vejo inteira,",
+        "e inteira",
+        "você é o meu lugar favorito."
       ]
     }
   },
@@ -2283,6 +2282,462 @@
             "Transformação rende muito conteúdo"
           ],
           "dm": "Oi, Mariana! 💛 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Amei os iluminados do seu studio. Adoraria fazer uma transformação com você e mostrar todo o processo. Cases: Montreal Hyundai e NINHO Fases 1+. Vamos conversar?"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-10",
+      "date": "2026-11-10",
+      "brands": [
+        {
+          "id": "lolykidsbaby",
+          "handle": "lolykidsbaby",
+          "name": "Loly Kids Baby",
+          "niche": "Moda infantil · Cabo Frio",
+          "instagramUrl": "https://www.instagram.com/lolykidsbaby/",
+          "source": "Google Maps · Cabo Frio",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Mais de 20 anos vestindo os pequenos de Cabo Frio",
+            "Loja de rua no Centro, dono por perto",
+            "Peças de 0 a 4 anos, perfeito pro Ravi"
+          ],
+          "dm": "Oi, Loly Kids! 💛 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Sou aqui da Região dos Lagos e fiquei encantada com a história de vocês, mais de 20 anos cuidando da criançada. Adoraria mostrar o Ravi com as peças num conteúdo bem carinhoso. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar umas ideias?"
+        },
+        {
+          "id": "beestore_cabofrio",
+          "handle": "beestore_cabofrio",
+          "name": "Bee Store Multimarcas Infantil",
+          "niche": "Moda infantil e teen · Cabo Frio",
+          "instagramUrl": "https://www.instagram.com/beestore_cabofrio/",
+          "source": "Facebook/fashionshops · Cabo Frio",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Multimarcas kids com entrega na região",
+            "Mix de marcas para o dia a dia do Ravi",
+            "Lojinha local que vive de indicação"
+          ],
+          "dm": "Oi, Bee Store! 🐝✨ Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Amei o mix de marcas de vocês e queria muito montar uns looks do Ravi com a Bee num conteúdo leve e real. Cases: Montreal Hyundai e NINHO Fases 1+. Topam conversar?"
+        },
+        {
+          "id": "aquafisioacademiacabofrio",
+          "handle": "aquafisioacademiacabofrio",
+          "name": "AquaFisio Natação",
+          "niche": "Natação infantil · Cabo Frio",
+          "instagramUrl": "https://www.instagram.com/aquafisioacademiacabofrio/",
+          "source": "Google Maps · Cabo Frio",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Natação para bebês e crianças",
+            "Pais elogiam a paciência dos professores",
+            "Conteúdo de rotina saudável com o Ravi"
+          ],
+          "dm": "Oi, AquaFisio! 🏊‍♀️💙 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Vi tantos pais elogiando o carinho de vocês com as crianças na água, e eu adoraria contar a experiência do Ravi aprendendo a nadar. Cases: Montreal Hyundai e NINHO Fases 1+. Posso te mandar uma proposta?"
+        },
+        {
+          "id": "atitudedance",
+          "handle": "atitudedance",
+          "name": "Studio Atitude Dance",
+          "niche": "Escola de dança · Cabo Frio",
+          "instagramUrl": "https://www.instagram.com/atitudedance/",
+          "source": "Google Maps · Cabo Frio",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Escola de dança querida pelas famílias",
+            "Aulas para crianças e adultos",
+            "Espetáculos anuais rendem conteúdo lindo"
+          ],
+          "dm": "Oi, Atitude Dance! 💃💜 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Vi que as mães de Cabo Frio chamam vocês de segundo lar, e isso me tocou. Adoraria fazer um conteúdo mostrando o estúdio e, quem sabe, uma aulinha comigo. Cases: Montreal Hyundai e NINHO Fases 1+. Bora conversar?"
+        },
+        {
+          "id": "studiobenditopilates",
+          "handle": "studiobenditopilates",
+          "name": "Studio Bendito Pilates",
+          "niche": "Pilates · Cabo Frio",
+          "instagramUrl": "https://www.instagram.com/studiobenditopilates/",
+          "source": "Google Maps · Cabo Frio",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Turmas pequenas e atenção individual",
+            "Vista linda do canal do Itajuru",
+            "Rotina de autocuidado de mãe"
+          ],
+          "dm": "Oi, Bendito Pilates! 🌿 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Que estúdio lindo, com essa vista do canal! Queria muito mostrar pras minhas seguidoras como o pilates cabe na rotina corrida de mãe. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar umas ideias?"
+        },
+        {
+          "id": "turquesaesmalteria_cabofrio",
+          "handle": "turquesaesmalteria_cabofrio",
+          "name": "Turquesa Beleza & Bem-Estar",
+          "niche": "Esmalteria e estética · Cabo Frio",
+          "instagramUrl": "https://www.instagram.com/turquesaesmalteria_cabofrio/",
+          "source": "Viralist · Cabo Frio",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Unhas, olhar, cabelo e estética num lugar só",
+            "Mais de 100 avaliações positivas",
+            "Conteúdo de dia de beleza"
+          ],
+          "dm": "Oi, Turquesa! 💅💙 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Amei que vocês fazem tudo num lugar só, unhas, olhar, cabelo. Queria muito gravar um dia de beleza aí com vocês. Cases: Montreal Hyundai e NINHO Fases 1+. Topam?"
+        },
+        {
+          "id": "estudio_elenoliveira",
+          "handle": "estudio_elenoliveira",
+          "name": "Elen Oliveira Estúdio de Beleza",
+          "niche": "Beleza · Cabo Frio",
+          "instagramUrl": "https://www.instagram.com/estudio_elenoliveira/",
+          "source": "Google Maps · Cabo Frio",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Estúdio pequeno com atendimento próximo",
+            "Avaliações 5 estrelas",
+            "Conteúdo de beleza do dia a dia"
+          ],
+          "dm": "Oi, Elen! 🌸 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Adoro estúdios com esse cuidado de perto, e o seu tem avaliações lindas. Bora fazer um conteúdo juntas mostrando seu trabalho? Cases: Montreal Hyundai e NINHO Fases 1+."
+        },
+        {
+          "id": "suelenaraujo_pmu",
+          "handle": "suelenaraujo.pmu",
+          "name": "Suelen Araújo Studio",
+          "niche": "Sobrancelhas e micropigmentação · Cabo Frio",
+          "instagramUrl": "https://www.instagram.com/suelenaraujo.pmu/",
+          "source": "Google Maps · Cabo Frio",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Quase 50 avaliações nota máxima",
+            "Especialista em sobrancelha e lábios",
+            "Antes e depois rende muito"
+          ],
+          "dm": "Oi, Suelen! ✨ Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Vi o carinho das suas clientes nas avaliações e fiquei com vontade de fazer um antes e depois com você. Cases: Montreal Hyundai e NINHO Fases 1+. Posso te mandar uma ideia?"
+        },
+        {
+          "id": "pousadaaguasdoforte",
+          "handle": "pousadaaguasdoforte",
+          "name": "Pousada Águas do Forte",
+          "niche": "Pousada · Cabo Frio (Praia do Forte)",
+          "instagramUrl": "https://www.instagram.com/pousadaaguasdoforte/",
+          "source": "Viralist/site · Cabo Frio",
+          "followersNote": "perfil local",
+          "reasons": [
+            "A 50 metros da Praia do Forte",
+            "Pousada familiar, ideal para família com criança",
+            "Conteúdo de fim de semana pertinho de casa"
+          ],
+          "dm": "Oi, Águas do Forte! 🌊☀️ Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Ficar a 50 metros da Praia do Forte é sonho de mãe com criança pequena! Adoraria mostrar um fim de semana em família aí com o Ravi. Cases: Montreal Hyundai e NINHO Fases 1+. Podemos conversar?"
+        },
+        {
+          "id": "valeriabiquinis",
+          "handle": "valeriabiquinis",
+          "name": "Valeria Biquínis",
+          "niche": "Moda praia plus size · Cabo Frio (Rua dos Biquínis)",
+          "instagramUrl": "https://www.instagram.com/valeriabiquinis/",
+          "source": "Guia das Roupas · Cabo Frio",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Moda praia do 42 ao 54",
+            "Marca local da Rua dos Biquínis",
+            "Conteúdo de verão real e acolhedor"
+          ],
+          "dm": "Oi, Valeria Biquínis! 👙💛 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Amo marcas que vestem todos os corpos, e a de vocês é referência na Rua dos Biquínis. Queria muito fazer um conteúdo de verão com as peças. Cases: Montreal Hyundai e NINHO Fases 1+. Bora?"
+        },
+        {
+          "id": "_saldeareia",
+          "handle": "_saldeareia",
+          "name": "Sal de Areia",
+          "niche": "Moda praia · Cabo Frio (Rua dos Biquínis)",
+          "instagramUrl": "https://www.instagram.com/_saldeareia/",
+          "source": "Guia das Roupas · Cabo Frio",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Marca própria de Cabo Frio",
+            "Peças modernas e confortáveis",
+            "Combina com conteúdo de praia e lifestyle"
+          ],
+          "dm": "Oi, Sal de Areia! 🐚 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Sou daqui da região e amo ver marca de Cabo Frio com essa cara moderna. Queria muito estrear a coleção num conteúdo de praia. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar ideias?"
+        },
+        {
+          "id": "orlamodapraia",
+          "handle": "orlamodapraia",
+          "name": "Orla Moda Praia",
+          "niche": "Moda praia · Cabo Frio e Búzios",
+          "instagramUrl": "https://www.instagram.com/orlamodapraia/",
+          "source": "Guia das Roupas · Cabo Frio",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Marca da região, em Cabo Frio e Búzios",
+            "Biquínis e saídas para o verão",
+            "Looks de praia com cara de Lagos"
+          ],
+          "dm": "Oi, Orla! 🌴 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Uma marca que é a cara de Cabo Frio e Búzios, amei! Queria muito montar uns looks de praia com vocês para o verão. Cases: Montreal Hyundai e NINHO Fases 1+. Topam conversar?"
+        },
+        {
+          "id": "studio_bellamulherofc",
+          "handle": "studio_bellamulherofc",
+          "name": "Studio Bella Mulher",
+          "niche": "Salão de beleza · Unamar (Tamoios)",
+          "instagramUrl": "https://www.instagram.com/studio_bellamulherofc/",
+          "source": "Google Maps · Unamar",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Salão do bairro, na Av. Independência",
+            "Público local que se conhece",
+            "Comércio de bairro com dona por perto"
+          ],
+          "dm": "Oi, Studio Bella Mulher! 💖 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Sou aqui da Região dos Lagos! Adoraria fazer um conteúdo mostrando o salão pro pessoal do bairro. Cases: Montreal Hyundai e NINHO Fases 1+. Bora conversar?"
+        },
+        {
+          "id": "studionovovisual2025",
+          "handle": "studionovovisual2025",
+          "name": "Studio Novo Visual",
+          "niche": "Salão e studio de beleza · Unamar (Tamoios)",
+          "instagramUrl": "https://www.instagram.com/studionovovisual2025/",
+          "source": "Google Maps · Unamar",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Salão novo, precisando de visibilidade",
+            "Avaliações 5 estrelas",
+            "Atendimento próximo"
+          ],
+          "dm": "Oi, Novo Visual! ✂️✨ Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Vi que o studio é novinho aqui em Tamoios, e quero muito ajudar a mostrar o trabalho de vocês. Bora fazer um conteúdo juntas? Cases: Montreal Hyundai e NINHO Fases 1+."
+        },
+        {
+          "id": "claudiaribeirol",
+          "handle": "claudiaribeirol",
+          "name": "Claudia Ribeiro Sobrancelhas",
+          "niche": "Sobrancelhas e cursos · Unamar (Tamoios)",
+          "instagramUrl": "https://www.instagram.com/claudiaribeirol/",
+          "source": "Google Maps · Unamar",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Especialista em sobrancelha no bairro",
+            "Também dá cursos",
+            "Conteúdo de antes e depois"
+          ],
+          "dm": "Oi, Claudia! 🤍 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Sou aqui da Região dos Lagos e sempre ouço falar bem do seu trabalho com sobrancelhas. Queria muito fazer um antes e depois com você. Cases: Montreal Hyundai e NINHO Fases 1+. Posso te mandar uma ideia?"
+        },
+        {
+          "id": "passo_chique25",
+          "handle": "passo.chique25",
+          "name": "Passo Chique",
+          "niche": "Moda feminina · Iguaba Grande",
+          "instagramUrl": "https://www.instagram.com/passo.chique25/",
+          "source": "Google Maps · Iguaba Grande",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Loja de rua no Centro de Iguaba",
+            "Moda feminina para o dia a dia",
+            "Looks fáceis de mãe que trabalha"
+          ],
+          "dm": "Oi, Passo Chique! 👗 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Amei a loja de vocês no Centro de Iguaba! Queria montar uns looks de dia a dia de mãe com as peças. Cases: Montreal Hyundai e NINHO Fases 1+. Topam?"
+        },
+        {
+          "id": "angelpoubelstore",
+          "handle": "angelpoubelstore",
+          "name": "Angel Poubel Store",
+          "niche": "Moda feminina · Iguaba Grande",
+          "instagramUrl": "https://www.instagram.com/angelpoubelstore/",
+          "source": "Facebook/fashyas · Iguaba Grande",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Lojinha local aberta até domingo",
+            "Moda feminina com dona por perto",
+            "Conteúdo de provador real"
+          ],
+          "dm": "Oi, Angel! 💕 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Adorei a loja e queria muito fazer um provador bem real com as peças de vocês, do jeitinho que minhas seguidoras gostam. Cases: Montreal Hyundai e NINHO Fases 1+. Bora conversar?"
+        },
+        {
+          "id": "jkcias",
+          "handle": "jkcias",
+          "name": "J&K e Cia",
+          "niche": "Moda, fitness e praia · Iguaba Grande",
+          "instagramUrl": "https://www.instagram.com/jkcias/",
+          "source": "Facebook/fashyas · Iguaba Grande",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Roupas de academia, biquínis e acessórios",
+            "Mix bom para lifestyle de praia",
+            "Loja de bairro"
+          ],
+          "dm": "Oi, J&K! 🌞 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Vocês têm de tudo, academia, praia, acessórios, a cara do meu dia a dia aqui na região! Queria fazer um conteúdo com as peças. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar ideias?"
+        },
+        {
+          "id": "espacofitnessiguaba",
+          "handle": "espacofitnessiguaba",
+          "name": "Academia Espaço Fitness",
+          "niche": "Academia · Iguaba Grande",
+          "instagramUrl": "https://www.instagram.com/espacofitnessiguaba/",
+          "source": "Wellhub · Iguaba Grande",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Nota 4,75 com quase 80 avaliações",
+            "Musculação e tecido acrobático",
+            "Conteúdo de treino de mãe"
+          ],
+          "dm": "Oi, Espaço Fitness! 💪 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Vi que vocês têm até tecido acrobático, que demais! Queria muito gravar um treino de mãe real aí com vocês. Cases: Montreal Hyundai e NINHO Fases 1+. Bora?"
+        },
+        {
+          "id": "kidstokbotafogo",
+          "handle": "kidstokbotafogo",
+          "name": "Kidstok Botafogo",
+          "niche": "Moda infantil · Botafogo",
+          "instagramUrl": "https://www.instagram.com/kidstokbotafogo/",
+          "source": "Google Maps · Rio",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Loja de bairro muito elogiada pelas famílias",
+            "Entrega para quem não pode ir",
+            "Peças com preço justo para o Ravi"
+          ],
+          "dm": "Oi, Kidstok! 🧸 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Vi tantas mães elogiando a equipe de vocês em Botafogo! Queria muito vestir o Ravi com a Kidstok num conteúdo carinhoso. Cases: Montreal Hyundai e NINHO Fases 1+. Topam conversar?"
+        },
+        {
+          "id": "tatumodainfantil",
+          "handle": "tatumodainfantil",
+          "name": "Tatu Moda Infantil",
+          "niche": "Moda infantil · Tijuca",
+          "instagramUrl": "https://www.instagram.com/tatumodainfantil/",
+          "source": "Viralist · Rio",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Loja kids tradicional da Tijuca",
+            "Vende online também",
+            "Looks fofos para criança de 3 anos"
+          ],
+          "dm": "Oi, Tatu! 🦔💚 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Amei as peças de vocês e acho que o Ravi ia ficar uma graça com a Tatu. Bora fazer um conteúdo juntos? Cases: Montreal Hyundai e NINHO Fases 1+."
+        },
+        {
+          "id": "mundodacat",
+          "handle": "mundodacat",
+          "name": "Mundo da Cat",
+          "niche": "Moda e brechó infantil · Ipanema",
+          "instagramUrl": "https://www.instagram.com/mundodacat/",
+          "source": "Google Maps · Rio",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Brechozinho kids com ótimo custo-benefício",
+            "Espaço para as crianças brincarem",
+            "Atendimento pessoal da dona"
+          ],
+          "dm": "Oi, Mundo da Cat! 🐱💛 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Amo brechó infantil e vi que o seu tem até cantinho pras crianças brincarem! Queria muito mostrar isso num conteúdo com o Ravi. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar ideias?"
+        },
+        {
+          "id": "suzette_bebe",
+          "handle": "suzette.bebe",
+          "name": "Suzette Enfants",
+          "niche": "Enxoval e moda infantil · Copacabana",
+          "instagramUrl": "https://www.instagram.com/suzette.bebe/",
+          "source": "Google Maps · Rio",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Enxoval e roupinhas numa galeria de Copacabana",
+            "Loja pequena com atendimento próximo",
+            "Ótima para presentes de chá de bebê"
+          ],
+          "dm": "Oi, Suzette! 🎀 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Amei o cuidado de vocês com enxoval e roupinhas. Queria fazer um conteúdo de presentes com a Suzette, minhas seguidoras vivem pedindo dica. Cases: Montreal Hyundai e NINHO Fases 1+. Bora?"
+        },
+        {
+          "id": "lojapiririmpompom",
+          "handle": "lojapiririmpompom",
+          "name": "Piririm PomPom",
+          "niche": "Calçados infantis · Copacabana",
+          "instagramUrl": "https://www.instagram.com/lojapiririmpompom/",
+          "source": "Google Maps · Rio",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Loja de sapatinhos kids",
+            "Calçado confortável para criança ativa",
+            "Ravi vive gastando sapato"
+          ],
+          "dm": "Oi, Piririm PomPom! 👟💙 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). O Ravi não para quieto e gasta sapato rapidinho, então amei conhecer vocês! Queria muito fazer um conteúdo com os calçados. Cases: Montreal Hyundai e NINHO Fases 1+. Topam?"
+        },
+        {
+          "id": "pilatesinfocus",
+          "handle": "pilatesinfocus",
+          "name": "Pilates In Focus",
+          "niche": "Pilates · Tijuca",
+          "instagramUrl": "https://www.instagram.com/pilatesinfocus/",
+          "source": "Wellhub · Rio",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Nota 5 nas avaliações",
+            "Estúdio pequeno na Barão de Mesquita",
+            "Autocuidado de mãe"
+          ],
+          "dm": "Oi, Pilates In Focus! 🍃 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Amei a proposta de respiração e consciência de vocês. Queria muito mostrar uma aula pras minhas seguidoras. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar uma ideia?"
+        },
+        {
+          "id": "viladafeirapilates",
+          "handle": "viladafeirapilates",
+          "name": "Studio de Pilates Vila da Feira",
+          "niche": "Pilates · Tijuca",
+          "instagramUrl": "https://www.instagram.com/viladafeirapilates/",
+          "source": "Wellhub · Rio",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Nota 5 nas avaliações",
+            "Estúdio de bairro com fisioterapeuta",
+            "Conteúdo de bem-estar"
+          ],
+          "dm": "Oi, Vila da Feira! 🌿 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Vi que o estúdio é super bem avaliado e tem fisioterapeuta por perto, isso passa muita confiança. Bora fazer um conteúdo juntos? Cases: Montreal Hyundai e NINHO Fases 1+."
+        },
+        {
+          "id": "allepilates",
+          "handle": "allepilates",
+          "name": "Alle Pilates Integrativo",
+          "niche": "Pilates · Flamengo",
+          "instagramUrl": "https://www.instagram.com/allepilates/",
+          "source": "Wellhub · Rio",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Tem pilates para gestantes",
+            "Pertinho do metrô Flamengo",
+            "Conteúdo de mãe que se cuida"
+          ],
+          "dm": "Oi, Alle! 🤍 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Amei que vocês têm pilates para gestantes, tema que eu amo! Queria muito fazer um conteúdo mostrando o estúdio. Cases: Montreal Hyundai e NINHO Fases 1+. Podemos conversar?"
+        },
+        {
+          "id": "esmalteriacarolinesalles",
+          "handle": "esmalteriacarolinesalles",
+          "name": "Caroline Salles Esmalteria",
+          "niche": "Esmalteria · Grajaú",
+          "instagramUrl": "https://www.instagram.com/esmalteriacarolinesalles/",
+          "source": "Google Maps · Rio",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Nota 5 com mais de 40 avaliações",
+            "Ambiente aconchegante de bairro",
+            "Conteúdo de unhas e autocuidado"
+          ],
+          "dm": "Oi, Carol! 💅✨ Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Suas clientes falam com tanto carinho do seu trabalho! Queria muito fazer um conteúdo de unhas com você. Cases: Montreal Hyundai e NINHO Fases 1+. Bora?"
+        },
+        {
+          "id": "belladonnatijuca",
+          "handle": "belladonnatijuca",
+          "name": "Bella Donna Tijuca",
+          "niche": "Salão de beleza · Tijuca",
+          "instagramUrl": "https://www.instagram.com/belladonnatijuca/",
+          "source": "Instagram · Rio",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Salão de bairro na Tijuca",
+            "Cabelo e beleza completa",
+            "Conteúdo de transformação"
+          ],
+          "dm": "Oi, Bella Donna! 💇‍♀️💖 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Adoraria fazer um conteúdo de transformação de cabelo com vocês, minhas seguidoras amam! Cases: Montreal Hyundai e NINHO Fases 1+. Topam conversar?"
+        },
+        {
+          "id": "inhouse_santateresa",
+          "handle": "inhouse_santateresa",
+          "name": "Inn House Santa Teresa",
+          "niche": "Hospedagem · Santa Teresa",
+          "instagramUrl": "https://www.instagram.com/inhouse_santateresa/",
+          "source": "Instagram · Rio",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Hospedagem pequena em Santa Teresa",
+            "Bairro charmoso, ótimo para conteúdo",
+            "Escapadinha a dois no Rio"
+          ],
+          "dm": "Oi, Inn House! 🌺 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Santa Teresa é um dos meus cantinhos preferidos do Rio! Adoraria mostrar uma escapadinha aí com vocês num conteúdo leve. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar uma proposta?"
         }
       ]
     }
