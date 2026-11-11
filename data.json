@@ -1,36 +1,38 @@
 {
   "daily": {
-    "date": "2026-11-10",
-    "seenVersion": "v10",
+    "date": "2026-11-11",
+    "seenVersion": "v11",
     "devotional": {
-      "titulo": "Descanso no meio da semana",
-      "ref": "Mateus 11:28",
-      "texto": "Vinde a mim, todos os que estais cansados e oprimidos, e eu vos aliviarei.",
+      "titulo": "Aquieta o coração",
+      "ref": "Salmos 46:10",
+      "texto": "Aquietai-vos e sabei que eu sou Deus; serei exaltado entre as nações; serei exaltado sobre a terra.",
       "traducao": "Almeida Revisada e Corrigida",
-      "reflexao": "Minha filha, é terça-feira, e Eu vejo o que ninguém vê: o cansaço que você esconde atrás do sorriso, as listas que não acabam, o colo que você dá mesmo quando também queria colo. Eu não te chamo para fazer mais. Eu te chamo para vir. Venha do jeito que está, com o cabelo preso de qualquer jeito e o coração meio bagunçado. O alívio que Eu ofereço não depende de você resolver tudo primeiro. Ele começa quando você entrega. Deixe aqui o peso de ser forte o tempo todo. Hoje você pode respirar mais devagar, porque Eu estou segurando o que você não consegue segurar sozinha.",
-      "oracao": "Senhor Jesus, eu venho a Ti cansada e Te entrego o que pesa no meu coração. Recebo o Teu descanso para mim, para o Ravi e para o meu dia. Ensina-me a parar em Ti. Amém.",
-      "paraHoje": "Escolha um momento do dia para ficar cinco minutos em silêncio, sem celular, e diga baixinho: \"Senhor, eu venho a Ti.\" Deixe Ele aliviar você."
+      "reflexao": "Minha filha, é quarta-feira, o meio do caminho, e Eu sei como a sua cabeça corre: o que falta fazer, o que ficou pra trás, o que ainda nem chegou. Hoje Eu não te peço pressa. Eu te peço quietude. Aquietar não é desistir, é lembrar quem está no controle. Enquanto você tenta segurar tudo, Eu já estou adiante, cuidando do que você nem enxerga. Pare um instante, respire fundo, e deixe o barulho baixar. No silêncio você vai perceber que nunca esteve sozinha. Eu sou Deus sobre a sua semana, sobre a sua casa, sobre o Ravi e sobre cada detalhe que te preocupa.",
+      "oracao": "Senhor, aquieta o meu coração. Tira de mim a pressa que rouba a paz e me ensina a descansar em quem Tu és. Cuida do meu dia, da minha casa e do Ravi. Amém.",
+      "paraHoje": "Antes de pegar o celular pela primeira vez hoje, fique um minuto em silêncio e repita: \"Senhor, Tu és Deus, e eu posso descansar.\""
     },
     "poema": {
-      "titulo": "Terça comum",
+      "titulo": "Quarta-feira no meio",
       "versos": [
         "Duda,",
-        "ninguém escreve poema pra terça,",
-        "dia sem festa, sem fim de semana,",
-        "só louça, mochila e recado na geladeira.",
-        "Mas foi numa terça qualquer",
-        "que eu entendi",
-        "que o amor não mora nos dias grandes,",
-        "mora no jeito que você",
-        "prende o cabelo com um lápis",
-        "e resolve o mundo assim mesmo.",
-        "Mora no seu riso no corredor",
-        "quando o Ravi inventa uma palavra nova.",
-        "Então que venham as terças,",
-        "todas elas,",
-        "porque nelas eu te vejo inteira,",
-        "e inteira",
-        "você é o meu lugar favorito."
+        "quarta-feira é o meio de tudo,",
+        "a ponte entre o que já foi",
+        "e o que ainda vai ser.",
+        "É o dia em que a semana cansa",
+        "e mesmo assim você sorri",
+        "pro Ravi na porta da escola",
+        "como se fosse sábado.",
+        "Eu queria ser assim:",
+        "o meio que segura,",
+        "a ponte que não balança,",
+        "o lugar onde você pode",
+        "sentar um pouquinho",
+        "e respirar.",
+        "Porque no meio da minha vida",
+        "quem mora é você,",
+        "e tudo o que vem antes e depois",
+        "só faz sentido",
+        "porque passa por aí."
       ]
     }
   },
@@ -2738,6 +2740,447 @@
             "Escapadinha a dois no Rio"
           ],
           "dm": "Oi, Inn House! 🌺 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Santa Teresa é um dos meus cantinhos preferidos do Rio! Adoraria mostrar uma escapadinha aí com vocês num conteúdo leve. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar uma proposta?"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-11",
+      "date": "2026-11-11",
+      "brands": [
+        {
+          "id": "lojameninosemeninas_",
+          "handle": "lojameninosemeninas_",
+          "name": "Meninos e Meninas Kids",
+          "niche": "Moda infantil · Barra de São João",
+          "instagramUrl": "https://www.instagram.com/lojameninosemeninas_/",
+          "source": "Google/Fashyas · Barra de São João",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Loja de rua na Amaral Peixoto, bem família",
+            "Roupa completa pros pequenos o ano todo",
+            "Posta promoção sempre, precisa de alcance"
+          ],
+          "dm": "Oi, Meninos e Meninas! 💙 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Sou aqui da Região dos Lagos e amei o carinho de vocês com a criançada. Adoraria montar uns looks do Ravi com as peças de vocês num conteúdo leve e real. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar umas ideias?"
+        },
+        {
+          "id": "flord_lie",
+          "handle": "flord_lie",
+          "name": "Flor de Lie",
+          "niche": "Moda infantil · Barra de São João",
+          "instagramUrl": "https://www.instagram.com/flord_lie/",
+          "source": "Google Maps · Barra de São João",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Lojinha infantil pequena e acolhedora",
+            "Dona por perto, resposta rápida no direct",
+            "Tem a cara de passeio de fim de semana na Barra"
+          ],
+          "dm": "Oi, Flor de Lie! 🌸 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Fiquei encantada com a delicadeza das peças de vocês. Queria muito levar o Ravi pra um passeio na Barra vestindo Flor de Lie e mostrar tudo com carinho. Cases: Montreal Hyundai e NINHO Fases 1+. Topam conversar?"
+        },
+        {
+          "id": "aquarelakidsinfantojuvenil",
+          "handle": "aquarelakidsinfantojuvenil",
+          "name": "Aquarela Kids Casimiro",
+          "niche": "Moda infanto-juvenil · Casimiro de Abreu",
+          "instagramUrl": "https://www.instagram.com/aquarelakidsinfantojuvenil/",
+          "source": "Google Maps · Casimiro de Abreu",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Loja do Centro, atendimento de cidade pequena",
+            "Peças do bebê ao juvenil, cresce junto com o Ravi",
+            "Comércio local que vive de indicação"
+          ],
+          "dm": "Oi, Aquarela Kids! 🎨 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Amei o colorido de vocês! Seria uma alegria mostrar o Ravi com looks da Aquarela num conteúdo bem real de mãe e filho. Cases: Montreal Hyundai e NINHO Fases 1+. Posso enviar uma proposta?"
+        },
+        {
+          "id": "lojamoodkids.macae",
+          "handle": "lojamoodkids.macae",
+          "name": "Mood Kids",
+          "niche": "Moda infantil · Macaé",
+          "instagramUrl": "https://www.instagram.com/lojamoodkids.macae/",
+          "source": "Google Maps · Macaé",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Loja de rua com avaliação 5 estrelas",
+            "Peças de qualidade pra menino e menina",
+            "Marca local em fase de crescer no Instagram"
+          ],
+          "dm": "Oi, Mood Kids! ✨ Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Vi os elogios ao atendimento de vocês e fiquei com vontade de conhecer. Adoraria vestir o Ravi com a Mood num conteúdo leve e cheio de carinho. Cases: Montreal Hyundai e NINHO Fases 1+. Bora conversar?"
+        },
+        {
+          "id": "mamaecoruja.macae",
+          "handle": "mamaecoruja.macae",
+          "name": "Mamãe Coruja",
+          "niche": "Loja infantil e espaço kids · Macaé",
+          "instagramUrl": "https://www.instagram.com/mamaecoruja.macae/",
+          "source": "Google Maps · Macaé",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Loja infantil com brinquedos e espaço pra brincar",
+            "Nota 4,9 com dezenas de avaliações",
+            "Atendimento próximo, a dona responde"
+          ],
+          "dm": "Oi, Mamãe Coruja! 🦉💛 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Como boa mamãe coruja do Ravi, me identifiquei demais com vocês! Queria muito fazer um conteúdo dele escolhendo roupinha e brincando na loja. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar umas ideias?"
+        },
+        {
+          "id": "garradagatamacae",
+          "handle": "garradagatamacae",
+          "name": "Garra da Gata",
+          "niche": "Moda infantil · Macaé",
+          "instagramUrl": "https://www.instagram.com/garradagatamacae/",
+          "source": "Google Maps · Macaé",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Loja infantil na Barra de Macaé",
+            "Aberta também no sábado à tarde, bem família",
+            "Lojinha local que precisa de vitrine digital"
+          ],
+          "dm": "Oi, Garra da Gata! 🐾 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Adorei o estilo das peças de vocês. Seria lindo mostrar o Ravi com looks da Garra da Gata num dia de passeio. Cases: Montreal Hyundai e NINHO Fases 1+. Topam uma parceria?"
+        },
+        {
+          "id": "castelobrechoinfantil",
+          "handle": "castelobrechoinfantil",
+          "name": "Castelo Brechó Infantil",
+          "niche": "Brechó infantil · Macaé",
+          "instagramUrl": "https://www.instagram.com/castelobrechoinfantil/",
+          "source": "Google Maps · Macaé",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Brechó kids nota 5, organizado e acolhedor",
+            "Conversa com mães que compram e vendem",
+            "Moda consciente combina com o conteúdo de maternidade"
+          ],
+          "dm": "Oi, Castelo Brechó! 👑 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Amo a ideia de roupinha boa circulando entre as famílias. Queria muito fazer um conteúdo do Ravi garimpando no Castelo e mostrar como dá pra vestir bem com consciência. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar umas ideias?"
+        },
+        {
+          "id": "espacovivere.macae",
+          "handle": "espacovivere.macae",
+          "name": "Espaço Vivere",
+          "niche": "Desenvolvimento infantil · Macaé",
+          "instagramUrl": "https://www.instagram.com/espacovivere.macae/",
+          "source": "Instagram · Macaé",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Espaço de desenvolvimento infantil com atividades lúdicas",
+            "Faz eventos especiais pras crianças",
+            "Serviço local que cresce pela confiança das mães"
+          ],
+          "dm": "Oi, Espaço Vivere! 🌿 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Vi os dias especiais que vocês preparam pras crianças e me apaixonei. Adoraria levar o Ravi pra conhecer e contar a experiência com carinho pras mães que me acompanham. Cases: Montreal Hyundai e NINHO Fases 1+. Podemos conversar?"
+        },
+        {
+          "id": "crecheescolalepetit",
+          "handle": "crecheescolalepetit",
+          "name": "Le Petit Creche Escola",
+          "niche": "Creche escola · Macaé",
+          "instagramUrl": "https://www.instagram.com/crecheescolalepetit/",
+          "source": "Site oficial · Macaé",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Creche escola de bairro, gestão próxima",
+            "Público exato: mães de crianças pequenas",
+            "Período de matrículas pede visibilidade"
+          ],
+          "dm": "Oi, Le Petit! 🎒 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). O Ravi tem 3 aninhos e escola é um assunto que mexe muito com as mães que me seguem. Adoraria conhecer a Le Petit e mostrar o dia a dia de vocês com carinho. Cases: Montreal Hyundai e NINHO Fases 1+. Topam conversar?"
+        },
+        {
+          "id": "wrstore_macae",
+          "handle": "wrstore_macae",
+          "name": "Walery Macaé",
+          "niche": "Moda feminina · Macaé (Centro)",
+          "instagramUrl": "https://www.instagram.com/wrstore_macae/",
+          "source": "Viralist · Macaé",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Loja de rua no Centro, looks do dia",
+            "Perfil ativo que já vende pelo Instagram",
+            "Dona à frente do atendimento"
+          ],
+          "dm": "Oi, Walery! 💖 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Amei os looks do dia de vocês, bem a minha vibe de mãe que gosta de estar arrumada sem complicar. Adoraria montar uns looks Walery num conteúdo leve. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar umas ideias?"
+        },
+        {
+          "id": "valentemodasmacae",
+          "handle": "valentemodasmacae",
+          "name": "Valente Modas",
+          "niche": "Moda feminina · Macaé (Centro)",
+          "instagramUrl": "https://www.instagram.com/valentemodasmacae/",
+          "source": "Viralist · Macaé",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Lojinha feminina na Silva Jardim",
+            "Peças acessíveis pro dia a dia",
+            "Precisa de alcance fora do Centro"
+          ],
+          "dm": "Oi, Valente Modas! 🌷 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Gostei muito das peças de vocês, cara de dia a dia real. Seria um prazer mostrar uns looks Valente no meu conteúdo de rotina. Cases: Montreal Hyundai e NINHO Fases 1+. Topam conversar?"
+        },
+        {
+          "id": "donna.macae",
+          "handle": "donna.macae",
+          "name": "Donna Boutique",
+          "niche": "Moda feminina · Macaé",
+          "instagramUrl": "https://www.instagram.com/donna.macae/",
+          "source": "Viralist · Macaé",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Boutique feminina com curadoria",
+            "Atendimento próximo, perfil de loja de dona",
+            "Combina com conteúdo de moda e lifestyle"
+          ],
+          "dm": "Oi, Donna! ✨ Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Me encantei com a curadoria da boutique. Adoraria montar looks Donna pra um conteúdo de mãe que trabalha e ama se vestir bem. Cases: Montreal Hyundai e NINHO Fases 1+. Posso enviar uma proposta?"
+        },
+        {
+          "id": "aye.macae",
+          "handle": "aye.macae",
+          "name": "AYE",
+          "niche": "Moda feminina · Macaé (Centro)",
+          "instagramUrl": "https://www.instagram.com/aye.macae/",
+          "source": "Exa Places · Macaé",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Loja de rua na Silva Jardim",
+            "Moda feminina com pegada atual",
+            "Marca local querendo ganhar vitrine"
+          ],
+          "dm": "Oi, AYE! 🤍 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Amei o estilo da AYE, bem atual e usável. Queria muito criar uns looks com vocês pro meu conteúdo de moda e rotina. Cases: Montreal Hyundai e NINHO Fases 1+. Bora conversar?"
+        },
+        {
+          "id": "ateliersabrinamelo",
+          "handle": "ateliersabrinamelo",
+          "name": "Ateliê Sabrina Melo",
+          "niche": "Beleza · Macaé (Imbetiba)",
+          "instagramUrl": "https://www.instagram.com/ateliersabrinamelo/",
+          "source": "Google Maps · Macaé",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Ateliê de beleza nota 5 com 26 avaliações",
+            "Atendimento da própria Sabrina",
+            "Serviço que rende muito em stories"
+          ],
+          "dm": "Oi, Sabrina! 💅 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Vi os elogios ao seu ateliê e fiquei com vontade de viver essa experiência. Adoraria mostrar meu momento de autocuidado com você, bem real. Cases: Montreal Hyundai e NINHO Fases 1+. Posso te mandar umas ideias?"
+        },
+        {
+          "id": "karinaleonel.beautycare",
+          "handle": "karinaleonel.beautycare",
+          "name": "Karina Leonel Beauty Care",
+          "niche": "Salão e estética · Macaé",
+          "instagramUrl": "https://www.instagram.com/karinaleonel.beautycare/",
+          "source": "Google Maps · Macaé",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Salão completo: cabelo, unhas, pele",
+            "Nota 4,7 com mais de 160 avaliações",
+            "Dona à frente, marca com nome próprio"
+          ],
+          "dm": "Oi, Karina! 🌸 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Amei o espaço completo de vocês. Seria lindo mostrar um dia de cuidado comigo no Beauty Care, pra mostrar às mães que dá pra se cuidar também. Cases: Montreal Hyundai e NINHO Fases 1+. Topa conversar?"
+        },
+        {
+          "id": "moabealves_casadebeleza",
+          "handle": "moabealves_casadebeleza",
+          "name": "Moabe Alves Casa de Beleza",
+          "niche": "Salão de beleza · Macaé",
+          "instagramUrl": "https://www.instagram.com/moabealves_casadebeleza/",
+          "source": "Exa Places · Macaé",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Casa de beleza nota 5",
+            "Profissional dono do próprio espaço",
+            "Atendimento personalizado que rende conteúdo"
+          ],
+          "dm": "Oi, Moabe! ✨ Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Vi as avaliações da Casa de Beleza e fiquei encantada. Adoraria mostrar uma transformação com você num conteúdo leve e verdadeiro. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar umas ideias?"
+        },
+        {
+          "id": "beladonnaoficial",
+          "handle": "beladonnaoficial",
+          "name": "Salão Bela Donna",
+          "niche": "Salão de beleza · Macaé (Cavaleiros)",
+          "instagramUrl": "https://www.instagram.com/beladonnaoficial/",
+          "source": "Revista Divercidades · Macaé",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Salão de 12 anos recém-repaginado",
+            "Novidade em terapia capilar",
+            "Momento de reinauguração pede divulgação"
+          ],
+          "dm": "Oi, Bela Donna! 💇‍♀️ Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Vi que o salão ficou de cara nova e amei! Seria uma alegria conhecer o espaço repaginado e mostrar a terapia capilar no meu conteúdo. Cases: Montreal Hyundai e NINHO Fases 1+. Topam conversar?"
+        },
+        {
+          "id": "academia.inovacao.macae",
+          "handle": "academia.inovacao.macae",
+          "name": "Academia Inovação",
+          "niche": "Academia · Macaé (Granja dos Cavaleiros)",
+          "instagramUrl": "https://www.instagram.com/academia.inovacao.macae/",
+          "source": "Wellhub · Macaé",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Academia de bairro com nota 4,7",
+            "Musculação sem agendamento, rotina de mãe",
+            "Dono próximo do dia a dia"
+          ],
+          "dm": "Oi, Academia Inovação! 💪 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Tô numa fase de cuidar mais de mim e adoraria mostrar meus treinos com vocês, bem real, rotina de mãe. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar uma proposta?"
+        },
+        {
+          "id": "movimentesemacae",
+          "handle": "movimentesemacae",
+          "name": "Movimente-se Macaé",
+          "niche": "Academia boutique · Macaé (Cavaleiros)",
+          "instagramUrl": "https://www.instagram.com/movimentesemacae/",
+          "source": "Wellhub · Macaé",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Academia boutique com área infantil",
+            "Funcional e circuito com turmas pequenas",
+            "Perto da praia, cara de lifestyle"
+          ],
+          "dm": "Oi, Movimente-se! 🏃‍♀️ Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Amei saber que vocês têm área infantil — mãe agradece! Adoraria treinar com vocês e mostrar que dá pra levar o filho e se cuidar. Cases: Montreal Hyundai e NINHO Fases 1+. Topam conversar?"
+        },
+        {
+          "id": "cavaleiroscrossfit",
+          "handle": "cavaleiroscrossfit",
+          "name": "CrossFit Cavaleiros",
+          "niche": "Crossfit · Macaé (Cavaleiros)",
+          "instagramUrl": "https://www.instagram.com/cavaleiroscrossfit/",
+          "source": "Wellhub · Macaé",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Box com nota 4,97 e mais de 460 avaliações",
+            "Comunidade forte, cara de família",
+            "Aulas até no domingo"
+          ],
+          "dm": "Oi, CrossFit Cavaleiros! 🔥 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Vi o carinho dos alunos com o box e fiquei animada. Seria incrível encarar uma aula com vocês e mostrar tudo com leveza no meu conteúdo. Cases: Montreal Hyundai e NINHO Fases 1+. Bora?"
+        },
+        {
+          "id": "harmonize_institutomulti",
+          "handle": "harmonize_institutomulti",
+          "name": "Harmonize Instituto Multidisciplinar",
+          "niche": "Academia e bem-estar · Macaé (Cavaleiros)",
+          "instagramUrl": "https://www.instagram.com/harmonize_institutomulti/",
+          "source": "Wellhub · Macaé",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Academia com nutrição e fisioterapia",
+            "Nota 4,8 com mais de 300 avaliações",
+            "Bem-estar completo, perto da praia"
+          ],
+          "dm": "Oi, Harmonize! 🌿 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Amei a proposta de cuidado completo de vocês. Adoraria mostrar minha rotina de bem-estar no Harmonize, bem pé no chão, de mãe pra mãe. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar umas ideias?"
+        },
+        {
+          "id": "pousada_cavaleiros",
+          "handle": "pousada_cavaleiros",
+          "name": "Pousada Cavaleiros",
+          "niche": "Pousada · Macaé (Cavaleiros)",
+          "instagramUrl": "https://www.instagram.com/pousada_cavaleiros/",
+          "source": "Pousada Cavaleiros/LinkedIn · Macaé",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Pousada perto da Praia dos Cavaleiros",
+            "Hospedagem menor, gestão direta",
+            "Ótima pra conteúdo de fim de semana em família"
+          ],
+          "dm": "Oi, Pousada Cavaleiros! 🌊 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Adoraria passar um fim de semana com o Ravi aí e mostrar a pousada com carinho, cara de descanso em família. Cases: Montreal Hyundai e NINHO Fases 1+. Topam conversar?"
+        },
+        {
+          "id": "lojaminihouse",
+          "handle": "lojaminihouse",
+          "name": "Mini House",
+          "niche": "Moda infantil · Flamengo",
+          "instagramUrl": "https://www.instagram.com/lojaminihouse/",
+          "source": "Site oficial · Rio",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Lojinha kids de rua no Flamengo",
+            "Catálogo próprio e venda pelo WhatsApp",
+            "Perfil local que responde direct"
+          ],
+          "dm": "Oi, Mini House! 🏠💛 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Amei o catálogo de vocês! Seria lindo montar looks do Ravi com a Mini House num passeio pelo Rio. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar umas ideias?"
+        },
+        {
+          "id": "loja.amordemaerj",
+          "handle": "loja.amordemaerj",
+          "name": "Amor de Mãe",
+          "niche": "Moda infantil · Catete / Flamengo",
+          "instagramUrl": "https://www.instagram.com/loja.amordemaerj/",
+          "source": "Exa Places · Rio",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Loja infantil de bairro",
+            "Nome que já conversa com maternidade",
+            "Atendimento próximo, dona por perto"
+          ],
+          "dm": "Oi, Amor de Mãe! 💞 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Com esse nome eu já me apaixonei! Queria muito fazer um conteúdo do Ravi com as peças de vocês, cheio de amor de mãe mesmo. Cases: Montreal Hyundai e NINHO Fases 1+. Topam conversar?"
+        },
+        {
+          "id": "centrodebelezabotafogo",
+          "handle": "centrodebelezabotafogo",
+          "name": "Centro de Beleza Botafogo",
+          "niche": "Salão e estética · Botafogo",
+          "instagramUrl": "https://www.instagram.com/centrodebelezabotafogo/",
+          "source": "Instagram · Rio",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Salão, estética e nutrição no mesmo lugar",
+            "Espaço de bairro na Voluntários",
+            "Serviço completo rende vários conteúdos"
+          ],
+          "dm": "Oi, Centro de Beleza! 🌸 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Amei ver salão, estética e nutrição juntinhos. Adoraria viver um dia de cuidado com vocês e mostrar tudo com leveza. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar uma proposta?"
+        },
+        {
+          "id": "lucianolopescabeleireiros",
+          "handle": "lucianolopescabeleireiros",
+          "name": "Luciano Lopes Cabeleireiros",
+          "niche": "Salão · Laranjeiras",
+          "instagramUrl": "https://www.instagram.com/lucianolopescabeleireiros/",
+          "source": "Exa Places · Rio",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Salão tradicional de Laranjeiras",
+            "Cabeleireiro dono à frente",
+            "Clientela fiel de bairro"
+          ],
+          "dm": "Oi, Luciano! ✂️ Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Ouvi falar muito bem do salão e adoraria cuidar do cabelo com você e mostrar o resultado com carinho no meu conteúdo. Cases: Montreal Hyundai e NINHO Fases 1+. Topa conversar?"
+        },
+        {
+          "id": "jessybarbiobeauty",
+          "handle": "jessybarbiobeauty",
+          "name": "Jessy Barbio Beauty",
+          "niche": "Lash design · Largo do Machado",
+          "instagramUrl": "https://www.instagram.com/jessybarbiobeauty/",
+          "source": "Exa Places · Rio",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Lash designer com marca própria",
+            "Atendimento da própria Jessy",
+            "Antes e depois rende muito em reels"
+          ],
+          "dm": "Oi, Jessy! 👁️✨ Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Amei seu trabalho com cílios! Seria lindo mostrar o processo com você, de mãe corrida que quer acordar arrumada. Cases: Montreal Hyundai e NINHO Fases 1+. Posso te mandar umas ideias?"
+        },
+        {
+          "id": "ballancejbpilates",
+          "handle": "ballancejbpilates",
+          "name": "Ballance Pilates e Funcional",
+          "niche": "Pilates · Jardim Botânico",
+          "instagramUrl": "https://www.instagram.com/ballancejbpilates/",
+          "source": "Wellhub · Rio",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Estúdio de bairro no Jardim Botânico",
+            "Pilates e funcional em turmas pequenas",
+            "Lifestyle carioca bem a cara do conteúdo"
+          ],
+          "dm": "Oi, Ballance! 🧘‍♀️ Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Tô buscando mais equilíbrio na rotina e amei o estúdio de vocês. Adoraria fazer umas aulas e mostrar o bem que faz. Cases: Montreal Hyundai e NINHO Fases 1+. Topam conversar?"
+        },
+        {
+          "id": "estudio_arvoreser",
+          "handle": "estudio_arvoreser",
+          "name": "Estúdio Arvoreser",
+          "niche": "Pilates e terapias · Jardim Botânico",
+          "instagramUrl": "https://www.instagram.com/estudio_arvoreser/",
+          "source": "Exa Places · Rio",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Pilates com terapias integrativas",
+            "Estúdio pequeno, dona por perto",
+            "Autocuidado de mãe com cara de pausa"
+          ],
+          "dm": "Oi, Arvoreser! 🌳 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Que nome lindo! Adoraria viver uma tarde de pilates e terapia com vocês e mostrar a importância de mãe também ter pausa. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar umas ideias?"
         }
       ]
     }
