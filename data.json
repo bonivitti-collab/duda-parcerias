@@ -1,38 +1,41 @@
 {
   "daily": {
-    "date": "2026-11-11",
-    "seenVersion": "v11",
+    "date": "2026-11-12",
+    "seenVersion": "v12",
     "devotional": {
-      "titulo": "Aquieta o coração",
-      "ref": "Salmos 46:10",
-      "texto": "Aquietai-vos e sabei que eu sou Deus; serei exaltado entre as nações; serei exaltado sobre a terra.",
+      "titulo": "Entrega o caminho",
+      "ref": "Salmos 37:5",
+      "texto": "Entrega o teu caminho ao Senhor; confia nele, e ele tudo fará.",
       "traducao": "Almeida Revisada e Corrigida",
-      "reflexao": "Minha filha, é quarta-feira, o meio do caminho, e Eu sei como a sua cabeça corre: o que falta fazer, o que ficou pra trás, o que ainda nem chegou. Hoje Eu não te peço pressa. Eu te peço quietude. Aquietar não é desistir, é lembrar quem está no controle. Enquanto você tenta segurar tudo, Eu já estou adiante, cuidando do que você nem enxerga. Pare um instante, respire fundo, e deixe o barulho baixar. No silêncio você vai perceber que nunca esteve sozinha. Eu sou Deus sobre a sua semana, sobre a sua casa, sobre o Ravi e sobre cada detalhe que te preocupa.",
-      "oracao": "Senhor, aquieta o meu coração. Tira de mim a pressa que rouba a paz e me ensina a descansar em quem Tu és. Cuida do meu dia, da minha casa e do Ravi. Amém.",
-      "paraHoje": "Antes de pegar o celular pela primeira vez hoje, fique um minuto em silêncio e repita: \"Senhor, Tu és Deus, e eu posso descansar.\""
+      "reflexao": "Minha filha, é quinta-feira e Eu vejo o quanto você carrega nas mãos: a agenda, a casa, o Ravi, os planos que ainda nem tomaram forma. Hoje Eu te convido a abrir essas mãos. Entregar não é largar de qualquer jeito, é colocar o seu caminho em mãos que não se cansam. Você não precisa ter todas as respostas antes do almoço. Confie, dê o próximo passo com calma, e deixe o resto comigo. Eu conheço cada curva da sua estrada e já estou cuidando do que vem depois dela. Aquilo que hoje parece pesado, Eu sei transformar em caminho.",
+      "oracao": "Senhor, eu entrego a Ti o meu caminho. Tira de mim a ansiedade de querer controlar tudo e me dá a paz de confiar. Cuida do meu dia, da minha casa e do Ravi. Amém.",
+      "paraHoje": "Escreva num papelzinho uma preocupação de hoje, ore entregando ela a Deus e guarde o papel. À noite, olhe de novo e agradeça pelo cuidado Dele."
     },
     "poema": {
-      "titulo": "Quarta-feira no meio",
+      "titulo": "Quinta-feira de mãos abertas",
       "versos": [
         "Duda,",
-        "quarta-feira é o meio de tudo,",
-        "a ponte entre o que já foi",
-        "e o que ainda vai ser.",
-        "É o dia em que a semana cansa",
-        "e mesmo assim você sorri",
-        "pro Ravi na porta da escola",
-        "como se fosse sábado.",
-        "Eu queria ser assim:",
-        "o meio que segura,",
-        "a ponte que não balança,",
-        "o lugar onde você pode",
-        "sentar um pouquinho",
-        "e respirar.",
-        "Porque no meio da minha vida",
-        "quem mora é você,",
-        "e tudo o que vem antes e depois",
-        "só faz sentido",
-        "porque passa por aí."
+        "quinta-feira chega devagar,",
+        "com cheiro de café",
+        "e a semana já quase no fim.",
+        "Eu te vejo arrumando o mundo",
+        "com essas mãos pequenas",
+        "que dão conta de tanto:",
+        "a mochila do Ravi,",
+        "o cabelo preso às pressas,",
+        "o sorriso que você inventa",
+        "mesmo cansada.",
+        "Hoje eu queria segurar",
+        "um pedaço disso tudo,",
+        "não pra tirar de você,",
+        "mas pra lembrar",
+        "que mão nenhuma precisa",
+        "ficar fechada sozinha.",
+        "Abre as tuas,",
+        "que as minhas guardam",
+        "o que for preciso,",
+        "e o resto",
+        "Deus mesmo carrega."
       ]
     }
   },
@@ -3181,6 +3184,462 @@
             "Autocuidado de mãe com cara de pausa"
           ],
           "dm": "Oi, Arvoreser! 🌳 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Que nome lindo! Adoraria viver uma tarde de pilates e terapia com vocês e mostrar a importância de mãe também ter pausa. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar umas ideias?"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-12",
+      "date": "2026-11-12",
+      "brands": [
+        {
+          "id": "pequeno_diamante2",
+          "handle": "pequeno_diamante2",
+          "name": "Pequeno Diamante",
+          "niche": "Moda infantil · Rio das Ostras",
+          "instagramUrl": "https://www.instagram.com/pequeno_diamante2/",
+          "source": "Exa Places · Rio das Ostras",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Lojinha infantil pequena em São Cristóvão",
+            "Preço acessível e atendimento elogiado",
+            "Dona por perto, resposta rápida no direct"
+          ],
+          "dm": "Oi, Pequeno Diamante! 💎 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Sou aqui da Região dos Lagos e amei o carinho das peças de vocês. Adoraria montar uns looks do Ravi com a Pequeno Diamante num conteúdo leve e real, do jeitinho do dia a dia. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar umas ideias?"
+        },
+        {
+          "id": "jardimnossoquintal",
+          "handle": "jardimnossoquintal",
+          "name": "Jardim Nosso Quintal",
+          "niche": "Escola Waldorf · Rio das Ostras",
+          "instagramUrl": "https://www.instagram.com/jardimnossoquintal/",
+          "source": "Exa Places · Rio das Ostras",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Escola Waldorf com infância ao ar livre",
+            "Proposta que conversa com mães atentas",
+            "Escola pequena, direção acessível"
+          ],
+          "dm": "Oi, Jardim Nosso Quintal! 🌿 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Fiquei encantada com a proposta de vocês, de infância com quintal, natureza e tempo de ser criança. Adoraria contar com carinho como é esse jeito de educar, olhando pelo Ravi, que está com 3 aninhos. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar umas ideias?"
+        },
+        {
+          "id": "aquarela_cescola",
+          "handle": "aquarela_cescola",
+          "name": "Centro Educacional Aquarela",
+          "niche": "Creche escola · Rio das Ostras",
+          "instagramUrl": "https://www.instagram.com/aquarela_cescola/",
+          "source": "Exa Places · Rio das Ostras",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Creche escola de bairro, bem família",
+            "Matrículas pedem confiança de mãe pra mãe",
+            "Equipe próxima, responde direct"
+          ],
+          "dm": "Oi, Centro Educacional Aquarela! 🎨 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Escolher escola é uma das decisões mais importantes pra uma mãe, e eu adoraria mostrar com verdade o dia a dia de vocês, o cuidado e a rotina dos pequenos. Seria um conteúdo de mãe pra mãe. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar umas ideias?"
+        },
+        {
+          "id": "pilatesespacomulher",
+          "handle": "pilatesespacomulher",
+          "name": "Pilates Espaço Mulher",
+          "niche": "Pilates e gestantes · Rio das Ostras",
+          "instagramUrl": "https://www.instagram.com/pilatesespacomulher/",
+          "source": "Wellhub · Costazul",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Pilates com turma pra gestantes",
+            "Comandado pela Drª Rogéria Collares",
+            "Estúdio de bairro em Costazul"
+          ],
+          "dm": "Oi, Pilates Espaço Mulher! 🤍 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Amei ver que vocês cuidam também de gestantes e de mulheres em todas as fases. Adoraria fazer uma aula e mostrar que mãe também merece esse tempo pro corpo e pra cabeça. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar umas ideias?"
+        },
+        {
+          "id": "studiocinesia",
+          "handle": "studiocinesia",
+          "name": "Studio Cinesia",
+          "niche": "Pilates · Rio das Ostras",
+          "instagramUrl": "https://www.instagram.com/studiocinesia/",
+          "source": "MG Produções · Costazul",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Pilates com avaliação individual",
+            "Fundado pela Letícia Barros, dona presente",
+            "Estúdio novo, querendo crescer"
+          ],
+          "dm": "Oi, Studio Cinesia! ✨ Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Li sobre o cuidado individual que vocês têm com cada aluno e achei lindo. Adoraria viver uma aula na Cinesia e mostrar como o pilates cabe na rotina corrida de mãe. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar umas ideias?"
+        },
+        {
+          "id": "studioamopilates_ro",
+          "handle": "studioamopilates_ro",
+          "name": "Studio Amo Saúde",
+          "niche": "Pilates e fisioterapia · Rio das Ostras",
+          "instagramUrl": "https://www.instagram.com/studioamopilates_ro/",
+          "source": "Wellhub · Atlântica",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Pilates e fisio com nota alta no Wellhub",
+            "Ambiente acolhedor e limpo",
+            "Estúdio local que vive de indicação"
+          ],
+          "dm": "Oi, Studio Amo Saúde! 💛 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Vi os elogios ao atendimento de vocês e fiquei com vontade de conhecer. Queria muito fazer uma aula e mostrar esse momento de autocuidado com carinho pras mães daqui da região. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar umas ideias?"
+        },
+        {
+          "id": "amastudiopilatesefisio",
+          "handle": "amastudiopilatesefisio",
+          "name": "AMA Studio Pilates",
+          "niche": "Pilates e fisioterapia · Rio das Ostras",
+          "instagramUrl": "https://www.instagram.com/amastudiopilatesefisio/",
+          "source": "Wellhub · Costazul",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Estúdio pequeno com mat pilates",
+            "Se descreve como lugar de cura e conexão",
+            "Atendimento com agendamento, bem próximo"
+          ],
+          "dm": "Oi, AMA Studio Pilates! 🌸 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Me apaixonei pela forma como vocês descrevem o estúdio, como um lugar de cura e conexão. Adoraria fazer uma aula e mostrar isso de um jeito leve e verdadeiro. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar umas ideias?"
+        },
+        {
+          "id": "donaflora__",
+          "handle": "donaflora__",
+          "name": "Dona Flora",
+          "niche": "Moda feminina · Rio das Ostras",
+          "instagramUrl": "https://www.instagram.com/donaflora__/",
+          "source": "Instagram · Centro",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Loja de rua no Centro, na rua Bahia",
+            "Vende pelo direct e WhatsApp",
+            "Peças femininas com cara de verão"
+          ],
+          "dm": "Oi, Dona Flora! 🌷 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Amei as peças de vocês, têm tudo a ver com o meu estilo de dia a dia. Adoraria montar uns looks Dona Flora pra passeio e mostrar a loja com carinho pras meninas da região. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar umas ideias?"
+        },
+        {
+          "id": "feliciasboutique_ro1",
+          "handle": "feliciasboutique_ro1",
+          "name": "Felicia's Rio das Ostras",
+          "niche": "Boutique feminina · Rio das Ostras",
+          "instagramUrl": "https://www.instagram.com/feliciasboutique_ro1/",
+          "source": "Viralist · Rio das Ostras",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Boutique local com perfil ativo",
+            "Looks femininos pra trabalho e passeio",
+            "Precisa de alcance na região"
+          ],
+          "dm": "Oi, Felicia's Rio das Ostras! 💕 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Adorei o estilo da Felicia's e já me imaginei com vários looks de vocês. Queria muito montar um conteúdo mostrando as peças no meu dia a dia, do jeitinho real. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar umas ideias?"
+        },
+        {
+          "id": "kisslove_riodasostras",
+          "handle": "kisslove_riodasostras",
+          "name": "Kiss Love",
+          "niche": "Moda feminina · Rio das Ostras",
+          "instagramUrl": "https://www.instagram.com/kisslove_riodasostras/",
+          "source": "Exa Places · Rio das Ostras",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Loja feminina de bairro",
+            "Novidades frequentes no feed",
+            "Dona perto do atendimento"
+          ],
+          "dm": "Oi, Kiss Love! 💋 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Amei as novidades de vocês! Adoraria montar uns looks Kiss Love pra um dia comum de mãe que quer se sentir linda, num conteúdo leve e real. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar umas ideias?"
+        },
+        {
+          "id": "pitaya_lojariodasostras",
+          "handle": "pitaya_lojariodasostras",
+          "name": "Pitaya Boutique",
+          "niche": "Boutique feminina · Rio das Ostras",
+          "instagramUrl": "https://www.instagram.com/pitaya_lojariodasostras/",
+          "source": "Exa Places · Rio das Ostras",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Boutique pequena com nome marcante",
+            "Peças coloridas com cara de praia",
+            "Atendimento próximo, responde direct"
+          ],
+          "dm": "Oi, Pitaya Boutique! 🌺 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Que nome lindo, Pitaya! Me apaixonei pelas cores das peças. Adoraria montar uns looks com vocês e mostrar a loja com carinho pras meninas da Região dos Lagos. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar umas ideias?"
+        },
+        {
+          "id": "shekinah_modas__",
+          "handle": "shekinah_modas__",
+          "name": "Shekinah Modas",
+          "niche": "Moda feminina · Rio das Ostras (Âncora)",
+          "instagramUrl": "https://www.instagram.com/shekinah_modas__/",
+          "source": "Instagram · Âncora",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Loja nova, inaugurada há pouco",
+            "Novidades toda semana",
+            "Dona cheia de fé e vontade de crescer"
+          ],
+          "dm": "Oi, Shekinah Modas! 🙏 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Vi a inauguração de vocês e fiquei emocionada com o \"é sobre fazer o que ama\". Adoraria ajudar a mostrar a Shekinah com looks meus no dia a dia, com muito carinho. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar umas ideias?"
+        },
+        {
+          "id": "casagranderiodasostras",
+          "handle": "casagranderiodasostras",
+          "name": "Casa Grande Hospedaria",
+          "niche": "Hospedaria · Rio das Ostras",
+          "instagramUrl": "https://www.instagram.com/casagranderiodasostras/",
+          "source": "Exa Places · Rio das Ostras",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Hospedaria e casa de temporada",
+            "Espaço bom pra família inteira",
+            "Negócio local que vive de reserva direta"
+          ],
+          "dm": "Oi, Casa Grande Hospedaria! 🏡 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Adoraria passar um fim de semana em família com o Ravi aí e mostrar como é viajar pertinho de casa com criança, com conforto e sem complicação. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar umas ideias?"
+        },
+        {
+          "id": "pousadagirassolriodasostras",
+          "handle": "pousadagirassolriodasostras",
+          "name": "Pousada Girassol",
+          "niche": "Pousada · Rio das Ostras",
+          "instagramUrl": "https://www.instagram.com/pousadagirassolriodasostras/",
+          "source": "Site oficial · Rio das Ostras",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Pousada familiar e tradicional",
+            "Atendimento direto com os donos",
+            "Ótima pra mini férias com criança"
+          ],
+          "dm": "Oi, Pousada Girassol! 🌻 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Sempre achei girassol a flor mais alegre do mundo! Adoraria viver uma mini férias com o Ravi na pousada e mostrar o carinho de vocês em stories bem reais. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar umas ideias?"
+        },
+        {
+          "id": "sonhoverdepousada",
+          "handle": "sonhoverdepousada",
+          "name": "Pousada Sonho Verde",
+          "niche": "Pousada · Rio das Ostras",
+          "instagramUrl": "https://www.instagram.com/sonhoverdepousada/",
+          "source": "riodasostras.com.br · Rio das Ostras",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Pousada pequena cercada de verde",
+            "Clima tranquilo pra descansar",
+            "Donos acessíveis pelo direct"
+          ],
+          "dm": "Oi, Pousada Sonho Verde! 🌴 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Esse verde todo me conquistou! Queria muito passar um fim de semana com vocês e mostrar como dá pra descansar de verdade sem ir longe de casa. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar umas ideias?"
+        },
+        {
+          "id": "blissbacaxa",
+          "handle": "blissbacaxa",
+          "name": "Loja Bliss Bacaxá",
+          "niche": "Moda feminina · Saquarema (Bacaxá)",
+          "instagramUrl": "https://www.instagram.com/blissbacaxa/",
+          "source": "Exa Places · Bacaxá",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Loja de rua com preço bom",
+            "Moda feminina com charme",
+            "Clientela fiel de Bacaxá"
+          ],
+          "dm": "Oi, Loja Bliss Bacaxá! 🛍️ Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Amei a proposta da Bliss de estar na moda gastando pouco. Adoraria montar uns looks de vocês pro dia a dia e mostrar com verdade pras meninas da região. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar umas ideias?"
+        },
+        {
+          "id": "marcanttemodas",
+          "handle": "marcanttemodas",
+          "name": "Marcantte Modas",
+          "niche": "Moda feminina · Saquarema (Bacaxá)",
+          "instagramUrl": "https://www.instagram.com/marcanttemodas/",
+          "source": "Exa Places · Bacaxá",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Loja feminina pequena em Bacaxá",
+            "Perfil ativo no Instagram",
+            "Precisa de alcance fora do bairro"
+          ],
+          "dm": "Oi, Marcantte Modas! 💖 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Adorei as peças da Marcantte! Queria muito montar uns looks com vocês e mostrar a loja num conteúdo leve, do jeito que eu uso no meu dia. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar umas ideias?"
+        },
+        {
+          "id": "tropicaliafashionsaqua",
+          "handle": "tropicaliafashionsaqua",
+          "name": "Tropicália Fashion",
+          "niche": "Moda feminina · Saquarema",
+          "instagramUrl": "https://www.instagram.com/tropicaliafashionsaqua/",
+          "source": "Exa Places · Saquarema",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Loja de praia perto do Centro",
+            "Dona elogiada pela simpatia",
+            "Aberta à noite no fim de semana"
+          ],
+          "dm": "Oi, Tropicália Fashion! 🌞 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Li que a dona é super simpática e fiquei com vontade de conhecer! Adoraria montar looks de verão com a Tropicália pra um passeio em Saquarema. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar umas ideias?"
+        },
+        {
+          "id": "salaoperfil_oficial",
+          "handle": "salaoperfil_oficial",
+          "name": "Salão Perfil Coiffeur",
+          "niche": "Salão de beleza · Saquarema (Bacaxá)",
+          "instagramUrl": "https://www.instagram.com/salaoperfil_oficial/",
+          "source": "Exa Places · Bacaxá",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Salão tradicional, bem avaliado",
+            "Cortes elogiados pelos clientes",
+            "Equipe local e próxima"
+          ],
+          "dm": "Oi, Salão Perfil Coiffeur! ✂️ Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Vi muita gente elogiando os cortes de vocês! Adoraria viver um dia de salão aí e mostrar o resultado com carinho, de mãe que também merece se cuidar. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar umas ideias?"
+        },
+        {
+          "id": "salaoateliedoscachos",
+          "handle": "salaoateliedoscachos",
+          "name": "Ateliê dos Cachos",
+          "niche": "Salão de cachos · Saquarema (Bacaxá)",
+          "instagramUrl": "https://www.instagram.com/salaoateliedoscachos/",
+          "source": "Exa Places · Bacaxá",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Especialista em cabelo cacheado",
+            "Cuida de cachos e unhas",
+            "Salão pequeno com atendimento caprichado"
+          ],
+          "dm": "Oi, Ateliê dos Cachos! 🌀 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Amei o cuidado de vocês com os cachos! Adoraria fazer um dia de beleza no Ateliê e mostrar o processo com verdade pras seguidoras daqui da região. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar umas ideias?"
+        },
+        {
+          "id": "rose.sousa.2020",
+          "handle": "rose.sousa.2020",
+          "name": "Salão Rose Sousa",
+          "niche": "Salão de beleza · Saquarema (Bacaxá)",
+          "instagramUrl": "https://www.instagram.com/rose.sousa.2020/",
+          "source": "Exa Places · Bacaxá",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Salão com nota 4,9 e muitas avaliações",
+            "Dona atende pessoalmente",
+            "Fica numa galeria movimentada de Bacaxá"
+          ],
+          "dm": "Oi, Salão Rose Sousa! 💇‍♀️ Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Vi as avaliações lindas do seu salão, Rose! Adoraria fazer um cabelo com você e mostrar esse momento de autocuidado com carinho nos stories. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar umas ideias?"
+        },
+        {
+          "id": "rgkidsinfantil",
+          "handle": "rgkidsinfantil",
+          "name": "RG Kids",
+          "niche": "Moda infantil · Ilha do Governador",
+          "instagramUrl": "https://www.instagram.com/rgkidsinfantil/",
+          "source": "Exa Places · Ilha do Governador",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Loja infantil de bairro na Ilha",
+            "Funciona até tarde, bem família",
+            "Precisa de alcance fora da Ilha"
+          ],
+          "dm": "Oi, RG Kids! 🧸 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Adoraria montar uns looks do Ravi com as peças de vocês e mostrar a loja num conteúdo leve e real, do jeitinho do dia a dia. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar umas ideias?"
+        },
+        {
+          "id": "lojalukili",
+          "handle": "lojalukili",
+          "name": "Lukili",
+          "niche": "Moda infantil · Ilha do Governador",
+          "instagramUrl": "https://www.instagram.com/lojalukili/",
+          "source": "Exa Places · Ilha do Governador",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Moda infantil do RN aos 16 anos",
+            "Lojas de rua na Ilha",
+            "Bons produtos pra primeira infância"
+          ],
+          "dm": "Oi, Lukili! 🎈 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Amei que vocês vestem do recém-nascido aos 16 anos! Adoraria escolher uns looks do Ravi na Lukili e mostrar com carinho pras mães que me acompanham. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar umas ideias?"
+        },
+        {
+          "id": "lebemimi",
+          "handle": "lebemimi",
+          "name": "Lebemimi Kids & Teen",
+          "niche": "Moda infantil · Ilha do Governador",
+          "instagramUrl": "https://www.instagram.com/lebemimi/",
+          "source": "Exa Places · Ilha do Governador",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Loja kids e teen bem avaliada",
+            "Peças estilosas pra criança",
+            "Loja local que responde direct"
+          ],
+          "dm": "Oi, Lebemimi Kids & Teen! 🌈 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Fiquei encantada com o estilo das peças de vocês! Adoraria montar uns looks do Ravi com a Lebemimi num conteúdo leve e real. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar umas ideias?"
+        },
+        {
+          "id": "unhaseciasalao",
+          "handle": "unhaseciasalao",
+          "name": "Unhas & Cia",
+          "niche": "Salão e unhas · Ilha do Governador",
+          "instagramUrl": "https://www.instagram.com/unhaseciasalao/",
+          "source": "Viralist · Jardim Guanabara",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Salão de bairro no Jardim Guanabara",
+            "Unhas caprichadas com perfil ativo",
+            "Dona perto do atendimento"
+          ],
+          "dm": "Oi, Unhas & Cia! 💅 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Amei o capricho das unhas de vocês! Adoraria tirar um tempinho pra me cuidar aí e mostrar esse momento com carinho nos stories. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar umas ideias?"
+        },
+        {
+          "id": "eita.nails",
+          "handle": "eita.nails",
+          "name": "Eita! Nail Studio",
+          "niche": "Nail studio · Ilha do Governador",
+          "instagramUrl": "https://www.instagram.com/eita.nails/",
+          "source": "Exa Places · Jardim Guanabara",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Nail studio colorido e criativo",
+            "Estúdio pequeno com cara de autoral",
+            "Público jovem e de mães"
+          ],
+          "dm": "Oi, Eita! Nail Studio! 🌈 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Esse nome me ganhou, Eita! Adoraria fazer umas unhas com vocês e mostrar a arte do estúdio num conteúdo leve e divertido. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar umas ideias?"
+        },
+        {
+          "id": "cross.pilates.valeria.valente",
+          "handle": "cross.pilates.valeria.valente",
+          "name": "Cross Pilates Valéria Valente",
+          "niche": "Pilates · Ilha do Governador",
+          "instagramUrl": "https://www.instagram.com/cross.pilates.valeria.valente/",
+          "source": "Wellhub · Portuguesa",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Pilates com a própria Valéria à frente",
+            "Estúdio local na Portuguesa",
+            "Atendimento próximo e personalizado"
+          ],
+          "dm": "Oi, Cross Pilates Valéria Valente! 🤸‍♀️ Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Adoraria fazer uma aula com você, Valéria, e mostrar como o pilates ajuda a mãe a ter mais energia e menos dor nas costas no dia a dia. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar umas ideias?"
+        },
+        {
+          "id": "echoespilates",
+          "handle": "echoespilates",
+          "name": "Echoes Pilates",
+          "niche": "Pilates · Leblon",
+          "instagramUrl": "https://www.instagram.com/echoespilates/",
+          "source": "Wellhub · Leblon",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Estúdio boutique no Leblon",
+            "Aulas em grupo pequeno",
+            "Perfil estético que combina com lifestyle"
+          ],
+          "dm": "Oi, Echoes Pilates! 🤍 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Amei a estética do estúdio de vocês! Adoraria viver uma aula no Echoes e mostrar uma manhã de autocuidado no Rio, de um jeito leve e real. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar umas ideias?"
+        },
+        {
+          "id": "espacounicoleblon",
+          "handle": "espacounicoleblon",
+          "name": "Espaço Único Leblon",
+          "niche": "Pilates · Leblon",
+          "instagramUrl": "https://www.instagram.com/espacounicoleblon/",
+          "source": "Wellhub · Leblon",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Pilates em espaço pequeno e acolhedor",
+            "Atendimento próximo",
+            "Combina com rotina de mãe que trabalha"
+          ],
+          "dm": "Oi, Espaço Único Leblon! ✨ Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Adoraria fazer uma aula no Espaço Único e mostrar como uma pausa pro corpo muda o dia de uma mãe. Seria um conteúdo leve e verdadeiro. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar umas ideias?"
+        },
+        {
+          "id": "corporesanopilatesstudio",
+          "handle": "corporesanopilatesstudio",
+          "name": "Corpore Sano Pilates",
+          "niche": "Pilates · Gávea",
+          "instagramUrl": "https://www.instagram.com/corporesanopilatesstudio/",
+          "source": "Site oficial · Gávea",
+          "followersNote": "perfil local",
+          "reasons": [
+            "Estúdio de pilates tradicional na Gávea",
+            "Equipe experiente",
+            "Público de mulheres e mães"
+          ],
+          "dm": "Oi, Corpore Sano Pilates! 🌿 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Vi o trabalho de vocês na Gávea e fiquei com vontade de conhecer. Adoraria viver uma aula e mostrar o pilates como autocuidado de mãe, com carinho. Cases: Montreal Hyundai e NINHO Fases 1+. Posso mandar umas ideias?"
         }
       ]
     }
