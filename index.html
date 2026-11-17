@@ -295,6 +295,49 @@
       animation: softPulse 1.8s ease-out infinite; flex-shrink: 0;
     }
     .drawer-special.love .drawer-pulse { background: var(--love); }
+
+    .city-filter {
+      display: flex; flex-wrap: wrap; gap: 8px;
+      margin: 2px 0 10px;
+    }
+    .city-chip {
+      min-height: 44px; padding: 8px 14px;
+      border-radius: 999px; border: 1px solid var(--line);
+      background: #fff; color: var(--ink);
+      font-weight: 700; font-size: 0.82rem;
+      cursor: pointer;
+    }
+    .city-chip.on {
+      background: var(--accent); color: #fff; border-color: var(--accent);
+    }
+    .filter-meta {
+      margin: 0 0 12px; font-size: 0.8rem; color: var(--muted); font-weight: 600;
+    }
+    .archive-box {
+      background: var(--card); border: 1px dashed #ddd0c6;
+      border-radius: var(--radius); margin: 16px 0 8px; overflow: hidden;
+      box-shadow: none;
+    }
+    .archive-toggle {
+      width: 100%; display: flex; align-items: center; gap: 10px;
+      min-height: 64px; padding: 14px 16px;
+      border: none; background: transparent;
+      text-align: left; cursor: pointer; color: inherit;
+    }
+    .archive-kicker {
+      margin: 0; font-size: 11px; font-weight: 800; letter-spacing: 0.06em;
+      text-transform: uppercase; color: var(--muted);
+    }
+    .archive-title { margin: 2px 0 0; font-weight: 800; font-size: 0.98rem; letter-spacing: -0.02em; }
+    .archive-count { margin: 2px 0 0; font-size: 0.8rem; color: var(--muted); font-weight: 600; }
+    .archive-box.open > .archive-toggle .chev { transform: rotate(90deg); }
+    .archive-body { display: none; padding: 0 12px 12px; }
+    .archive-box.open > .archive-body { display: block; }
+    .archive-day-label {
+      margin: 10px 4px 6px; font-size: 11px; font-weight: 800;
+      letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted);
+    }
+
     .hidden { display: none !important; }
     #view-brands.hidden, #view-days.hidden, #view-special.hidden { display: none !important; }
 
@@ -344,7 +387,7 @@
   <div class="drawer-overlay" id="drawerOverlay"></div>
   <aside class="drawer" id="drawer" aria-hidden="true">
     <h2>Menu</h2>
-    <p class="drawer-note">Moda · lifestyle · maternidade · RJ</p>
+    <p class="drawer-note">Foco: Cabo Frio, Búzios, São Pedro e Rio das Ostras</p>
     <div id="drawerContent"></div>
   </aside>
 
@@ -359,6 +402,16 @@
     var specialOpen = null; // 'cafe' | 'poema' | null
     var applyingHistory = false;
     var homeOpen = { cafe: false, poema: false };
+    var LS_CITY = "duda-parcerias-city-v1";
+    var FOCUS_CITIES = [
+      { id: "Cabo Frio", label: "Cabo Frio" },
+      { id: "Búzios", label: "Búzios" },
+      { id: "São Pedro da Aldeia", label: "São Pedro" },
+      { id: "Rio das Ostras", label: "Rio das Ostras" }
+    ];
+    var cityFilter = "todas";
+    var archiveOpenHome = false;
+    var archiveOpenDay = false;
 
     var elDays = document.getElementById("view-days");
     var elBrands = document.getElementById("view-brands");
@@ -539,6 +592,54 @@
       });
       return out;
     }
+    function loadCityFilter() {
+      try {
+        var v = localStorage.getItem(LS_CITY);
+        if (v === "todas" || FOCUS_CITIES.some(function (c) { return c.id === v; })) return v;
+      } catch (e) {}
+      return "todas";
+    }
+    function saveCityFilter() {
+      try { localStorage.setItem(LS_CITY, cityFilter); } catch (e) {}
+    }
+    function isFoco(b) { return !!(b && b.foco === true); }
+    function isArquivo(b) { return !isFoco(b); }
+    function matchesCity(b) {
+      if (!isFoco(b)) return false;
+      if (cityFilter === "todas") return true;
+      return b.cidade === cityFilter;
+    }
+    function focusBrands(list) { return (list || []).filter(matchesCity); }
+    function arquivoBrands(list) { return (list || []).filter(isArquivo); }
+    function filterLabel() {
+      if (cityFilter === "todas") return "nas quatro cidades";
+      return "em " + cityFilter;
+    }
+    function makeCityFilterBar(context) {
+      var wrap = document.createElement("div");
+      var row = document.createElement("div");
+      row.className = "city-filter";
+      row.setAttribute("role", "tablist");
+      row.setAttribute("aria-label", "Filtrar por cidade");
+      function addChip(id, label) {
+        var btn = document.createElement("button");
+        btn.type = "button";
+        btn.className = "city-chip" + (cityFilter === id ? " on" : "");
+        btn.textContent = label;
+        btn.addEventListener("click", function () {
+          if (cityFilter === id) return;
+          cityFilter = id;
+          saveCityFilter();
+          if (context === "home") showDaysView({ skipHistory: true });
+          else if (currentDayId) showDayView(currentDayId, openBrandId, { skipHistory: true });
+        });
+        row.appendChild(btn);
+      }
+      addChip("todas", "Todas");
+      FOCUS_CITIES.forEach(function (c) { addChip(c.id, c.label); });
+      wrap.appendChild(row);
+      return wrap;
+    }
     function countSentIn(brands) {
       var n = 0;
       brands.forEach(function (b) { if (isSent(b.id)) n++; });
@@ -548,13 +649,13 @@
       if (specialOpen === "cafe") { barSub.textContent = "Um café com o Pai"; return; }
       if (specialOpen === "poema") { barSub.textContent = "Mensagem do Danillo"; return; }
       var brands = currentDayId
-        ? ((data.rounds.find(function (r) { return r.id === currentDayId; }) || {}).brands || [])
-        : allBrands();
+        ? focusBrands(((data.rounds.find(function (r) { return r.id === currentDayId; }) || {}).brands || []))
+        : focusBrands(allBrands());
       var sent = countSentIn(brands);
       var total = brands.length;
       barSub.textContent = currentDayId
         ? (sent + "/" + total + " enviadas neste dia")
-        : (sent + "/" + total + " enviadas");
+        : (sent + "/" + total + " no foco");
     }
     function sortedRounds() {
       return (data.rounds || []).slice().sort(function (a, b) {
@@ -654,15 +755,22 @@
       if (dailyDev()) elDays.appendChild(makeHomeSpecialCard("cafe"));
       if (dailyPoem()) elDays.appendChild(makeHomeSpecialCard("poema"));
 
-      var rounds = sortedRounds();
+      elDays.appendChild(makeCityFilterBar("home"));
+      var allFocus = focusBrands(allBrands());
+      var meta = document.createElement("p");
+      meta.className = "filter-meta";
+      meta.textContent = allFocus.length + " marca" + (allFocus.length === 1 ? "" : "s") + " no foco " + filterLabel();
+      elDays.appendChild(meta);
+
+      var rounds = sortedRounds().filter(function (r) { return focusBrands(r.brands || []).length; });
       if (!rounds.length) {
         var empty = document.createElement("p");
         empty.className = "empty";
-        empty.textContent = "Nenhuma rodada ainda.";
+        empty.textContent = "Nenhuma marca do foco " + filterLabel() + ".";
         elDays.appendChild(empty);
       } else {
         rounds.forEach(function (r) {
-          var brands = r.brands || [];
+          var brands = focusBrands(r.brands || []);
           var sent = countSentIn(brands);
           var dayBtn = document.createElement("button");
           dayBtn.type = "button";
@@ -676,6 +784,9 @@
           elDays.appendChild(dayBtn);
         });
       }
+
+      var allArquivo = arquivoBrands(allBrands());
+      if (allArquivo.length) elDays.appendChild(makeHomeArchive(allArquivo));
       updateCounter();
       renderDrawer();
       if (!opts.skipHistory) {
@@ -836,60 +947,100 @@
       return String(id).replace(/"/g, '\\"');
     }
 
-    function renderBrands(round) {
-      elBrands.innerHTML = "";
-      sortBrands(round.brands || []).forEach(function (b) {
-        var row = document.createElement("article");
-        row.className = "brand-row" + (isSent(b.id) ? " sent-row" : "") + (openBrandId === b.id ? " open" : "");
-        row.dataset.id = b.id;
-        var head = document.createElement("button");
-        head.type = "button";
-        head.className = "brand-head";
-        head.setAttribute("aria-expanded", openBrandId === b.id ? "true" : "false");
-        head.innerHTML =
-          '<span class="status-dot' + (isSent(b.id) ? " sent" : "") + '"></span>' +
-          '<div class="brand-head-text"><p class="brand-name">' + escapeHtml(b.name) +
-          (b.example ? ' <span class="example-chip">EXEMPLO</span>' : "") + "</p>" +
-          '<span class="niche-tag">' + escapeHtml(b.niche || "") + "</span></div>" +
-          '<span class="chev">▾</span>';
-        head.addEventListener("click", function () {
-          if (openBrandId === b.id) {
-            history.back();
-            setTimeout(function () {
-              if (openBrandId === b.id) showDayView(round.id, null, { replace: true });
-            }, 160);
-          } else if (openBrandId) {
-            showDayView(round.id, b.id, { replace: true });
-          } else {
-            showDayView(round.id, b.id, { replace: false });
-          }
+    function makeHomeArchive(allArquivo) {
+      var box = document.createElement("div");
+      box.className = "archive-box" + (archiveOpenHome ? " open" : "");
+      var toggle = document.createElement("button");
+      toggle.type = "button";
+      toggle.className = "archive-toggle";
+      toggle.setAttribute("aria-expanded", archiveOpenHome ? "true" : "false");
+      toggle.innerHTML =
+        '<div class="day-meta">' +
+          '<p class="archive-kicker">Fora do foco</p>' +
+          '<p class="archive-title">Outras regiões (arquivo)</p>' +
+          '<p class="archive-count">' + allArquivo.length + " marca" + (allArquivo.length === 1 ? "" : "s") + " guardadas, sem apagar</p>" +
+        "</div><span class=\"chev\">›</span>";
+      var body = document.createElement("div");
+      body.className = "archive-body";
+      sortedRounds().forEach(function (r) {
+        var brands = arquivoBrands(r.brands || []);
+        if (!brands.length) return;
+        var dayBtn = document.createElement("button");
+        dayBtn.type = "button";
+        dayBtn.className = "day-card";
+        dayBtn.innerHTML =
+          '<div class="day-meta"><p class="day-title">' + escapeHtml(dayLabel(r.date)) + "</p>" +
+          '<p class="day-count">' + brands.length + " marca" + (brands.length === 1 ? "" : "s") + " no arquivo</p></div>" +
+          '<span class="chev">›</span>';
+        dayBtn.addEventListener("click", function () {
+          archiveOpenDay = true;
+          goToDay(r.id);
         });
-        var body = document.createElement("div");
-        body.className = "brand-body";
-        var reasons = (b.reasons || []).map(function (r) { return "<li>" + escapeHtml(r) + "</li>"; }).join("");
-        body.innerHTML =
-          "<ul class=\"reasons\">" + reasons + "</ul>" +
-          '<div class="dm-box">' +
-            '<div class="dm-label">Mensagem (DM)</div>' +
-            '<button type="button" class="dm-preview" id="dm-' + escapeAttr(b.id) + '">' + escapeHtml(b.dm) + "</button>" +
-            '<button type="button" class="dm-toggle" data-dm="' + escapeAttr(b.id) + '">Ver mensagem</button>' +
-          "</div>" +
-          '<p class="handle-line">Instagram: <strong>@' + escapeHtml(b.handle) + "</strong>" +
-          (b.followersNote ? " · " + escapeHtml(b.followersNote) : "") + "</p>" +
-          '<div class="actions">' +
-            '<button type="button" class="btn btn-copy" data-copy="' + escapeAttr(b.id) + '">Copiar mensagem</button>' +
-            '<a class="btn btn-ig" href="' + escapeAttr(b.instagramUrl) + '" target="_blank" rel="noopener noreferrer">Abrir Instagram · @' + escapeHtml(b.handle) + "</a>" +
-            '<button type="button" class="btn btn-toggle' + (isSent(b.id) ? " on" : "") + '" data-toggle="' + escapeAttr(b.id) + '">' +
-              (isSent(b.id) ? "✓ Enviada (desmarcar)" : "Marcar como enviada") +
-            "</button>" +
-          "</div>" +
-          '<div class="fallback" id="fb-' + escapeAttr(b.id) + '"><textarea readonly></textarea></div>';
-        row.appendChild(head);
-        row.appendChild(body);
-        elBrands.appendChild(row);
+        body.appendChild(dayBtn);
       });
+      toggle.addEventListener("click", function () {
+        archiveOpenHome = !archiveOpenHome;
+        box.classList.toggle("open", archiveOpenHome);
+        toggle.setAttribute("aria-expanded", archiveOpenHome ? "true" : "false");
+      });
+      box.appendChild(toggle);
+      box.appendChild(body);
+      return box;
+    }
 
-      elBrands.querySelectorAll(".dm-toggle").forEach(function (btn) {
+    function appendBrandRow(container, round, b) {
+      var row = document.createElement("article");
+      row.className = "brand-row" + (isSent(b.id) ? " sent-row" : "") + (openBrandId === b.id ? " open" : "");
+      row.dataset.id = b.id;
+      var head = document.createElement("button");
+      head.type = "button";
+      head.className = "brand-head";
+      head.setAttribute("aria-expanded", openBrandId === b.id ? "true" : "false");
+      head.innerHTML =
+        '<span class="status-dot' + (isSent(b.id) ? " sent" : "") + '"></span>' +
+        '<div class="brand-head-text"><p class="brand-name">' + escapeHtml(b.name) +
+        (b.example ? ' <span class="example-chip">EXEMPLO</span>' : "") + "</p>" +
+        '<span class="niche-tag">' + escapeHtml(b.niche || "") + "</span></div>" +
+        '<span class="chev">▾</span>';
+      head.addEventListener("click", function () {
+        if (openBrandId === b.id) {
+          history.back();
+          setTimeout(function () {
+            if (openBrandId === b.id) showDayView(round.id, null, { replace: true });
+          }, 160);
+        } else if (openBrandId) {
+          showDayView(round.id, b.id, { replace: true });
+        } else {
+          showDayView(round.id, b.id, { replace: false });
+        }
+      });
+      var body = document.createElement("div");
+      body.className = "brand-body";
+      var reasons = (b.reasons || []).map(function (r) { return "<li>" + escapeHtml(r) + "</li>"; }).join("");
+      body.innerHTML =
+        "<ul class=\"reasons\">" + reasons + "</ul>" +
+        '<div class="dm-box">' +
+          '<div class="dm-label">Mensagem (DM)</div>' +
+          '<button type="button" class="dm-preview" id="dm-' + escapeAttr(b.id) + '">' + escapeHtml(b.dm) + "</button>" +
+          '<button type="button" class="dm-toggle" data-dm="' + escapeAttr(b.id) + '">Ver mensagem</button>' +
+        "</div>" +
+        '<p class="handle-line">Instagram: <strong>@' + escapeHtml(b.handle) + "</strong>" +
+        (b.followersNote ? " · " + escapeHtml(b.followersNote) : "") + "</p>" +
+        '<div class="actions">' +
+          '<button type="button" class="btn btn-copy" data-copy="' + escapeAttr(b.id) + '">Copiar mensagem</button>' +
+          '<a class="btn btn-ig" href="' + escapeAttr(b.instagramUrl) + '" target="_blank" rel="noopener noreferrer">Abrir Instagram · @' + escapeHtml(b.handle) + "</a>" +
+          '<button type="button" class="btn btn-toggle' + (isSent(b.id) ? " on" : "") + '" data-toggle="' + escapeAttr(b.id) + '">' +
+            (isSent(b.id) ? "✓ Enviada (desmarcar)" : "Marcar como enviada") +
+          "</button>" +
+        "</div>" +
+        '<div class="fallback" id="fb-' + escapeAttr(b.id) + '"><textarea readonly></textarea></div>';
+      row.appendChild(head);
+      row.appendChild(body);
+      container.appendChild(row);
+    }
+
+    function bindBrandEvents(root, round) {
+      root.querySelectorAll(".dm-toggle").forEach(function (btn) {
         btn.addEventListener("click", function () {
           var id = btn.getAttribute("data-dm");
           var prev = document.getElementById("dm-" + id);
@@ -897,15 +1048,15 @@
           btn.textContent = open ? "Ocultar mensagem" : "Ver mensagem";
         });
       });
-      elBrands.querySelectorAll(".dm-preview").forEach(function (btn) {
+      root.querySelectorAll(".dm-preview").forEach(function (btn) {
         btn.addEventListener("click", function () {
           btn.classList.toggle("expanded");
           var id = btn.id.replace(/^dm-/, "");
-          var t = elBrands.querySelector('.dm-toggle[data-dm="' + cssEscape(id) + '"]');
+          var t = root.querySelector('.dm-toggle[data-dm="' + cssEscape(id) + '"]');
           if (t) t.textContent = btn.classList.contains("expanded") ? "Ocultar mensagem" : "Ver mensagem";
         });
       });
-      elBrands.querySelectorAll("[data-copy]").forEach(function (btn) {
+      root.querySelectorAll("[data-copy]").forEach(function (btn) {
         btn.addEventListener("click", function () {
           var id = btn.getAttribute("data-copy");
           var brand = (round.brands || []).find(function (x) { return x.id === id; });
@@ -915,7 +1066,7 @@
           copyText(brand.dm, btn, id);
         });
       });
-      elBrands.querySelectorAll("[data-toggle]").forEach(function (btn) {
+      root.querySelectorAll("[data-toggle]").forEach(function (btn) {
         btn.addEventListener("click", function () {
           var id = btn.getAttribute("data-toggle");
           setSent(id, !isSent(id));
@@ -924,12 +1075,63 @@
           renderDrawer();
         });
       });
-      elBrands.querySelectorAll("a.btn-ig").forEach(function (a) {
+      root.querySelectorAll("a.btn-ig").forEach(function (a) {
         a.addEventListener("click", function () {
           persistNavSilent();
           replaceNav(currentDayId, openBrandId, null);
         });
       });
+    }
+
+    function renderBrands(round) {
+      elBrands.innerHTML = "";
+      elBrands.appendChild(makeCityFilterBar("day"));
+      var focus = focusBrands(round.brands || []);
+      var arquivo = arquivoBrands(round.brands || []);
+      var meta = document.createElement("p");
+      meta.className = "filter-meta";
+      meta.textContent = focus.length + " marca" + (focus.length === 1 ? "" : "s") + " no foco " + filterLabel();
+      elBrands.appendChild(meta);
+
+      if (!focus.length) {
+        var empty = document.createElement("p");
+        empty.className = "empty";
+        empty.style.padding = "20px 16px";
+        empty.textContent = "Nenhuma marca do foco neste dia " + filterLabel() + ".";
+        elBrands.appendChild(empty);
+      } else {
+        sortBrands(focus).forEach(function (b) { appendBrandRow(elBrands, round, b); });
+      }
+
+      if (arquivo.length) {
+        var shouldOpen = archiveOpenDay || (openBrandId && arquivo.some(function (b) { return b.id === openBrandId; }));
+        var box = document.createElement("div");
+        box.className = "archive-box" + (shouldOpen ? " open" : "");
+        var toggle = document.createElement("button");
+        toggle.type = "button";
+        toggle.className = "archive-toggle";
+        toggle.setAttribute("aria-expanded", shouldOpen ? "true" : "false");
+        toggle.innerHTML =
+          '<div class="day-meta">' +
+            '<p class="archive-kicker">Fora do foco</p>' +
+            '<p class="archive-title">Outras regiões (arquivo)</p>' +
+            '<p class="archive-count">' + arquivo.length + " marca" + (arquivo.length === 1 ? "" : "s") + " deste dia</p>" +
+          "</div><span class=\"chev\">›</span>";
+        var body = document.createElement("div");
+        body.className = "archive-body";
+        sortBrands(arquivo).forEach(function (b) { appendBrandRow(body, round, b); });
+        toggle.addEventListener("click", function () {
+          archiveOpenDay = !box.classList.contains("open");
+          box.classList.toggle("open", archiveOpenDay);
+          toggle.setAttribute("aria-expanded", archiveOpenDay ? "true" : "false");
+        });
+        box.appendChild(toggle);
+        box.appendChild(body);
+        elBrands.appendChild(box);
+      } else {
+        archiveOpenDay = false;
+      }
+      bindBrandEvents(elBrands, round);
     }
 
     function copyText(text, btn, id) {
@@ -988,12 +1190,14 @@
       drawerContent.appendChild(secLabel);
 
       sortedRounds().forEach(function (r) {
+        var brands = focusBrands(r.brands || []);
+        if (!brands.length) return;
         var sec = document.createElement("div");
         sec.className = "drawer-section";
         var dayBtn = document.createElement("button");
         dayBtn.type = "button";
         dayBtn.className = "drawer-day";
-        dayBtn.textContent = dayLabel(r.date) + " (" + (r.brands || []).length + ")";
+        dayBtn.textContent = dayLabel(r.date) + " (" + brands.length + ")";
         dayBtn.addEventListener("click", function () {
           closeDrawer();
           if (currentDayId === r.id && !openBrandId && !specialOpen) return;
@@ -1001,7 +1205,7 @@
           else showDayView(r.id, null, { replace: true });
         });
         sec.appendChild(dayBtn);
-        (r.brands || []).forEach(function (b) {
+        brands.forEach(function (b) {
           var bb = document.createElement("button");
           bb.type = "button";
           bb.className = "drawer-brand";
@@ -1075,6 +1279,7 @@
       })
       .then(function (json) {
         data = json;
+        cityFilter = loadCityFilter();
         var st = parseHash();
         if (!st.dayId && !st.special) st = readStoredNav();
         if (st.special === "cafe" || st.special === "poema") {
