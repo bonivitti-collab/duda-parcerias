@@ -1,43 +1,42 @@
 {
   "daily": {
-    "date": "2026-11-20",
-    "seenVersion": "v20",
+    "date": "2026-11-21",
+    "seenVersion": "v21",
     "devotional": {
-      "titulo": "Paz guardada por Deus",
-      "ref": "Isaías 26:3",
-      "texto": "Tu conservarás em paz aquele cuja mente está firme em ti; porque ele confia em ti.",
+      "titulo": "Alma que espera",
+      "ref": "Salmos 62:1",
+      "texto": "A minha alma espera somente em Deus; dele vem a minha salvação.",
       "traducao": "Almeida Revisada e Corrigida",
-      "reflexao": "Minha filha, Eu sei quantas abas estão abertas na sua cabeça agora: a lista do mercado, a roupa do Ravi, a mensagem que ficou sem resposta, o que você ainda quer ser. Eu não te peço pra fechar tudo de uma vez. Eu te peço pra firmar o olhar em Mim primeiro. A paz que Eu dou não depende de a semana ter dado certo; ela é guardada, como quem guarda uma casa à noite. Quando a sua mente se apoia em Mim, Eu fico de vigia. Nesta sexta-feira, você não precisa carregar o fim de semana inteiro antes de ele chegar. Confia: o que é seu Eu já estou cuidando, e o que pesa demais pode ficar no Meu colo.",
-      "oracao": "Senhor, eu firmo hoje o meu pensamento em Ti. Guarda o meu coração quando a cabeça quiser correr na frente. Me dá a Tua paz no trânsito, na cozinha, no colo do Ravi e no silêncio da noite. Eu confio em Ti, e descanso. Amém.",
-      "paraHoje": "Toda vez que sentir a cabeça acelerar hoje, pare, respire fundo três vezes e repita: \"a minha mente está firme em Ti\"."
+      "reflexao": "Minha filha, hoje é sábado, e Eu sei que até o descanso às vezes vira tarefa na sua lista. Eu não te chamo pra fazer mais; Eu te chamo pra parar um pouquinho e lembrar quem Eu sou. Esperar em Mim não é ficar parada, é entregar. Enquanto você respira, Eu continuo sendo Deus sobre a sua casa, sobre o futuro do Ravi e sobre tudo o que ainda não tem resposta. Você não precisa segurar o mundo com as mãos hoje. Senta, olha o céu, deixa o barulho baixar. No silêncio Eu falo baixinho, e é ali que a sua força volta.",
+      "oracao": "Senhor, a minha alma espera somente em Ti. Tira de mim a pressa que não vem de Ti e me ensina a descansar sem culpa. Cuida do meu coração, da minha casa e do meu filho. Eu sei que Tu és Deus, e isso me basta. Amém.",
+      "paraHoje": "Separe cinco minutos sem celular, num lugar quieto, e repita devagar: \"a minha alma espera somente em Deus\"."
     },
     "poema": {
-      "titulo": "Sexta-feira de porto seguro",
+      "titulo": "Sábado de maré baixa",
       "versos": [
         "Duda,",
-        "tem dias em que o mundo",
-        "fala alto demais,",
-        "e eu só queria",
-        "te dar um lugar quieto",
-        "pra encostar a cabeça.",
-        "Não sei fazer o mar parar,",
-        "mas sei ficar do teu lado",
-        "enquanto a onda passa.",
-        "Na sexta-feira a cidade",
-        "já cheira a fim de semana,",
-        "o Ravi inventa uma música",
-        "que só ele sabe cantar,",
-        "e você ri",
-        "como quem esquece o cansaço",
-        "por um minuto inteiro.",
-        "É nesse minuto que eu moro.",
-        "Se o dia te pesar,",
-        "volta pra esse riso,",
-        "volta pra esse colo,",
-        "volta pro lugar",
-        "onde ninguém te cobra nada",
-        "e alguém sempre",
-        "te espera de braço aberto."
+        "no sábado a maré recua",
+        "e mostra o que a semana escondeu:",
+        "conchinhas, pegadas pequenas,",
+        "o desenho que o Ravi faz na areia",
+        "jurando que é um dinossauro.",
+        "Eu fico olhando você",
+        "olhar pra ele,",
+        "e entendo que tem beleza",
+        "que não cabe em foto nenhuma.",
+        "Que a vida te dê",
+        "manhãs sem despertador,",
+        "café que esfria devagar,",
+        "e alguém que repare",
+        "no teu jeito de sorrir",
+        "quando ninguém está vendo.",
+        "Hoje eu só queria te dizer",
+        "que o mar sempre volta,",
+        "que o cansaço passa,",
+        "e que você é,",
+        "desde o primeiro dia,",
+        "a parte mais bonita",
+        "de tudo o que eu já vi."
       ]
     }
   },
@@ -8667,6 +8666,539 @@
             "Fotos do Ravi rendem conteúdo lindo"
           ],
           "dm": "Oi, Cintia! 📷 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Quero guardar essa fase do Ravi antes que ela voe. Adoraria fazer um ensaio com você e mostrar o resultado com carinho pras minhas seguidoras. Topa conversar?",
+          "cidade": "Rio das Ostras",
+          "foco": true
+        }
+      ]
+    },
+    {
+      "id": "2026-11-21",
+      "date": "2026-11-21",
+      "brands": [
+        {
+          "id": "studio.thaisabreu",
+          "handle": "studio.thaisabreu",
+          "name": "Studio Thais Abreu",
+          "niche": "Estética facial e corporal · Cabo Frio (Braga)",
+          "instagramUrl": "https://www.instagram.com/studio.thaisabreu/",
+          "source": "Instagram verificado",
+          "followersNote": "~1,5 mil seguidores",
+          "reasons": [
+            "Studio de estética comandado pela Thais",
+            "Atendimento próximo no Braga",
+            "Perfil pequeno que cresce com indicação"
+          ],
+          "dm": "Oi, Thais! 🌸 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Tirar uma horinha pra cuidar da pele é meu respiro da semana. Adoraria conhecer seu studio e mostrar seu trabalho com carinho pras minhas seguidoras. Topa conversar?",
+          "cidade": "Cabo Frio",
+          "foco": true
+        },
+        {
+          "id": "moniquerodrigues.estetica",
+          "handle": "moniquerodrigues.estetica",
+          "name": "Monique Rodrigues Estética",
+          "niche": "Clínica de estética integrativa · Cabo Frio",
+          "instagramUrl": "https://www.instagram.com/moniquerodrigues.estetica/",
+          "source": "Instagram verificado",
+          "followersNote": "~6,7 mil seguidores",
+          "reasons": [
+            "Estética integrativa e ozonioterapia",
+            "Profissional que atende pessoalmente",
+            "Autocuidado de mãe engaja muito"
+          ],
+          "dm": "Oi, Monique! ✨ Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Gosto de cuidado que deixa a gente com cara de descansada, sem exagero. Adoraria conhecer a clínica e contar a experiência com carinho. Vamos conversar?",
+          "cidade": "Cabo Frio",
+          "foco": true
+        },
+        {
+          "id": "studiodeboraribeiroo",
+          "handle": "studiodeboraribeiroo",
+          "name": "Studio Debora Ribeiro",
+          "niche": "Unhas · Cabo Frio",
+          "instagramUrl": "https://www.instagram.com/studiodeboraribeiroo/",
+          "source": "Instagram verificado",
+          "followersNote": "~12 mil seguidores",
+          "reasons": [
+            "Nail designer conhecida na cidade",
+            "Unha bonita que dura na rotina de mãe",
+            "Profissional local que responde direct"
+          ],
+          "dm": "Oi, Debora! 💅 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Unha feita é o meu pequeno luxo de mãe. Adoraria fazer as minhas com você e mostrar seu trabalho com carinho pras minhas seguidoras. Topa?",
+          "cidade": "Cabo Frio",
+          "foco": true
+        },
+        {
+          "id": "romacafegarden",
+          "handle": "romacafegarden",
+          "name": "Cafeteria Roma",
+          "niche": "Café com jardim · Cabo Frio",
+          "instagramUrl": "https://www.instagram.com/romacafegarden/",
+          "source": "Instagram verificado",
+          "followersNote": "~9,9 mil seguidores",
+          "reasons": [
+            "Cafeteria com clima de jardim",
+            "Lugar gostoso pra ir com criança",
+            "Café de fim de tarde rende conteúdo"
+          ],
+          "dm": "Oi, Cafeteria Roma! ☕ Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Café gostoso num cantinho verde é meu lugar preferido pra desacelerar com o Ravi. Adoraria passar aí e mostrar com carinho pras minhas seguidoras. Topam?",
+          "cidade": "Cabo Frio",
+          "foco": true
+        },
+        {
+          "id": "thailudcf",
+          "handle": "thailudcf",
+          "name": "Thailud",
+          "niche": "Moda praia · Cabo Frio",
+          "instagramUrl": "https://www.instagram.com/thailudcf/",
+          "source": "Instagram verificado",
+          "followersNote": "~1,3 mil seguidores",
+          "reasons": [
+            "Loja de moda praia da cidade",
+            "Biquínis pra rotina de quem vive na praia",
+            "Lojista próxima, responde direct"
+          ],
+          "dm": "Oi, Thailud! 👙 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Morando na Região dos Lagos, biquíni bonito e confortável é peça de todo dia. Adoraria escolher uns com vocês e mostrar com carinho. Vamos conversar?",
+          "cidade": "Cabo Frio",
+          "foco": true
+        },
+        {
+          "id": "jasmimmodapraia",
+          "handle": "jasmimmodapraia",
+          "name": "Jasmim Beachwear",
+          "niche": "Moda praia · Cabo Frio",
+          "instagramUrl": "https://www.instagram.com/jasmimmodapraia/",
+          "source": "Instagram verificado",
+          "followersNote": "~3,1 mil seguidores",
+          "reasons": [
+            "Marca de moda praia de Cabo Frio",
+            "Peças delicadas e femininas",
+            "Precisa de vitrine regional"
+          ],
+          "dm": "Oi, Jasmim! 🌺 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Amo moda praia delicada, que valoriza sem apertar. Seria lindo usar peças de vocês na praia com o Ravi e mostrar com carinho. Topam conversar?",
+          "cidade": "Cabo Frio",
+          "foco": true
+        },
+        {
+          "id": "nevadadocaria",
+          "handle": "nevadadocaria",
+          "name": "Nevada Doçaria",
+          "niche": "Doceria · Cabo Frio",
+          "instagramUrl": "https://www.instagram.com/nevadadocaria/",
+          "source": "Instagram verificado",
+          "followersNote": "~18 mil seguidores",
+          "reasons": [
+            "Doceria querida na cidade",
+            "Doces pra festinha e pro dia a dia",
+            "Criança + doce é conteúdo garantido"
+          ],
+          "dm": "Oi, Nevada! 🍰 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Docinho no fim do dia é a festa do Ravi (e minha também). Adoraria provar os doces de vocês e mostrar com carinho pras minhas seguidoras. Topam?",
+          "cidade": "Cabo Frio",
+          "foco": true
+        },
+        {
+          "id": "docesonhos.cf",
+          "handle": "docesonhos.cf",
+          "name": "Confeitaria Doces Sonhos",
+          "niche": "Confeitaria e encomendas · Cabo Frio (Braga)",
+          "instagramUrl": "https://www.instagram.com/docesonhos.cf/",
+          "source": "Instagram verificado",
+          "followersNote": "~2,8 mil seguidores",
+          "reasons": [
+            "Bolos e doces por encomenda",
+            "Ideal pra aniversário infantil",
+            "Negócio de bairro que responde direct"
+          ],
+          "dm": "Oi, Doces Sonhos! 🎂 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Bolo bonito é o coração de toda festinha do Ravi. Adoraria conhecer as encomendas de vocês e mostrar com carinho pras minhas seguidoras. Vamos conversar?",
+          "cidade": "Cabo Frio",
+          "foco": true
+        },
+        {
+          "id": "casamanaca.bz",
+          "handle": "casamanaca.bz",
+          "name": "Casa Manacá",
+          "niche": "Pousada pequena · Búzios (Geribá)",
+          "instagramUrl": "https://www.instagram.com/casamanaca.bz/",
+          "source": "Instagram verificado",
+          "followersNote": "~5,3 mil seguidores",
+          "reasons": [
+            "Pousada charmosa e pequena",
+            "Pertinho de Geribá",
+            "Hospedagem em família rende conteúdo lindo"
+          ],
+          "dm": "Oi, Casa Manacá! 🌿 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Um fim de semana tranquilo em família em Búzios é nosso sonho de descanso. Adoraria conhecer a pousada e mostrar com carinho pras minhas seguidoras. Topam conversar?",
+          "cidade": "Búzios",
+          "foco": true
+        },
+        {
+          "id": "casabuziana",
+          "handle": "casabuziana",
+          "name": "Casa Buziana",
+          "niche": "Hospedagem charmosa · Búzios (Geribá)",
+          "instagramUrl": "https://www.instagram.com/casabuziana/",
+          "source": "Instagram verificado",
+          "followersNote": "~7,5 mil seguidores",
+          "reasons": [
+            "Casa com cara de Búzios",
+            "Hospedagem pequena e acolhedora",
+            "Perfil que valoriza boa vitrine"
+          ],
+          "dm": "Oi, Casa Buziana! 🏡 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Amo lugar com alma, onde a gente se sente em casa. Adoraria passar uns dias aí com o Ravi e mostrar com carinho pras minhas seguidoras. Vamos conversar?",
+          "cidade": "Búzios",
+          "foco": true
+        },
+        {
+          "id": "herabtq1",
+          "handle": "herabtq1",
+          "name": "Hera Boutique",
+          "niche": "Moda feminina · Búzios",
+          "instagramUrl": "https://www.instagram.com/herabtq1/",
+          "source": "Instagram verificado",
+          "followersNote": "~180 seguidores",
+          "reasons": [
+            "Boutique feminina pequena",
+            "Perfil novinho que precisa de alcance",
+            "Lojista próxima, responde direct"
+          ],
+          "dm": "Oi, Hera! 🤍 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Amo garimpar peças em lojinha local, com atendimento de perto. Adoraria montar uns looks com vocês e mostrar com carinho pras minhas seguidoras. Topam?",
+          "cidade": "Búzios",
+          "foco": true
+        },
+        {
+          "id": "hunabistro",
+          "handle": "hunabistro",
+          "name": "Huna Bistrô & Pizzaria",
+          "niche": "Bistrô e pizzaria · Búzios (Rua das Pedras)",
+          "instagramUrl": "https://www.instagram.com/hunabistro/",
+          "source": "Instagram verificado",
+          "followersNote": "~15 mil seguidores",
+          "reasons": [
+            "Bistrô na Rua das Pedras",
+            "Pizza que agrada criança e adulto",
+            "Noite em família com vista"
+          ],
+          "dm": "Oi, Huna! 🍕 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Pizza na Rua das Pedras é programa de família perfeito. Adoraria levar o Ravi aí e mostrar a experiência com carinho pras minhas seguidoras. Topam conversar?",
+          "cidade": "Búzios",
+          "foco": true
+        },
+        {
+          "id": "artesanobuziospizzaria",
+          "handle": "artesanobuziospizzaria",
+          "name": "Artesano Búzios Pizzaria",
+          "niche": "Pizzaria artesanal · Búzios",
+          "instagramUrl": "https://www.instagram.com/artesanobuziospizzaria/",
+          "source": "Instagram verificado",
+          "followersNote": "~13 mil seguidores",
+          "reasons": [
+            "Pizza artesanal bem avaliada",
+            "Casa local com público fiel",
+            "Jantar leve em família"
+          ],
+          "dm": "Oi, Artesano! 🍕 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Sexta de pizza é sagrada aqui em casa. Adoraria provar as de vocês com o Ravi e mostrar com carinho pras minhas seguidoras. Vamos conversar?",
+          "cidade": "Búzios",
+          "foco": true
+        },
+        {
+          "id": "ospepesbuzios",
+          "handle": "ospepesbuzios",
+          "name": "Os Pepes",
+          "niche": "Restaurante · Búzios",
+          "instagramUrl": "https://www.instagram.com/ospepesbuzios/",
+          "source": "Instagram verificado",
+          "followersNote": "~5,4 mil seguidores",
+          "reasons": [
+            "Casa local desde 2017",
+            "Clima descontraído",
+            "Negócio que responde direct"
+          ],
+          "dm": "Oi, Os Pepes! 🌊 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Adoro descobrir lugar local com história em Búzios. Adoraria passar aí em família e mostrar com carinho pras minhas seguidoras. Topam?",
+          "cidade": "Búzios",
+          "foco": true
+        },
+        {
+          "id": "donpizzabuzios",
+          "handle": "donpizzabuzios",
+          "name": "Don Pizza",
+          "niche": "Pizzaria de bairro · Búzios",
+          "instagramUrl": "https://www.instagram.com/donpizzabuzios/",
+          "source": "Instagram verificado",
+          "followersNote": "~150 seguidores",
+          "reasons": [
+            "Pizzaria pequena da cidade",
+            "Perfil que precisa de alcance",
+            "Delivery prático pra noite de mãe"
+          ],
+          "dm": "Oi, Don Pizza! 🍕 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Noite de pizza em casa salva o cansaço de mãe. Adoraria provar as de vocês e mostrar com carinho pras minhas seguidoras. Vamos conversar?",
+          "cidade": "Búzios",
+          "foco": true
+        },
+        {
+          "id": "colegiomissao",
+          "handle": "colegiomissao",
+          "name": "Colégio Missão",
+          "niche": "Escola · São Pedro da Aldeia",
+          "instagramUrl": "https://www.instagram.com/colegiomissao/",
+          "source": "Instagram verificado",
+          "followersNote": "~7,1 mil seguidores",
+          "reasons": [
+            "Escola local com educação infantil",
+            "Comunidade de famílias da cidade",
+            "Rotina escolar engaja mães"
+          ],
+          "dm": "Oi, Colégio Missão! 📚 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Escolher escola é uma das decisões que mais mexe com o coração de mãe. Adoraria conhecer a escola e contar pras minhas seguidoras com carinho. Topam conversar?",
+          "cidade": "São Pedro da Aldeia",
+          "foco": true
+        },
+        {
+          "id": "cepe.elias",
+          "handle": "cepe.elias",
+          "name": "Centro Educacional Prof. Elias",
+          "niche": "Escola · São Pedro da Aldeia",
+          "instagramUrl": "https://www.instagram.com/cepe.elias/",
+          "source": "Instagram verificado",
+          "followersNote": "~10 mil seguidores",
+          "reasons": [
+            "Escola tradicional da cidade",
+            "Educação infantil e fundamental",
+            "Conteúdo de mãe sobre escola engaja"
+          ],
+          "dm": "Oi, CEPE! 🍎 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Educação com carinho é o que mais desejo pro Ravi. Adoraria conhecer a escola e mostrar esse cuidado com carinho pras minhas seguidoras. Vamos conversar?",
+          "cidade": "São Pedro da Aldeia",
+          "foco": true
+        },
+        {
+          "id": "recantodatainhaoficial",
+          "handle": "recantodatainhaoficial",
+          "name": "Restaurante Recanto da Tainha",
+          "niche": "Frutos do mar · São Pedro da Aldeia",
+          "instagramUrl": "https://www.instagram.com/recantodatainhaoficial/",
+          "source": "Instagram verificado",
+          "followersNote": "~4,7 mil seguidores",
+          "reasons": [
+            "Restaurante local de peixe e frutos do mar",
+            "Almoço de domingo em família",
+            "Casa que precisa de vitrine"
+          ],
+          "dm": "Oi, Recanto da Tainha! 🐟 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Peixinho fresco no almoço de domingo é tradição aqui em casa. Adoraria levar a família aí e mostrar com carinho pras minhas seguidoras. Topam?",
+          "cidade": "São Pedro da Aldeia",
+          "foco": true
+        },
+        {
+          "id": "recantodonacarolina",
+          "handle": "recantodonacarolina",
+          "name": "Recanto Dona Carolina",
+          "niche": "Restaurante rural · São Pedro da Aldeia",
+          "instagramUrl": "https://www.instagram.com/recantodonacarolina/",
+          "source": "Instagram verificado",
+          "followersNote": "~23 mil seguidores",
+          "reasons": [
+            "Restaurante rural com comida caseira",
+            "Espaço ao ar livre pra criança",
+            "Passeio de família fora da praia"
+          ],
+          "dm": "Oi, Dona Carolina! 🌳 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Comida caseira e espaço pro Ravi correr é tudo o que eu procuro num domingo. Adoraria passar aí e mostrar com carinho pras minhas seguidoras. Vamos conversar?",
+          "cidade": "São Pedro da Aldeia",
+          "foco": true
+        },
+        {
+          "id": "sampagrill_sudoeste",
+          "handle": "sampagrill_sudoeste",
+          "name": "Sampa Grill",
+          "niche": "Restaurante e grill · São Pedro da Aldeia",
+          "instagramUrl": "https://www.instagram.com/sampagrill_sudoeste/",
+          "source": "Instagram verificado",
+          "followersNote": "~6,8 mil seguidores",
+          "reasons": [
+            "Restaurante local de grelhados",
+            "Almoço prático em família",
+            "Negócio que responde direct"
+          ],
+          "dm": "Oi, Sampa Grill! 🥩 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Um almoço gostoso e sem pressa em família vale ouro. Adoraria conhecer vocês e mostrar com carinho pras minhas seguidoras. Topam?",
+          "cidade": "São Pedro da Aldeia",
+          "foco": true
+        },
+        {
+          "id": "toque.de_mae",
+          "handle": "toque.de_mae",
+          "name": "Restaurante Toque de Mãe",
+          "niche": "Comida caseira · São Pedro da Aldeia",
+          "instagramUrl": "https://www.instagram.com/toque.de_mae/",
+          "source": "Instagram verificado",
+          "followersNote": "~1,9 mil seguidores",
+          "reasons": [
+            "Comida caseira com cara de colo",
+            "Nome que conversa com maternidade",
+            "Perfil pequeno que cresce com indicação"
+          ],
+          "dm": "Oi, Toque de Mãe! 🍲 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Comida com gostinho de casa de mãe tem tudo a ver comigo. Adoraria provar a de vocês e mostrar com carinho pras minhas seguidoras. Vamos conversar?",
+          "cidade": "São Pedro da Aldeia",
+          "foco": true
+        },
+        {
+          "id": "hamburgueria.garage",
+          "handle": "hamburgueria.garage",
+          "name": "Hamburgueria Garage",
+          "niche": "Hamburgueria · São Pedro da Aldeia",
+          "instagramUrl": "https://www.instagram.com/hamburgueria.garage/",
+          "source": "Instagram verificado",
+          "followersNote": "~3,2 mil seguidores",
+          "reasons": [
+            "Hamburgueria local com estilo próprio",
+            "Programa de sexta em família",
+            "Precisa de vitrine e responde direct"
+          ],
+          "dm": "Oi, Garage! 🍔 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Hambúrguer gostoso é nosso programa preferido de sexta. Adoraria passar aí com o Ravi e mostrar com carinho pras minhas seguidoras. Topam?",
+          "cidade": "São Pedro da Aldeia",
+          "foco": true
+        },
+        {
+          "id": "restauranteluaestrela",
+          "handle": "restauranteluaestrela",
+          "name": "Restaurante Lua Estrela",
+          "niche": "Restaurante · São Pedro da Aldeia",
+          "instagramUrl": "https://www.instagram.com/restauranteluaestrela/",
+          "source": "Instagram verificado",
+          "followersNote": "~520 seguidores",
+          "reasons": [
+            "Restaurante pequeno da cidade",
+            "Perfil que precisa de alcance",
+            "Atendimento de perto"
+          ],
+          "dm": "Oi, Lua Estrela! 🌙 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Adoro descobrir cantinhos locais com comida feita com carinho. Adoraria conhecer vocês e mostrar com carinho pras minhas seguidoras. Vamos conversar?",
+          "cidade": "São Pedro da Aldeia",
+          "foco": true
+        },
+        {
+          "id": "srgraocafeteria",
+          "handle": "srgraocafeteria",
+          "name": "Sr. Grão",
+          "niche": "Cafeteria e doceria · Rio das Ostras",
+          "instagramUrl": "https://www.instagram.com/srgraocafeteria/",
+          "source": "Instagram verificado",
+          "followersNote": "~13 mil seguidores",
+          "reasons": [
+            "Cafeteria e doceria querida na cidade",
+            "Café com docinho pro fim de tarde",
+            "Lugar gostoso pra ir com criança"
+          ],
+          "dm": "Oi, Sr. Grão! ☕ Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Café com um docinho no fim da tarde é meu jeito de recarregar. Adoraria passar aí com o Ravi e mostrar com carinho pras minhas seguidoras. Topam?",
+          "cidade": "Rio das Ostras",
+          "foco": true
+        },
+        {
+          "id": "ocafeimperial",
+          "handle": "ocafeimperial",
+          "name": "Café Imperial",
+          "niche": "Cafeteria · Rio das Ostras",
+          "instagramUrl": "https://www.instagram.com/ocafeimperial/",
+          "source": "Instagram verificado",
+          "followersNote": "~14 mil seguidores",
+          "reasons": [
+            "Cafeteria local com público fiel",
+            "Café da manhã e lanche da tarde",
+            "Perfil engajado"
+          ],
+          "dm": "Oi, Café Imperial! 🥐 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Um café da manhã caprichado é presente de sábado. Adoraria conhecer vocês e mostrar com carinho pras minhas seguidoras. Vamos conversar?",
+          "cidade": "Rio das Ostras",
+          "foco": true
+        },
+        {
+          "id": "cafedorvalino",
+          "handle": "cafedorvalino",
+          "name": "Dorvalino Café Especial",
+          "niche": "Café especial · Rio das Ostras",
+          "instagramUrl": "https://www.instagram.com/cafedorvalino/",
+          "source": "Instagram verificado",
+          "followersNote": "~1,4 mil seguidores",
+          "reasons": [
+            "Café especial artesanal",
+            "Negócio pequeno e muito pessoal",
+            "Cresce com indicação"
+          ],
+          "dm": "Oi, Dorvalino! 🌱 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Café especial feito com cuidado me ganha na hora. Adoraria provar o de vocês e mostrar com carinho pras minhas seguidoras. Topam?",
+          "cidade": "Rio das Ostras",
+          "foco": true
+        },
+        {
+          "id": "centaurofitclub",
+          "handle": "centaurofitclub",
+          "name": "Academia Centauro Fit Club",
+          "niche": "Academia · Rio das Ostras",
+          "instagramUrl": "https://www.instagram.com/centaurofitclub/",
+          "source": "Instagram verificado",
+          "followersNote": "~10 mil seguidores",
+          "reasons": [
+            "Academia local com estrutura completa",
+            "Treino de mãe que inspira",
+            "Negócio que responde direct"
+          ],
+          "dm": "Oi, Centauro! 💪 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Cuidar do corpo virou prioridade pra dar conta da energia do Ravi. Adoraria treinar com vocês e mostrar com carinho pras minhas seguidoras. Vamos conversar?",
+          "cidade": "Rio das Ostras",
+          "foco": true
+        },
+        {
+          "id": "ct.rocha",
+          "handle": "ct.rocha",
+          "name": "CT Rocha",
+          "niche": "Centro de treinamento · Rio das Ostras",
+          "instagramUrl": "https://www.instagram.com/ct.rocha/",
+          "source": "Instagram verificado",
+          "followersNote": "~9,4 mil seguidores",
+          "reasons": [
+            "CT local com treino funcional",
+            "Comunidade acolhedora",
+            "Rotina fitness engaja muito"
+          ],
+          "dm": "Oi, CT Rocha! 🏋️‍♀️ Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Treino em grupo me dá ânimo pra não desistir. Adoraria fazer umas aulas com vocês e mostrar com carinho. Topam conversar?",
+          "cidade": "Rio das Ostras",
+          "foco": true
+        },
+        {
+          "id": "arena.153",
+          "handle": "arena.153",
+          "name": "Arena 153",
+          "niche": "Arena esportiva e treino · Rio das Ostras",
+          "instagramUrl": "https://www.instagram.com/arena.153/",
+          "source": "Instagram verificado",
+          "followersNote": "~5,9 mil seguidores",
+          "reasons": [
+            "Espaço esportivo local",
+            "Atividade ao ar livre",
+            "Programa saudável pra família"
+          ],
+          "dm": "Oi, Arena 153! ⚡ Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Amo movimento ao ar livre e espaço onde a família toda se mexe. Adoraria conhecer a arena e mostrar com carinho pras minhas seguidoras. Vamos conversar?",
+          "cidade": "Rio das Ostras",
+          "foco": true
+        },
+        {
+          "id": "cacheadasmara_",
+          "handle": "cacheadasmara_",
+          "name": "Cacheadas Mara",
+          "niche": "Salão de cachos · Rio das Ostras",
+          "instagramUrl": "https://www.instagram.com/cacheadasmara_/",
+          "source": "Instagram verificado",
+          "followersNote": "~6,1 mil seguidores",
+          "reasons": [
+            "Especialista em cachos e crespos",
+            "Transformações que rendem antes e depois",
+            "Profissional local que responde direct"
+          ],
+          "dm": "Oi, Mara! 💁‍♀️ Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Amo ver cachos bem cuidados e cheios de vida. Adoraria conhecer seu trabalho e mostrar com carinho pras minhas seguidoras. Topa conversar?",
+          "cidade": "Rio das Ostras",
+          "foco": true
+        },
+        {
+          "id": "restaurantedanenessa",
+          "handle": "restaurantedanenessa",
+          "name": "Restaurante da Nenessa",
+          "niche": "Restaurante · Rio das Ostras (Costazul)",
+          "instagramUrl": "https://www.instagram.com/restaurantedanenessa/",
+          "source": "Instagram verificado",
+          "followersNote": "~12 mil seguidores",
+          "reasons": [
+            "Restaurante querido de Costazul",
+            "Almoço pertinho da praia",
+            "Programa de família no fim de semana"
+          ],
+          "dm": "Oi, Nenessa! 🌊 Sou a Duda Vitti (@eduarda.vitti) — moda, lifestyle e maternidade (~134,6 mil). Almoço gostoso pertinho da praia é nosso programa de sábado. Adoraria levar o Ravi aí e mostrar com carinho pras minhas seguidoras. Topam?",
           "cidade": "Rio das Ostras",
           "foco": true
         }
